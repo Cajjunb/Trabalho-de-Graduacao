@@ -1,0 +1,208 @@
+
+\chapter{Conceitos Básicos de Sintese de Voz}
+\section{Anatomia da Voz}
+	\subsection{Orgãos}
+	Orgãos envolvidos com a sintese da voz:
+	
+	\begin{itemize}
+		\item Diafragma
+		\item Pulmões
+		\item Traqueos
+		\item Esôfago
+		\item laringe
+		\item epiglote
+		\item faringe
+		\item palato , lingua
+		cavidade nasal, dente
+		lábios\cite{MTAGENTE}
+	\end{itemize}
+	\title{Lei de Bernoulli}
+	
+	\subsection{Aparelho Fonador}
+	O estudo do aparelho fonador começa-se por suas estruturas e componentes importantes. Após um estudo detalhado dos fenômenos físicos e como se comportam é essencial também.
+
+\section{Propriedades Físicas}
+
+	\subsection{Lei Bernouli}
+		Energia potencial e energica cinética em fluídos se mantém a mesma
+		porém em proporções diferentes \cite{BradhStory}:
+		
+		\[
+		P + \frac{\rho * v^2}{2} = Constante\\
+		Sendo: \\
+		\rho = Densidade do fluido \\
+		P = Pressão no duto onde o fluído se encontra\\
+		v =  velocidade da particula 
+		\]
+	\subsection{Critérios para Oscilação}
+		Alguns critérios devem ser atendidos para que um determinador padrão de movimento seja considerado como uma oscilação mecânica, a saber:
+		
+		
+		No sistema onde ocorre o movimento deve haver uma posição de equilíbrio estável, que é caracterizada por uma força restaurativa que sempre acelera o corpo em	movimento de volta para a sua posição de repouso.
+		Deve haver inércia(no caso do sistema mecânico, a massa atua como propriedade de inércia) no sistema para superar esta posição de equilíbrio.
+		A perda, em excesso, de energia por ciclo de oscilação deve ser zero.\ldots 
+	
+	\subsection{Tipos de Oscilação}
+			De acordo com Titze~\cite{IngoTitze}, os tipos de oscilação são:
+			\begin{itemize}
+				\item  Oscilação Natural: Quando um sistema que se encaixa nos critérios anteriores se move sem interferência após um distúrbio inicial.
+				\item Oscilação Natural: Quando um sistema que se encaixa nos critérios anteriores se move sem interferência após um distúrbio inicial.
+				\item Oscilação Forçada: Requer uma fonte externa de condução que por si só é um
+				oscilador. Dita grande parte do padrão de vibração do sistema.
+				\item Oscilação Auto-Sustentável: Requer uma fonte de energia estável e uma interação não-linear entre os componentes internos ao sistema. As perdas de energia são compensadas, mantendo o padrão oscilatório.
+			\end{itemize}
+		
+	\subsection{Tensao}
+		Conceito de Tensão For por unidade de ar
+		
+		\[
+		\sigma = \frac{F}{A}
+		\]
+		Sendo:
+		f : força aplicada. \linebreak
+		A: área de aplicação desta força.
+		
+	\subsection{Curva Força e Alongamento}
+		Utiliza-se para não ser dependente da geometria do material. Utilizamos nas cordas vocais(?) por serem materias biológicos. Cria uma figura ilustrando comportamento da deformação das pregas vocais
+		
+		\includegraphics{figura1.png}
+		
+	\subsection{Viscosidade}
+		É a velocidade de deformação(consequentemente, de restauração) de
+		um determinado fluido quando atuam forças de tensão no mesmo. Matematicamente
+		pode ser expresso conforme a equação seguinte: \citenum{Ingo}
+		
+		$
+		\sigma = \eta * \frac{d*\epsilon}{dt}
+		$
+	
+	\subsection{Reflexao de Som}
+	
+		Um fenômeno ligado a rigidez e amortecimento entre um meio e outro.\cite{MTAGENTE}
+		Ondas quando tentam penetrar em um segundo meio, sendo o segundo meio rígido, as partículas primeiro meio se aglomeram tentando passar porém
+		falham, seu acúmulo de particulas geram pressão que acabam criando uma outra onda no primeiro meio decorrente da primeira onda.\cite{HenryGray}
+		
+		O mesmo ocorre com o meio 2 sendo totalmente não rígido e o primeiro meio sendo bem rígido, Exaurindo excesso de particulas  do meio 1 no meio 2 criando rarefação no meio 1, o que cria uma outra onda de pressão negativa~\cite{FlanaganLandgraf}. A propagação é sempre em direção oposta à fonte, no caso é na direção contrária à coluna de ar(meio 1). 
+		
+	
+	
+		
+
+
+
+
+
+\section{Sintetizadores de Voz}
+	\subsection{Modelo Massa-Mola Auto Sustentável}:
+	A fechadura e abertura da glote num sistema massa mola de apenas um lado
+
+	\[
+		P = (1 - \frac{a2}{a1})*(Ps- Pi) + Pi
+	\]
+		
+	
+	Versão simplificada da pressão massa mola
+	\begin{itemize}
+		\item P: Pressão resultante NA GLOTE
+		\item a1: Areas de entrada da glote
+		\item a2: Areas de saída  da glote
+		\item Ps: Pressão subglotica
+		\item Pi: Pressão sobre o trato vocal(Pressão input)
+	\end{itemize}
+	
+		No modelo mono massa a1 = a2.No caso em que Pressão na GLOTE,P, seja  igual a pressão  supraglotal, indica que a inércia da coluna de ar acima da glote altera a pressão.
+	
+	
+	\subsection{Synpath}
+		Sintetizador computacional, criado por Lucero.Sintetizador concebido por Fraj \cite{JeanFrancis}
+		Foi escolhido não usar o modelo multi-massa por variações não suaves  e é tematicamente muito complexo apesar instabilidades numéricas.
+		Synpath utiliza como base de representação das pregas vocais o modelo mono massa. O trato vocal é representado por uma concatenação de tubos cilindricos os quais se propagam uma onda acustica.Superglótica não leva em conta o trato vocal.Perdas e viscosidade são considerada.
+	
+	\subsection{HMMs}
+		Minera-se de várias partituras musicais para treino. Os dados minerados dessas músicas são fonemas, altura, intensidade e os intervalos, isto é relação com outras notas.Esses dados são convertidos e mapeados em "labels" dependentes de contexto~\cite{DegottexNada}.Após isso as HMM's são treinados através dos dados de treinamento usando o algoritmo EM.\cite{GudnasonNada}. Após isso ocorre a fase de sintesis, usa-se outra partitura para ser convertida em "labels" dependentes de contexto e estima-se quais "labels" preprocessadas são correspondentes.\cite{TakashiNose}
+	
+		\subsection{MHRSMM}
+		Uma variação HSMM. Modelo de multipla regressão HSMM.
+		Parametros importantes são μi e mi dos outputs pdfs
+		
+		\[ \mu_i = H_b_i \xi \] 
+		\[	m_i   = H_p_i \xi  \]
+		\[ \xi   = [1,v_1,v_2,...,v_L]^T \]	
+		\[ \xi   = [1,v^T]^T	\]	
+		
+		Onde L é a dimensão do vetor de estilo e vi  é  a intensidade do  enésimo estilo de canto.
+		
+		Um exemplo de um vetor de estilos de canto de tamanho L =  2 e L = 3.
+		
+		\includegraphics{exemploHMM.png}
+	
+		
+	
+	\subsection{FrameWorks Sintetisador de Voz}
+	
+		Frame Work de um Sistema Sintetisador de Voz:
+		
+		\includegraphics{frameWork.png}
+		
+		\subsubsection{Input}
+		Consiste da partitura, letra e emoção.
+		o input é analisado e derivado em uma transcrição fonética, alinhamento com a performance alvo ou dados contextuais.\cite{FrameWork}\linebreak
+		
+		\subsubsection{Expressão}
+		Expressão músical é um conceito intuitivo porém dificil de se definir. A expressão é chave na percepção da qualidade e naturalidade musical.
+		No caso da voz cantada implica-se usar vários outros parametro além de frequencia e amplitude. Psicológicamente contorno do timbre, vibrato, tremolo, timing fonético.\cite{FrameWork}\linebreak
+	
+	
+	\subsection{Envoltoria F0}
+	
+	Envoltórias F0 são usadas para expressar informação linguistica, para-linguística e não-linguistica.\cite{SaitouF0}
+	\linebreak
+	
+	As Envoltória F0 apresentam três (3) características importantes que fazem diferenciar uma voz falada a uma voz cantada.\cite{SaitouNada}
+	\linebreak
+	\begin{itemize}
+		\item 1 - O alcance dinâmico de uma envoltória F0 é mais largo que o de uma voz falada
+		\item 2 - A envoltória F0 corresponde e tende a se manter estável em uma nota. A mudança de nota de uma envoltória F0 corresponde a melodia da música
+		\item 3 - Existem muita flutuações f0 que são apenas observadas em apenas vozes cantadas
+	\end{itemize}
+	
+	
+	\subsection{Sintese de Voz em Mandarím}
+		Utiliza-se a técnica HNM para a sintese da voz cantada em mandarím. HNM significa , "harmonic plus noise model".
+		O modelo HNM divide o espectro de um sinal em dois(2) com larguras não iguais para modelagem melhor do espectro.\cite{LinRobos}
+	
+
+ 
+
+\section{Sistema Auditivo}
+	\subsection{Introdução}
+	O Sistema auditivo consiste em componentes periféricos e centrais.Atualmente a maior parte do conhecimento do funcionamento dos sistemas auditivos deriva de estudos de animais não humanos.\cite{Foundation1} 
+	
+	Sistema auditivo diferencia-se entre espécies em jeitos interessantes.
+	Por exemplo algumas espécies tem caracteristicas diferentes relacionadas aos sinais vocais mais utilizados por ela mesma.\cite{Foundation1}
+	
+	\subsection{Intensidade}
+	Como a frequência de um estímulo a intensidade dele é processado e codificado sub-cortical nos dois lados do cérebro em todos os níveis no cerébro.\cite{Foundation1}
+		
+
+
+\section{Voz e Propriedades Linguísticas}
+	Uma divisão importante de acordo com Flanagen, são as letras separados em classificações Vogais e Consoantes que se associam a um movimento do trato vocal correspondente~\cite{JFlanagan}.
+	
+	\includegraphics{tabelaConsoantes.png}
+	
+	\subsection{Vogais}
+	
+	O trato vocal ao produzir uma vocal, em um articação normal, mantém-se relativamente estável.Há uma opção de contribuição das cavidades nasais, uma cobertura porém é negligenciável.Baseado nessas caracteristicas é divididos todas as consonantes. A tabela abaixo explica:
+	
+	
+	\subsection{Consoantes}
+	Sons produzidos com constrições em algum ponto no trato vocal. Dividido em quatro (4) classes, baseados em duas funcionalidades binárias, sonorant e continuant.
+	
+	
+		\subsubsection{Sonorant}	 
+			Sonorant pode ser traduzido como "cantado". Consoantes Sonorant são sons que não aumentam a pressão do ar dentro do trato vocal pois a constrição não é muito justa ou o palato continua aberto, deixando ar escapar por ele.
+			
+		\subsubsection{Continuant}
+			Uma consoante discontinuant é produzida por um fechamento completo em algum ponto no trato vocal.
+

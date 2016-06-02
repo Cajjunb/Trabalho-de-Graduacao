@@ -1,0 +1,90 @@
+\begin{thebibliography}{10}
+
+\bibitem{FlanaganLandgraf}
+Ferdinand de~Saussure.
+\newblock {\em Self-oscillating source for vocal-tract synthesis.}
+\newblock IEEE Tran. Audio Eletroacoust, Audio Eletroacoust., 1968.
+
+\bibitem{DegottexNada}
+Gilles Degottex, Pierre Lanchantin, Axel Roebel, and Xavier Rodet.
+\newblock Mixed source model and its adapted vocal tract filter estimate for
+  voice transformation and synthesis.
+\newblock {\em Speech Communication}, 55(2):278 -- 294, 2013.
+
+\bibitem{JeanFrancis}
+Jean Schoentgen~Samia Fraj and Francis Grenez.
+\newblock {\em Development and perceptual assessment of a synthesizer of
+  disordered voices}.
+\newblock Journal of Acoustical Society of America, 2012.
+
+\bibitem{HenryGray}
+Henry Gray.
+\newblock {\em Anatomy of the Human Body}.
+\newblock IEEE Tran. Audio Eletroacoust.
+
+\bibitem{GudnasonNada}
+Jon Gudnason, Mark~R.P. Thomas, Daniel~P.W. Ellis, and Patrick~A. Naylor.
+\newblock Data-driven voice source waveform analysis and synthesis.
+\newblock {\em Speech Communication}, 54(2):199 -- 211, 2012.
+
+\bibitem{JFlanagan}
+James L. Flanagan Jont B. Allen Mark~A. Hasegawa-Johnson.
+\newblock {\em Speech Analysis Synthesis and Perception}.
+\newblock 2008.
+
+\bibitem{MTAGENTE}
+Matias~Zanartu Kelley C. Stewart Michael W. Plesniak David E. Sommer Sean D.
+  Peterson Byron D.~Erath.
+\newblock {\em A review of lumped-element models of voiced speech}.
+\newblock Speech Communication.
+
+\bibitem{Foundation1}
+Jody Kreiman and Diana Van~Lancker Sidtis.
+\newblock Foundations of voice studies, 2011.
+
+\bibitem{LinRobos}
+Chyi-Yeu Lin, Li-Chieh Cheng, Chang-Kuo Tseng, Hung-Yan Gu, Kuo-Liang Chung,
+  Chin-Shyurng Fahn, Kai-Jay Lu, and Chih-Cheng Chang.
+\newblock A face robot for autonomous simplified musical notation reading and
+  singing.
+\newblock {\em Robotics and Autonomous Systems}, 59(11):943 -- 953, 2011.
+
+\bibitem{TakashiNose}
+Takashi Nose, Misa Kanemoto, Tomoki Koriyama, and Takao Kobayashi.
+\newblock Hmm-based expressive singing voice synthesis with singing style
+  control and robust pitch modeling.
+\newblock {\em Computer Speech & Language}, 34(1):308 -- 322, 2015.
+
+\bibitem{SaitouF0}
+Takeshi Saitou, Masashi Unoki, and Masato Akagi.
+\newblock Development of an \{F0\} control model based on \{F0\} dynamic
+  characteristics for singing-voice synthesis.
+\newblock {\em Speech Communication}, 46(3–4):405 -- 417, 2005.
+\newblock Quantitative Prosody Modelling for Natural Speech Description and
+  GenerationInternational Conference on Speech Prosody.
+
+\bibitem{SaitouNada}
+Takeshi Saitou, Masashi Unoki, and Masato Akagi.
+\newblock Development of an \{F0\} control model based on \{F0\} dynamic
+  characteristics for singing-voice synthesis.
+\newblock {\em Speech Communication}, 46(3–4):405 -- 417, 2005.
+\newblock Quantitative Prosody Modelling for Natural Speech Description and
+  GenerationInternational Conference on Speech Prosody.
+
+\bibitem{BradhStory}
+BradH Story.
+\newblock {\em Tubetalker}.
+\newblock Dept. of Speech, Language, and Hearing, Tucson, AZ, 2010.
+
+\bibitem{IngoTitze}
+Ingo Titze.
+\newblock {\em Principles of Voice Production}.
+\newblock Prentice Hall, New Jersey 07632, 1994.
+
+\bibitem{FrameWork}
+M.~Umbert, J.~Bonada, M.~Goto, T.~Nakano, and J.~Sundberg.
+\newblock Expression control in singing voice synthesis: Features, approaches,
+  evaluation, and challenges.
+\newblock {\em IEEE Signal Processing Magazine}, 32(6):55--73, Nov 2015.
+
+\end{thebibliography}
