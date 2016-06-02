@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  2 JUN 2016 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  2 JUN 2016 17:30
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -838,65 +838,71 @@ File: exemploHMM.png Graphic file (type png)
 Package pdftex.def Info: exemploHMM.png used on input line 137.
 (pdftex.def)             Requested size: 295.85458pt x 116.68564pt.
 
-[5] <frameWork.png, id=274, 489.32813pt x 189.70876pt>
+[5] <esquemaHMM.png, id=274, 300.3722pt x 249.93375pt>
+File: esquemaHMM.png Graphic file (type png)
+ <use esquemaHMM.png>
+Package pdftex.def Info: esquemaHMM.png used on input line 141.
+(pdftex.def)             Requested size: 300.37144pt x 249.93314pt.
+
+<frameWork.png, id=275, 489.32813pt x 189.70876pt>
 File: frameWork.png Graphic file (type png)
  <use frameWork.png>
-Package pdftex.def Info: frameWork.png used on input line 145.
+Package pdftex.def Info: frameWork.png used on input line 157.
 (pdftex.def)             Requested size: 489.32692pt x 189.70828pt.
 
-Overfull \hbox (51.70763pt too wide) in paragraph at lines 145--146
+Overfull \hbox (51.70763pt too wide) in paragraph at lines 157--158
 [][] 
  []
 
-
-Underfull \hbox (badness 3919) in paragraph at lines 148--150
+[6 <./exemploHMM.png> <./esquemaHMM.png>]
+Underfull \hbox (badness 3919) in paragraph at lines 160--162
 \T1/cmr/m/n/12 ção fo-né-tica, ali-nha-mento com a per-for-mance alvo ou da-dos
  contextuais.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 \T1/cmr/m/n/12 torno do tim-bre, vi-brato, tre-molo, ti-ming fonético.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 \T1/cmr/m/n/12 linguistica.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
 \T1/cmr/m/n/12 uma voz fa-lada a uma voz cantada.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
 
  []
 
-[6 <./exemploHMM.png> <./frameWork.png>]
-<tabelaConsoantes.png, id=292, 255.95625pt x 125.71968pt>
+[7 <./frameWork.png>]
+<tabelaConsoantes.png, id=300, 255.95625pt x 125.71968pt>
 File: tabelaConsoantes.png Graphic file (type png)
 
 <use tabelaConsoantes.png>
-Package pdftex.def Info: tabelaConsoantes.png used on input line 192.
+Package pdftex.def Info: tabelaConsoantes.png used on input line 204.
 (pdftex.def)             Requested size: 255.95561pt x 125.71936pt.
- [7 <./tabelaConsoantes.png>]) [8] (monografia.bbl
+ [8 <./tabelaConsoantes.png>]) [9] (monografia.bbl
 (monografia.brf)
 \tf@brf=\write7
 \openout7 = `monografia.brf'.
@@ -914,7 +920,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[9
+[10
 
 
 ])
@@ -922,29 +928,38 @@ might try typing `S' now just to see what is salvageable.
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-[10]
+[11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
-Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: B66B41F934088CF87D1643B16C0C5F32;2209.
 
+
+Package rerunfilecheck Warning: File `monografia.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `monografia.out':
+(rerunfilecheck)             Before: B66B41F934088CF87D1643B16C0C5F32;2209
+(rerunfilecheck)             After:  FBBDE4DC5A36E29D0ED4FCD531F52396;2209.
 
 Package rerunfilecheck Warning: File `monografia.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `monografia.brf':
-(rerunfilecheck)             Before: D9A699EF92F3395497B799CC54FD9DE1;1009
-(rerunfilecheck)             After:  B9937BEEB59DF6F754F27F74B3189C76;1009.
+(rerunfilecheck)             Before: B9937BEEB59DF6F754F27F74B3189C76;1009
+(rerunfilecheck)             After:  CFE8459B4B375F4981069D9AD2CB7863;1010.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 8108 strings out of 493634
- 116476 string characters out of 3135239
+ 8115 strings out of 493634
+ 116583 string characters out of 3135239
  220109 words of memory out of 3000000
- 11277 multiletter control sequences out of 15000+200000
+ 11281 multiletter control sequences out of 15000+200000
  25418 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  43i,7n,69p,650b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -966,9 +981,9 @@ sfonts/cm/cmr8.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/cajju/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (20 pages, 355979 bytes).
+Output written on monografia.pdf (21 pages, 394490 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 727 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 

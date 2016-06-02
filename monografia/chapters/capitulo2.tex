@@ -135,7 +135,17 @@
 		Um exemplo de um vetor de estilos de canto de tamanho L =  2 e L = 3.
 		
 		\includegraphics{exemploHMM.png}
-	
+		
+		\subsubsection{Controle do Sintentisador de voz cantada baseado em MRHSMM}
+		
+		\includegraphics{esquemaHMM.png}
+		
+		Durante a fase de síntese o usuário do programa adiciona vetores de estilos de acorodo com a intenção e a expressividade pretendida.
+		Parametros de output como duração são gerados pelos vetores de estilos dados e matrizes de regressões treinadas usando MRHSMMs
+		
+		Resultado de todo esse processo é um sequência HSMM usando parametros de geração de fala
+		
+		MRHSMM possui uma dificuldade de gerar contorno F0 que acompanhe o contexto de mudança de altura das notas o author TAKASHI NOSE, propõe um treinamento de HSMM e HMM nos parametros 
 		
 	
 	\subsection{FrameWorks Sintetisador de Voz}
