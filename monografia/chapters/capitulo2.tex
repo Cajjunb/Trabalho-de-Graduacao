@@ -1,25 +1,35 @@
 
 \chapter{Conceitos Básicos de Sintese de Voz}
 \section{Anatomia da Voz}
-	\subsection{Orgãos}
-	Orgãos envolvidos com a sintese da voz:
+	Para estudar a produção e a síntese da voz, é necessário ter um conhecimento acerca da anatomia e do funcionamento físico da voz \citenum{Foundation1}. Sendo assim, as subseções seguintes descreverão brevemente detalhes da anatomia do sistema fonador humano e como o som é produzido, moldado e inﬂuenciado por este sistema.
 	
-	\begin{itemize}
-		\item Diafragma
-		\item Pulmões
-		\item Traqueos
-		\item Esôfago
-		\item laringe
-		\item epiglote
-		\item faringe
-		\item palato , lingua
-		cavidade nasal, dente
-		lábios\cite{MTAGENTE}
-	\end{itemize}
-	\title{Lei de Bernoulli}
-	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.5]{aparelhoFonador}
+		\caption{Aparelho Fonador}
+		\label{fig:aparelhoFonador}
+	\end{figure}
 	\subsection{Aparelho Fonador}
 	O estudo do aparelho fonador começa-se por suas estruturas e componentes importantes. Após um estudo detalhado dos fenômenos físicos e como se comportam é essencial também.
+		
+	A Figura \ref{fig:aparelhoFonador} \citenum{Foundation1}, mostra os órgãos associados com a produção da voz. 
+	
+	Dentro das condições normais, a voz é produzida quando um ﬂuxo de ar vindo dos pulmões é convertido em energia acústica através da vibração das pregas vocais, localizadas na laringe. Os padrões de vibrações resultantes são moldados acusticamente quando o som passa pelo trato vocal acima da laringe. O sistema respiratório serve como uma
+	fonte de potência para a produção do som, sendo responsável por movimentar o ar através do trato vocal. A laringe atua como um oscilador convertendo a potência aerodinâmica produzida em energia sonora, sendo frequentemente retratada como a fonte da voz. No entanto, a mais importante função da laringe não é a produção de som, e sim, vedar as vias aéreas aos pulmões completamente, protegendo-as de objetos estranhos ou líquidos, principalmente durante a deglutinação. De maneira análoga, a laringe serve como uma válvula de acesso às vias respiratórias e por essa característica, atua também no controle do ﬂuxo de ar que por elas passam. Sendo assim,é fácil notar que há uma necessidade de mobilidade para toda estruturada laringe, logo é de se esperar que sua estrutura seja formada em sua maioria por cartilagens. De fato o é, com exceção de um osso chamado de Hioide, a laringe é basicamente formada por cartilagens e músculos. A seguir, analisaremos brevemente a dinâmica dos músculos e cartilagens da laringe.
+	
+\subsection{Músculos e Cartilagens}
+Os músculos e cartilagens atuam diretamente no processo de abdução e adução das pregas vocais. Estas estão localizadas dentro da laringe e devido à dinâmica das cartilagens e dos músculos, podem executar os movimentos citados de forma a produzir som.
+
+\subsubsection{Cartilagens da Laringe }
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.5]{musculosCartilagens}
+	\caption{Secção coronal da laringe e parte superior da traquéia}
+	\label{fig:Cartilagens}
+\end{figure}
+A Figura \ref{fig:Cartilagens}, mostra uma secção da laringe, detalhando as cartilagens presentes.
+De maneira sucinta, estas cartilagens servem como base de interconexão para os músculos intrínsecos ao redor da laringe. Dentre as cartilagens acima, a epiglote é responsável por vedar as vias respiratórias movimentando-se sobre a entrada das mesmas. O resto das cartilagens garantem a mobilidade da laringe em conjunto com outras estruturas como por exemplo o sternum.
+
 
 \section{Propriedades Físicas}
 
@@ -83,7 +93,46 @@
 		falham, seu acúmulo de particulas geram pressão que acabam criando uma outra onda no primeiro meio decorrente da primeira onda.\cite{HenryGray}
 		
 		O mesmo ocorre com o meio 2 sendo totalmente não rígido e o primeiro meio sendo bem rígido, Exaurindo excesso de particulas  do meio 1 no meio 2 criando rarefação no meio 1, o que cria uma outra onda de pressão negativa~\cite{FlanaganLandgraf}. A propagação é sempre em direção oposta à fonte, no caso é na direção contrária à coluna de ar(meio 1). 
+	
+	
+	\subsection{Fluxo de Ar na Glote}
+	
+		Fluxo de ar na Glote:
 		
+		Como descrito no artigo de Elias temos informações como descobrimos a pressão via fluxo de ar\cite{eliasamadeudesouza}
+	
+		\[
+		U_g = +-(\frac{-a_m}{A_*}+[(a_m)^2 +- (\frac{4K_t}{C^2\rho})](P^+_s - P^-_i))
+		\]
+		
+		\[
+		A^*  = \text{Área efetiva computada pelas areas A_i e A_s}
+		\]
+		
+		\[
+		\rho = \text{Densidade do Ar}
+		\]
+		\[
+		c = \text{Velocidade do som}
+		\]
+		
+		\[
+		P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}
+		\]
+		
+		Uma vez descoberto o fluxo, as pressões de reflexão P^s_ e P^+_i podem ser encontradas com a seguinte equação:
+		
+		\[
+		P^-_s = P^+_s - (\rho c / A_s) U_g
+		\]
+		
+		
+		\[
+		P^+_i = P^-_i - (\rho c / A_i) U_g
+		\]
+		
+		Quando ocorre o fechamento da glote então alguns parametros assumem valores conhecidos. a(t) = 0 , 
+		$P_g = \frac{P_s-P_i}{2}$ e $U_g = 0$	
 	
 	
 		
@@ -117,6 +166,32 @@
 		Sintetizador computacional, criado por Lucero.Sintetizador concebido por Fraj \cite{JeanFrancis}
 		Foi escolhido não usar o modelo multi-massa por variações não suaves  e é tematicamente muito complexo apesar instabilidades numéricas.
 		Synpath utiliza como base de representação das pregas vocais o modelo mono massa. O trato vocal é representado por uma concatenação de tubos cilindricos os quais se propagam uma onda acustica.Superglótica não leva em conta o trato vocal.Perdas e viscosidade são considerada.
+	
+		\subsubsection{Requisitos Funcionais}
+		
+		O Synpath é consistido também dos seguintes requisitos funcionais, os requistos funcionais são as funcionalidades que o sistema executará\cite{SWEBOK}
+		
+		\begin{itemize}
+			\item 1 - Validação do Parâmetros passados pelo Usuário, se condizem com restrições do programa.
+			\item 2 - Plotar um gráﬁco inicial do trato vocal de acordo com os parâmetros do usuário.
+			\item 3 - Plotar três gráﬁcos referentes as propriedades da voz simuladas com os parâmetros fornecidos pelo usuário. – O primeiro gráﬁco refere-se às posições adotadas pelas cordas vocais, a área da glótis, ao ﬂuxo de ar nessa área e às características desse ﬂuxo. – O segundo gráﬁco refere-se às características do som gerado pela simulação física do aparato fonador pelo programa. – O terceiro gráﬁco refere-se ao espectro de frequência do som gerado e do ﬂuxo da glótis.
+			\item 4 - Gerar um arquivo de texo com as características de voz gerada, frequencia,amplitude, ruído da voz, entre outros
+			\item 5 Gerar um arquivo de som de voz simulada.
+		\end{itemize}
+		
+		\subsubsection{Requisito Não-Funcionais}
+		
+		O Synpath consiste também dos seguintes requisitos não funcionais, requisitos não funcionais são requisitos são parametros de qualidade, requisitos que limitam as funcionalidades do sistema\cite{SWEBOK}.
+		
+		\begin{itemize}
+			\item 1 - O Sistema deve produzir os gráficos que os requisitos funcionais delimitaram em um intervalo de 1(um) minuto. 
+			\item 2  - Após gerar os gráficos e os exibi-los o arquivo texto e o arquivo de audio deverão ser exibidos
+			\item 3 - Para que o sistema esteja funcional é necessário ter instalado os pacotes: MatPlotLib & NumPY
+			\item 4 - O sistema deve ser executado em plataformas de um sistema operacionais como Windows, Linux ou MacOs, Versões recentes de acordo com a data desse documento. 
+			
+		\end{itemize}
+		
+	
 	
 	\subsection{HMMs}
 		Minera-se de várias partituras musicais para treino. Os dados minerados dessas músicas são fonemas, altura, intensidade e os intervalos, isto é relação com outras notas.Esses dados são convertidos e mapeados em "labels" dependentes de contexto~\cite{DegottexNada}.Após isso as HMM's são treinados através dos dados de treinamento usando o algoritmo EM.\cite{GudnasonNada}. Após isso ocorre a fase de sintesis, usa-se outra partitura para ser convertida em "labels" dependentes de contexto e estima-se quais "labels" preprocessadas são correspondentes.\cite{TakashiNose}

@@ -5,11 +5,21 @@ Ferdinand de~Saussure.
 \newblock {\em Self-oscillating source for vocal-tract synthesis.}
 \newblock IEEE Tran. Audio Eletroacoust, Audio Eletroacoust., 1968.
 
+\bibitem{eliasamadeudesouza}
+Elias~Amadeu de~Souza.
+\newblock Simulação computacional de uma fenda glotal, 2014.
+
 \bibitem{DegottexNada}
 Gilles Degottex, Pierre Lanchantin, Axel Roebel, and Xavier Rodet.
 \newblock Mixed source model and its adapted vocal tract filter estimate for
   voice transformation and synthesis.
 \newblock {\em Speech Communication}, 55(2):278 -- 294, 2013.
+
+\bibitem{SWEBOK}
+Pierre Bourque \& Richard~E.(Dick) Farlay.
+\newblock {\em Guide to the Software Engineering Body of Knowledge Version
+  3.0}.
+\newblock IEEE Computer Society, 2004.
 
 \bibitem{JeanFrancis}
 Jean Schoentgen~Samia Fraj and Francis Grenez.

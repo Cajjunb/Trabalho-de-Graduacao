@@ -5,33 +5,37 @@
 \contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{1}{section.1.1}
 \contentsline {chapter}{\numberline {2}Conceitos B\IeC {\'a}sicos de Sintese de Voz}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Anatomia da Voz}{2}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Org\IeC {\~a}os}{2}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Aparelho Fonador}{2}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Propriedades F\IeC {\'\i }sicas}{2}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Lei Bernouli}{2}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Crit\IeC {\'e}rios para Oscila\IeC {\c c}\IeC {\~a}o}{3}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Tipos de Oscila\IeC {\c c}\IeC {\~a}o}{3}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Tensao}{3}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Curva For\IeC {\c c}a e Alongamento}{3}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Viscosidade}{4}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Reflexao de Som}{4}{subsection.2.2.7}
-\contentsline {section}{\numberline {2.3}Sintetizadores de Voz}{4}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Modelo Massa-Mola Auto Sustent\IeC {\'a}vel}{4}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Synpath}{5}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}HMMs}{5}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}MHRSMM}{5}{subsection.2.3.4}
-\contentsline {subsubsection}{Controle do Sintentisador de voz cantada baseado em MRHSMM}{6}{section*.8}
-\contentsline {subsection}{\numberline {2.3.5}FrameWorks Sintetisador de Voz}{6}{subsection.2.3.5}
-\contentsline {subsubsection}{Input}{7}{section*.9}
-\contentsline {subsubsection}{Express\IeC {\~a}o}{7}{section*.10}
-\contentsline {subsection}{\numberline {2.3.6}Envoltoria F0}{7}{subsection.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Sintese de Voz em Mandar\IeC {\'\i }m}{7}{subsection.2.3.7}
-\contentsline {section}{\numberline {2.4}Sistema Auditivo}{8}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{8}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Intensidade}{8}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Voz e Propriedades Lingu\IeC {\'\i }sticas}{8}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Vogais}{8}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Consoantes}{8}{subsection.2.5.2}
-\contentsline {subsubsection}{Sonorant}{9}{section*.11}
-\contentsline {subsubsection}{Continuant}{9}{section*.12}
-\contentsline {chapter}{Refer\^encias}{10}{section*.13}
+\contentsline {subsection}{\numberline {2.1.1}Aparelho Fonador}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}M\IeC {\'u}sculos e Cartilagens}{3}{subsection.2.1.2}
+\contentsline {subsubsection}{Cartilagens da Laringe }{3}{section*.8}
+\contentsline {section}{\numberline {2.2}Propriedades F\IeC {\'\i }sicas}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Lei Bernouli}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Crit\IeC {\'e}rios para Oscila\IeC {\c c}\IeC {\~a}o}{4}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Tipos de Oscila\IeC {\c c}\IeC {\~a}o}{4}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Tensao}{4}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Curva For\IeC {\c c}a e Alongamento}{5}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Viscosidade}{5}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Reflexao de Som}{5}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}Fluxo de Ar na Glote}{5}{subsection.2.2.8}
+\contentsline {section}{\numberline {2.3}Sintetizadores de Voz}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Modelo Massa-Mola Auto Sustent\IeC {\'a}vel}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Synpath}{6}{subsection.2.3.2}
+\contentsline {subsubsection}{Requisitos Funcionais}{7}{section*.9}
+\contentsline {subsubsection}{Requisito N\IeC {\~a}o-Funcionais}{7}{section*.10}
+\contentsline {subsection}{\numberline {2.3.3}HMMs}{7}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}MHRSMM}{8}{subsection.2.3.4}
+\contentsline {subsubsection}{Controle do Sintentisador de voz cantada baseado em MRHSMM}{8}{section*.11}
+\contentsline {subsection}{\numberline {2.3.5}FrameWorks Sintetisador de Voz}{9}{subsection.2.3.5}
+\contentsline {subsubsection}{Input}{9}{section*.12}
+\contentsline {subsubsection}{Express\IeC {\~a}o}{9}{section*.13}
+\contentsline {subsection}{\numberline {2.3.6}Envoltoria F0}{9}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Sintese de Voz em Mandar\IeC {\'\i }m}{10}{subsection.2.3.7}
+\contentsline {section}{\numberline {2.4}Sistema Auditivo}{10}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{10}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Intensidade}{10}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Voz e Propriedades Lingu\IeC {\'\i }sticas}{10}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Vogais}{11}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Consoantes}{11}{subsection.2.5.2}
+\contentsline {subsubsection}{Sonorant}{11}{section*.14}
+\contentsline {subsubsection}{Continuant}{11}{section*.15}
+\contentsline {chapter}{Refer\^encias}{12}{section*.16}
