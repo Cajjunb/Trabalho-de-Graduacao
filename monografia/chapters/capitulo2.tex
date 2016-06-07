@@ -1,5 +1,5 @@
 
-\chapter{Conceitos Básicos de Sintese de Voz}
+\chapter{Aparelho Fonador}
 \section{Anatomia da Voz}
 	Para estudar a produção e a síntese da voz, é necessário ter um conhecimento acerca da anatomia e do funcionamento físico da voz \citenum{Foundation1}. Sendo assim, as subseções seguintes descreverão brevemente detalhes da anatomia do sistema fonador humano e como o som é produzido, moldado e inﬂuenciado por este sistema.
 	
@@ -66,6 +66,96 @@ O espaço entre as pregas vocais é chamado de glote, sendo que o que está acim
 	\label{fig:cordasVocasi}
 \end{figure}
 
+\section{Fundamentos Biofísicos para a Produção da Voz}
+	\subsection{ A Biomecanica da Laringe}
+	Primeiramente, devemos ter em mente que o principal papel da laringe não é a produção de voz e sim a proteção das vias respiratórias. Dito isto, podemos fazer uma simples analise, visto que apesar de seu papel principal, a laringe também atua como um instrumento da fala humana. Se analisarmos os instrumentos criados pelo homem podemos notar que estes dependem basicamente de sua geometria, do material que o compõe e da interação de suas partes acústicas. Do mesmo modo, a laringe possui uma determinada geometria, é composta por tecido humano e em conjunto como trato vocal compõe a parte acústica do nosso corpo. Entretanto, nada é tão simples, a sua geometria e as propriedades do material humano envolvidos na produção do som são bastante irregulares\cite{IngoTitze}. 
+	
+	Outra analogia interessante é sobre o instrumento e quem o utiliza. Um bom pianista por exemplo, sua musica é boa porque ele é habilidoso com o instrumento? Ou sua musica é boa por que o instrumento é bem feito e o som gerado por este é agradável? Ou os dois? Essas perguntas também podem ser feitas com respeito a voz. Para entendermos o que inﬂuência na qualidade da síntese da voz é necessário analisar a biomecânica da voz, que nada mais é analisar o movimento do material vivo e as forças atuantes sobre ele\cite{IngoTitze}.
+	
+	\subsubsection{ Fatores Biológicos que Afetam a Produção de Som na Laringe }
+	
+	A parte da (bio)mecânica que se relaciona diretamente com a atuação da laringe na produção do som é a mecânica dos meios contínuos, que é a parte da mecânica que lida com a matéria distribuída sobre uma determinada região no espaço, e consequentemente, se contrapõe à mecânica de partículas. Dentro da mecânica de meios contínuos, mais especiﬁcamente, a parte que irá nos auxiliar no estudo do comportamento da laringe se chama mecânica de sólidos e ﬂuídos.
+	
+	Dito isto, analisaremos a seguir alguns conceitos físicos que tem forte ligação com os processos que ocorrem na região da laringe durante a produção do som: 
+
+	\subsection{Tensao}
+	Tensão é quantidade de força por unidade de área~\cite{IngoTitze} , podemos escrever na forma da equação
+
+	\[
+	\sigma = \frac{F}{A}
+	\]
+	Sendo:
+	f : força aplicada. \linebreak
+	A: área de aplicação desta força.
+	
+	\subsection{Curva Força e Alongamento}
+	Utiliza-se para não ser dependente da geometria do material. Utilizamos nas cordas vocais(?) por serem materias biológicos. Cria uma figura ilustrando comportamento da deformação das pregas vocais
+	
+	\includegraphics{figura1.png}
+	
+	\subsection{Viscosidade}
+	É a velocidade de deformação(consequentemente, de restauração) de
+	um determinado fluido quando atuam forças de tensão no mesmo. Matematicamente
+	pode ser expresso conforme a equação seguinte: \citenum{Ingo}
+	
+	$
+	\sigma = \eta * \frac{d*\epsilon}{dt}
+	$
+	
+	
+	\subsection{Reflexao de Som}
+	
+	Um fenômeno ligado a rigidez e amortecimento entre um meio e outro.\cite{MTAGENTE}
+	Ondas quando tentam penetrar em um segundo meio, sendo o segundo meio rígido, as partículas primeiro meio se aglomeram tentando passar porém
+	falham, seu acúmulo de particulas geram pressão que acabam criando uma outra onda no primeiro meio decorrente da primeira onda.\cite{HenryGray}
+	
+	O mesmo ocorre com o meio 2 sendo totalmente não rígido e o primeiro meio sendo bem rígido, Exaurindo excesso de particulas  do meio 1 no meio 2 criando rarefação no meio 1, o que cria uma outra onda de pressão negativa~\cite{FlanaganLandgraf}. A propagação é sempre em direção oposta à fonte, no caso é na direção contrária à coluna de ar(meio 1). 
+	
+	
+	\subsection{Fluxo de Ar na Glote}
+	
+	Fluxo de ar na Glote:
+	
+	Como descrito no artigo de Elias temos informações como descobrimos a pressão via fluxo de ar\cite{eliasamadeudesouza}
+	
+	\[
+	U_g = +-(\frac{-a_m}{A_*}+[(a_m)^2 +- (\frac{4K_t}{C^2\rho})](P^+_s - P^-_i))
+	\]
+	
+	\[
+	$		A^*  = \text{Área efetiva computada pelas areas A_i e A_s}$
+	\]
+	
+	\[
+	$		\rho = \text{Densidade do Ar}$
+	\]
+	\[
+	$		c = \text{Velocidade do som}$
+	\]
+	
+	\[
+	$		P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
+	\]
+	
+	Uma vez descoberto o fluxo, as pressões de reflexão P^s_ e P^+_i podem ser encontradas com a seguinte equação:
+	
+	\[
+	P^-_s = P^+_s - (\rho c / A_s) U_g
+	\]
+	
+	
+	\[
+	P^+_i = P^-_i - (\rho c / A_i) U_g
+	\]
+	
+	Quando ocorre o fechamento da glote então alguns parametros assumem valores conhecidos. a(t) = 0 , 
+	$P_g = \frac{P_s-P_i}{2}$ e $U_g = 0$	
+	
+	
+	
+
+
+
 \section{Propriedades Físicas}
 
 	\subsection{Lei Bernouli}
@@ -97,205 +187,13 @@ O espaço entre as pregas vocais é chamado de glote, sendo que o que está acim
 				\item Oscilação Auto-Sustentável: Requer uma fonte de energia estável e uma interação não-linear entre os componentes internos ao sistema. As perdas de energia são compensadas, mantendo o padrão oscilatório.
 			\end{itemize}
 		
-	\subsection{Tensao}
-		Conceito de Tensão For por unidade de ar
-		
-		\[
-		\sigma = \frac{F}{A}
-		\]
-		Sendo:
-		f : força aplicada. \linebreak
-		A: área de aplicação desta força.
-		
-	\subsection{Curva Força e Alongamento}
-		Utiliza-se para não ser dependente da geometria do material. Utilizamos nas cordas vocais(?) por serem materias biológicos. Cria uma figura ilustrando comportamento da deformação das pregas vocais
-		
-		\includegraphics{figura1.png}
-		
-	\subsection{Viscosidade}
-		É a velocidade de deformação(consequentemente, de restauração) de
-		um determinado fluido quando atuam forças de tensão no mesmo. Matematicamente
-		pode ser expresso conforme a equação seguinte: \citenum{Ingo}
-		
-		$
-		\sigma = \eta * \frac{d*\epsilon}{dt}
-		$
-		
-	
-	\subsection{Reflexao de Som}
-	
-		Um fenômeno ligado a rigidez e amortecimento entre um meio e outro.\cite{MTAGENTE}
-		Ondas quando tentam penetrar em um segundo meio, sendo o segundo meio rígido, as partículas primeiro meio se aglomeram tentando passar porém
-		falham, seu acúmulo de particulas geram pressão que acabam criando uma outra onda no primeiro meio decorrente da primeira onda.\cite{HenryGray}
-		
-		O mesmo ocorre com o meio 2 sendo totalmente não rígido e o primeiro meio sendo bem rígido, Exaurindo excesso de particulas  do meio 1 no meio 2 criando rarefação no meio 1, o que cria uma outra onda de pressão negativa~\cite{FlanaganLandgraf}. A propagação é sempre em direção oposta à fonte, no caso é na direção contrária à coluna de ar(meio 1). 
-	
-	
-	\subsection{Fluxo de Ar na Glote}
-	
-		Fluxo de ar na Glote:
-		
-		Como descrito no artigo de Elias temos informações como descobrimos a pressão via fluxo de ar\cite{eliasamadeudesouza}
-	
-		\[
-		U_g = +-(\frac{-a_m}{A_*}+[(a_m)^2 +- (\frac{4K_t}{C^2\rho})](P^+_s - P^-_i))
-		\]
-		
-		\[
-$		A^*  = \text{Área efetiva computada pelas areas A_i e A_s}$
-		\]
-		
-		\[
-$		\rho = \text{Densidade do Ar}$
-		\]
-		\[
-$		c = \text{Velocidade do som}$
-		\]
-		
-		\[
-$		P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
-		\]
-		
-		Uma vez descoberto o fluxo, as pressões de reflexão P^s_ e P^+_i podem ser encontradas com a seguinte equação:
-		
-		\[
-		P^-_s = P^+_s - (\rho c / A_s) U_g
-		\]
-		
-		
-		\[
-		P^+_i = P^-_i - (\rho c / A_i) U_g
-		\]
-		
-		Quando ocorre o fechamento da glote então alguns parametros assumem valores conhecidos. a(t) = 0 , 
-		$P_g = \frac{P_s-P_i}{2}$ e $U_g = 0$	
-	
-	
-		
 
 
 
 
 
-\section{Sintetizadores de Voz}
-	\subsection{Modelo Massa-Mola Auto Sustentável}:
-	A fechadura e abertura da glote num sistema massa mola de apenas um lado
 
-	\[
-		P = (1 - \frac{a2}{a1})*(Ps- Pi) + Pi
-	\]
-		
-	
-	Versão simplificada da pressão massa mola
-	\begin{itemize}
-		\item P: Pressão resultante NA GLOTE
-		\item a1: Areas de entrada da glote
-		\item a2: Areas de saída  da glote
-		\item Ps: Pressão subglotica
-		\item Pi: Pressão sobre o trato vocal(Pressão input)
-	\end{itemize}
-	
-		No modelo mono massa a1 = a2.No caso em que Pressão na GLOTE,P, seja  igual a pressão  supraglotal, indica que a inércia da coluna de ar acima da glote altera a pressão.
-	
-	
-	\subsection{Synpath}
-		Sintetizador computacional, criado por Lucero.Sintetizador concebido por Fraj \cite{JeanFrancis}
-		Foi escolhido não usar o modelo multi-massa por variações não suaves  e é tematicamente muito complexo apesar instabilidades numéricas.
-		Synpath utiliza como base de representação das pregas vocais o modelo mono massa. O trato vocal é representado por uma concatenação de tubos cilindricos os quais se propagam uma onda acustica.Superglótica não leva em conta o trato vocal.Perdas e viscosidade são considerada.
-	
-		\subsubsection{Requisitos Funcionais}
-		
-		O Synpath é consistido também dos seguintes requisitos funcionais, os requistos funcionais são as funcionalidades que o sistema executará\cite{SWEBOK}
-		
-		\begin{itemize}
-			\item 1 - Validação do Parâmetros passados pelo Usuário, se condizem com restrições do programa.
-			\item 2 - Plotar um gráﬁco inicial do trato vocal de acordo com os parâmetros do usuário.
-			\item 3 - Plotar três gráﬁcos referentes as propriedades da voz simuladas com os parâmetros fornecidos pelo usuário. – O primeiro gráﬁco refere-se às posições adotadas pelas cordas vocais, a área da glótis, ao ﬂuxo de ar nessa área e às características desse ﬂuxo. – O segundo gráﬁco refere-se às características do som gerado pela simulação física do aparato fonador pelo programa. – O terceiro gráﬁco refere-se ao espectro de frequência do som gerado e do ﬂuxo da glótis.
-			\item 4 - Gerar um arquivo de texo com as características de voz gerada, frequencia,amplitude, ruído da voz, entre outros
-			\item 5 Gerar um arquivo de som de voz simulada.
-		\end{itemize}
-		
-		\subsubsection{Requisito Não-Funcionais}
-		
-		O Synpath consiste também dos seguintes requisitos não funcionais, requisitos não funcionais são requisitos são parametros de qualidade, requisitos que limitam as funcionalidades do sistema\cite{SWEBOK}.
-		
-		\begin{itemize}
-			\item 1 - O Sistema deve produzir os gráficos que os requisitos funcionais delimitaram em um intervalo de 1(um) minuto. 
-			\item 2  - Após gerar os gráficos e os exibi-los o arquivo texto e o arquivo de audio deverão ser exibidos
-			\item 3 - Para que o sistema esteja funcional é necessário ter instalado os pacotes: MatPlotLib e NumPY
-			\item 4 - O sistema deve ser executado em plataformas de um sistema operacionais como Windows, Linux ou MacOs, Versões recentes de acordo com a data desse documento. 
-			
-		\end{itemize}
-		
-	
-	
-	\subsection{HMMs}
-		Minera-se de várias partituras musicais para treino. Os dados minerados dessas músicas são fonemas, altura, intensidade e os intervalos, isto é relação com outras notas.Esses dados são convertidos e mapeados em "labels" dependentes de contexto~\cite{DegottexNada}.Após isso as HMM's são treinados através dos dados de treinamento usando o algoritmo EM.\cite{GudnasonNada}. Após isso ocorre a fase de sintesis, usa-se outra partitura para ser convertida em "labels" dependentes de contexto e estima-se quais "labels" preprocessadas são correspondentes.\cite{TakashiNose}
-	
-		\subsection{MHRSMM}
-		Uma variação HSMM. Modelo de multipla regressão HSMM.
-		Parametros importantes são μi e mi dos outputs pdfs
-		
-		\[ \mu_i = H_b_i \xi \] 
-		\[	m_i   = H_p_i \xi  \]
-		\[ \xi   = [1,v_1,v_2,...,v_L]^T \]	
-		\[ \xi   = [1,v^T]^T	\]	
-		
-		Onde L é a dimensão do vetor de estilo e vi  é  a intensidade do  enésimo estilo de canto.
-		
-		Um exemplo de um vetor de estilos de canto de tamanho L =  2 e L = 3.
-		
-		\includegraphics{exemploHMM.png}
-		
-		\subsubsection{Controle do Sintentisador de voz cantada baseado em MRHSMM}
-		
-		\includegraphics{esquemaHMM.png}
-		
-		Durante a fase de síntese o usuário do programa adiciona vetores de estilos de acorodo com a intenção e a expressividade pretendida.
-		Parametros de output como duração são gerados pelos vetores de estilos dados e matrizes de regressões treinadas usando MRHSMMs
-		
-		Resultado de todo esse processo é um sequência HSMM usando parametros de geração de fala
-		
-		MRHSMM possui uma dificuldade de gerar contorno F0 que acompanhe o contexto de mudança de altura das notas o author TAKASHI NOSE, propõe um treinamento de HSMM e HMM nos parametros 
-		
-	
-	\subsection{FrameWorks Sintetisador de Voz}
-	
-		Frame Work de um Sistema Sintetisador de Voz:
-		
-		\includegraphics{frameWork.png}
-		
-		\subsubsection{Input}
-		Consiste da partitura, letra e emoção.
-		o input é analisado e derivado em uma transcrição fonética, alinhamento com a performance alvo ou dados contextuais.\cite{FrameWork}\linebreak
-		
-		\subsubsection{Expressão}
-		Expressão músical é um conceito intuitivo porém dificil de se definir. A expressão é chave na percepção da qualidade e naturalidade musical.
-		No caso da voz cantada implica-se usar vários outros parametro além de frequencia e amplitude. Psicológicamente contorno do timbre, vibrato, tremolo, timing fonético.\cite{FrameWork}\linebreak
-	
-	
-	\subsection{Envoltoria F0}
-	
-	Envoltórias F0 são usadas para expressar informação linguistica, para-linguística e não-linguistica.\cite{SaitouF0}
-	\linebreak
-	
-	As Envoltória F0 apresentam três (3) características importantes que fazem diferenciar uma voz falada a uma voz cantada.\cite{SaitouNada}
-	\linebreak
-	\begin{itemize}
-		\item 1 - O alcance dinâmico de uma envoltória F0 é mais largo que o de uma voz falada
-		\item 2 - A envoltória F0 corresponde e tende a se manter estável em uma nota. A mudança de nota de uma envoltória F0 corresponde a melodia da música
-		\item 3 - Existem muita flutuações f0 que são apenas observadas em apenas vozes cantadas
-	\end{itemize}
-	
-	
-	\subsection{Sintese de Voz em Mandarím}
-		Utiliza-se a técnica HNM para a sintese da voz cantada em mandarím. HNM significa , "harmonic plus noise model".
-		O modelo HNM divide o espectro de um sinal em dois(2) com larguras não iguais para modelagem melhor do espectro.\cite{LinRobos}
-	
-
- 
-
-\section{Sistema Auditivo}
+	\section{Sistema Auditivo}
 	\subsection{Introdução}
 	O Sistema auditivo consiste em componentes periféricos e centrais.Atualmente a maior parte do conhecimento do funcionamento dos sistemas auditivos deriva de estudos de animais não humanos.\cite{Foundation1} 
 	
@@ -304,10 +202,10 @@ $		P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
 	
 	\subsection{Intensidade}
 	Como a frequência de um estímulo a intensidade dele é processado e codificado sub-cortical nos dois lados do cérebro em todos os níveis no cerébro.\cite{Foundation1}
-		
-
-
-\section{Voz e Propriedades Linguísticas}
+	
+	
+	
+	\section{Voz e Propriedades Linguísticas}
 	Uma divisão importante de acordo com Flanagen, são as letras separados em classificações Vogais e Consoantes que se associam a um movimento do trato vocal correspondente~\cite{JFlanagan}.
 	
 	\includegraphics{tabelaConsoantes.png}
@@ -321,9 +219,12 @@ $		P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
 	Sons produzidos com constrições em algum ponto no trato vocal. Dividido em quatro (4) classes, baseados em duas funcionalidades binárias, sonorant e continuant.
 	
 	
-		\subsubsection{Sonorant}	 
-			Sonorant pode ser traduzido como "cantado". Consoantes Sonorant são sons que não aumentam a pressão do ar dentro do trato vocal pois a constrição não é muito justa ou o palato continua aberto, deixando ar escapar por ele.
-			
-		\subsubsection{Continuant}
-			Uma consoante discontinuant é produzida por um fechamento completo em algum ponto no trato vocal.
+	\subsubsection{Sonorant}	 
+	Sonorant pode ser traduzido como "cantado". Consoantes Sonorant são sons que não aumentam a pressão do ar dentro do trato vocal pois a constrição não é muito justa ou o palato continua aberto, deixando ar escapar por ele.
+	
+	\subsubsection{Continuant}
+	Uma consoante discontinuant é produzida por um fechamento completo em algum ponto no trato vocal.
+	
+
+ 
 

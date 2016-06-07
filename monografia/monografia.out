@@ -4,32 +4,34 @@
 \BOOKMARK [0][-]{abstract.0}{Abstract}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 5
 \BOOKMARK [1][-]{section.1.1}{Motiva\347\343o}{chapter.1}% 6
-\BOOKMARK [0][-]{chapter.2}{Conceitos B\341sicos de Sintese de Voz}{}% 7
+\BOOKMARK [0][-]{chapter.2}{Aparelho Fonador}{}% 7
 \BOOKMARK [1][-]{section.2.1}{Anatomia da Voz}{chapter.2}% 8
 \BOOKMARK [2][-]{subsection.2.1.1}{Aparelho Fonador}{section.2.1}% 9
 \BOOKMARK [2][-]{subsection.2.1.2}{M\372sculos e Cartilagens}{section.2.1}% 10
 \BOOKMARK [2][-]{subsection.2.1.3}{Pregas Vocais}{section.2.1}% 11
-\BOOKMARK [1][-]{section.2.2}{Propriedades F\355sicas}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.1}{Lei Bernouli}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.2}{Crit\351rios para Oscila\347\343o}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.3}{Tipos de Oscila\347\343o}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.4}{Tensao}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.5}{Curva For\347a e Alongamento}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.6}{Viscosidade}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.7}{Reflexao de Som}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.8}{Fluxo de Ar na Glote}{section.2.2}% 20
-\BOOKMARK [1][-]{section.2.3}{Sintetizadores de Voz}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.3.1}{Modelo Massa-Mola Auto Sustent\341vel}{section.2.3}% 22
-\BOOKMARK [2][-]{subsection.2.3.2}{Synpath}{section.2.3}% 23
-\BOOKMARK [2][-]{subsection.2.3.3}{HMMs}{section.2.3}% 24
-\BOOKMARK [2][-]{subsection.2.3.4}{MHRSMM}{section.2.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.5}{FrameWorks Sintetisador de Voz}{section.2.3}% 26
-\BOOKMARK [2][-]{subsection.2.3.6}{Envoltoria F0}{section.2.3}% 27
-\BOOKMARK [2][-]{subsection.2.3.7}{Sintese de Voz em Mandar\355m}{section.2.3}% 28
-\BOOKMARK [1][-]{section.2.4}{Sistema Auditivo}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.4.1}{Introdu\347\343o}{section.2.4}% 30
-\BOOKMARK [2][-]{subsection.2.4.2}{Intensidade}{section.2.4}% 31
-\BOOKMARK [1][-]{section.2.5}{Voz e Propriedades Lingu\355sticas}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.5.1}{Vogais}{section.2.5}% 33
-\BOOKMARK [2][-]{subsection.2.5.2}{Consoantes}{section.2.5}% 34
-\BOOKMARK [0][-]{section*.17}{Refer\352ncias}{}% 35
+\BOOKMARK [1][-]{section.2.2}{Fundamentos Biof\355sicos para a Produ\347\343o da Voz}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{ A Biomecanica da Laringe}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Propriedades F\355sicas}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{Lei Bernouli}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{Crit\351rios para Oscila\347\343o}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.3}{Tipos de Oscila\347\343o}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.4}{Tensao}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.5}{Curva For\347a e Alongamento}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.6}{Viscosidade}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.7}{Reflexao de Som}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.8}{Fluxo de Ar na Glote}{section.2.3}% 22
+\BOOKMARK [1][-]{section.2.4}{Sistema Auditivo}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.4.1}{Introdu\347\343o}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.2}{Intensidade}{section.2.4}% 25
+\BOOKMARK [1][-]{section.2.5}{Voz e Propriedades Lingu\355sticas}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.5.1}{Vogais}{section.2.5}% 27
+\BOOKMARK [2][-]{subsection.2.5.2}{Consoantes}{section.2.5}% 28
+\BOOKMARK [0][-]{chapter.3}{S\355ntese de Voz}{}% 29
+\BOOKMARK [1][-]{subsection.3.0.1}{Modelo Massa-Mola Auto Sustent\341vel}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.0.2}{Synpath}{subsection.3.0.1}% 31
+\BOOKMARK [2][-]{subsection.3.0.3}{HMMs}{subsection.3.0.1}% 32
+\BOOKMARK [2][-]{subsection.3.0.4}{MHRSMM}{subsection.3.0.1}% 33
+\BOOKMARK [2][-]{subsection.3.0.5}{FrameWorks Sintetisador de Voz}{subsection.3.0.1}% 34
+\BOOKMARK [2][-]{subsection.3.0.6}{Envoltoria F0}{subsection.3.0.1}% 35
+\BOOKMARK [2][-]{subsection.3.0.7}{Sintese de Voz em Mandar\355m}{subsection.3.0.1}% 36
+\BOOKMARK [0][-]{section*.18}{Refer\352ncias}{}% 37
