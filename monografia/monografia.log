@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  7 JUN 2016 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  7 JUN 2016 11:29
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -621,7 +621,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.169 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.181 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -730,7 +730,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 35.
- <positivo_cor.pdf, id=139, 119.44624pt x 60.225pt>
+ <positivo_cor.pdf, id=143, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 35.
@@ -835,7 +835,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<aparelhoFonador.png, id=239, 300.3722pt x 441.14813pt>
+<aparelhoFonador.png, id=250, 300.3722pt x 441.14813pt>
 File: aparelhoFonador.png Graphic file (type png)
 
 <use aparelhoFonador.png>
@@ -874,63 +874,147 @@ or  <return>  to continue without it.
 
 [2
 
-] <musculosCartilagens.png, id=248, 406.51875pt x 217.5628pt>
+] <musculosCartilagens.png, id=259, 406.51875pt x 217.5628pt>
 File: musculosCartilagens.png Graphic file (type png)
 
 <use musculosCartilagens.png>
-Package pdftex.def Info: musculosCartilagens.png used on input line 25.
+Package pdftex.def Info: musculosCartilagens.png used on input line 26.
 (pdftex.def)             Requested size: 203.25887pt x 108.78113pt.
- [3 <./aparelhoFonador.png> <./musculosCartilagens.png>]
-
-LaTeX Warning: Command \~ invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 43.
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...aringe. Alguns desses músculos têm inﬂ
+                                                  uência direta em algumas ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3 <./aparelhoFonador.png> <./musculosCartilagens.png>]
+<musculosLaringe.png, id=270, 399.74344pt x 235.63031pt>
+File: musculosLaringe.png Graphic file (type png)
+
+<use musculosLaringe.png>
+Package pdftex.def Info: musculosLaringe.png used on input line 39.
+(pdftex.def)             Requested size: 199.87122pt x 117.81487pt.
+
+<musculosExternosLaringe.png, id=273, 416.30531pt x 183.68625pt>
+File: musculosExternosLaringe.png Graphic file (type png)
+
+<use musculosExternosLaringe.png>
+Package pdftex.def Info: musculosExternosLaringe.png used on input line 49.
+(pdftex.def)             Requested size: 208.15215pt x 91.84288pt.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...lizadas dentro da laringe, mais especíﬁ
+                                                  camente na parte superior ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...io, sendo compostas também de algumas ﬁ
+                                                  bras musculares. As pregas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<cordasVocais.png, id=274, 257.46187pt x 183.68625pt>
+File: cordasVocais.png Graphic file (type png)
+ <use cordasVocais.png>
+Package pdftex.def Info: cordasVocais.png used on input line 64.
+(pdftex.def)             Requested size: 128.7306pt x 91.84288pt.
+
+[4 <./musculosLaringe.png> <./musculosExternosLaringe.png>]
+
+LaTeX Warning: Command \~ invalid in math mode on input line 79.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 79.
 
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
 
-Overfull \hbox (178.36774pt too wide) detected at line 45
+Overfull \hbox (178.36774pt too wide) detected at line 81
 \OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + [] = \OML/cmm/m/it/12 Constante[] Sendo \O
 T1/cmr/m/n/12 : [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Densid
 adedofluido[] P \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Pressonodutoondeofludoseenco
 ntra[] v \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 velocidadedaparticula
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
 ("C:\Users\cajju\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
+[5 <./cordasVocais.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 \T1/cmr/m/n/12 Sendo: f : for�a apli-cada.
  []
 
-[4] <figura1.png, id=268, 253.69781pt x 235.63031pt>
+<figura1.png, id=293, 253.69781pt x 235.63031pt>
 File: figura1.png Graphic file (type png)
  <use figura1.png>
-Package pdftex.def Info: figura1.png used on input line 77.
+Package pdftex.def Info: figura1.png used on input line 113.
 (pdftex.def)             Requested size: 253.69719pt x 235.62973pt.
 
 
-Package natbib Warning: Citation `Ingo' on page 5 undefined on input line 82.
+Package natbib Warning: Citation `Ingo' on page 6 undefined on input line 118.
 
-[5 <./figura1.png>]
+[6 <./figura1.png>]
+! Display math should end with $$.
+<to be read again> 
+                    
+l.145 $	
+        	A^*  = \text{Área efetiva computada pelas areas A_i e A_s}$
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 $		A^
+           *  = \text{Área efetiva computada pelas areas A_i e A_s}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -940,8 +1024,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -951,8 +1035,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...e {\textdef@ \displaystyle \f@size {#1}}
                                                   {\textdef@ \textstyle \f@s...
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -962,16 +1046,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -981,8 +1065,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -992,8 +1076,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...xtstyle \f@size {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \sf@...
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1003,16 +1087,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1022,8 +1106,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1033,8 +1117,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...tstyle \sf@size {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \ssf...
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1044,16 +1128,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1063,8 +1147,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1074,8 +1158,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...style \ssf@size {\firstchoice@false #1}}
                                                   \check@mathfonts }
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1085,18 +1169,18 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...firstchoice@false #1}}\check@mathfonts }
                                                   
-l.108 ... efetiva computada pelas areas A_i e A_s}
-                                                  
+l.145 ... efetiva computada pelas areas A_i e A_s}
+                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-! Missing $ inserted.
+! Missing } inserted.
 <inserted text> 
-                $
-l.109 		\]
+                }
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1107,7 +1191,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1118,18 +1202,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
-          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1140,7 +1213,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1151,7 +1224,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1162,7 +1235,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1173,7 +1246,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1184,7 +1257,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1195,7 +1268,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1206,7 +1279,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1217,7 +1290,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1228,7 +1301,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1239,7 +1312,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1250,7 +1323,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1261,7 +1334,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1272,7 +1345,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.109 		\]
+l.146 		\]
           
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1282,7 +1355,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1293,7 +1366,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.109 		\]
+l.146 		\]
           
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1303,7 +1376,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1314,7 +1387,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.109 		\]
+l.146 		\]
           
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1324,7 +1397,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1335,7 +1408,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 		\]
+l.146 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1346,7 +1419,47 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.109 		\]
+l.146 		\]
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                    
+l.149 $	
+        	\rho = \text{Densidade do Ar}$
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.149 $		\rho
+              = \text{Densidade do Ar}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 		\]
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.150 		\]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1357,34 +1470,96 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.109 		\]
+l.150 		\]
           
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-
-Overfull \hbox (295.78703pt too wide) detected at line 109
-\OML/cmm/m/it/12 A[] \OT1/cmr/m/n/12 = []
- []
+! Display math should end with $$.
+<to be read again> 
+                    
+l.152 $	
+        	c = \text{Velocidade do som}$
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.122 ...rto o fluxo, as pressões de reflexão P^
+l.153 		\]
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                    
+l.156 $	
+        	P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.156 $		P_
+           s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 		\]
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.157 		\]
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.157 		\]
+          
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.159 ...rto o fluxo, as pressões de reflexão P^
                                                   s_ e P^+_i podem ser encon...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 122.
+LaTeX Warning: Command \c invalid in math mode on input line 159.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 122.
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.123 
+l.160 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1392,12 +1567,12 @@ you left one out. Proceed, with fingers crossed.
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
 
-Overfull \hbox (69.63895pt too wide) in paragraph at lines 122--123
+Overfull \hbox (69.63895pt too wide) in paragraph at lines 159--160
 []\T1/cmr/m/n/12 Uma vez des-co-berto o fluxo, as pres-s�es de re-fle-x�o P$[]\
 OML/cmm/m/it/12 P[]podemserencontradascomaseguinteequao \OT1/cmr/m/n/12 :$ 
  []
 
-[6]
+[7]
 
 ! Package inputenc Error: Unicode char ﬁ (U+FB01)
 (inputenc)                not set up for use with LaTeX.
@@ -1406,7 +1581,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 			\item 2 - Plotar um gráﬁ
+l.212 			\item 2 - Plotar um gráﬁ
                                     co inicial do trato vocal de acordo com ...
 
 Your command was ignored.
@@ -1421,7 +1596,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 			\item 3 - Plotar três gráﬁ
+l.213 			\item 3 - Plotar três gráﬁ
                                        cos referentes as propriedades da voz...
 
 Your command was ignored.
@@ -1436,7 +1611,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ...dos pelo usuário. – O primeiro gráﬁ
+l.213 ...dos pelo usuário. – O primeiro gráﬁ
                                                   co refere-se às posiçõe...
 
 Your command was ignored.
@@ -1451,7 +1626,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ...cordas vocais, a área da glótis, ao ﬂ
+l.213 ...cordas vocais, a área da glótis, ao ﬂ
                                                   uxo de ar nessa área e à...
 
 Your command was ignored.
@@ -1466,7 +1641,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ...sa área e às características desse ﬂ
+l.213 ...sa área e às características desse ﬂ
                                                   uxo. – O segundo gráﬁ...
 
 Your command was ignored.
@@ -1481,7 +1656,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ...ticas desse ﬂuxo. – O segundo gráﬁ
+l.213 ...ticas desse ﬂuxo. – O segundo gráﬁ
                                                   co refere-se às caracter�...
 
 Your command was ignored.
@@ -1496,7 +1671,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ...dor pelo programa. – O terceiro gráﬁ
+l.213 ...dor pelo programa. – O terceiro gráﬁ
                                                   co refere-se ao espectro d...
 
 Your command was ignored.
@@ -1511,35 +1686,24 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ...tro de frequência do som gerado e do ﬂ
+l.213 ...tro de frequência do som gerado e do ﬂ
                                                   uxo da glótis.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (15.83798pt too wide) in paragraph at lines 177--178
+Overfull \hbox (15.83798pt too wide) in paragraph at lines 214--215
 []\T1/cmr/m/n/12 4 - Ge-rar um ar-quivo de texo com as ca-rac-te-r�s-ti-cas de 
 voz ge-rada, fre-quen-cia,amplitude,
  []
 
-! Misplaced alignment tab character &.
-l.188 ...io ter instalado os pacotes: MatPlotLib &
-                                                   NumPY
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (27.82397pt too wide) in paragraph at lines 196--197
+[8]
+Overfull \hbox (27.82397pt too wide) in paragraph at lines 233--234
 \T1/cmr/m/n/12 bels"dependentes de con-texto e estima-se quais "la-bels"preproc
 essadas s�o correspondentes.([]) 
  []
 
-[7]
 
 ! Package inputenc Error: Unicode char μ (U+3BC)
 (inputenc)                not set up for use with LaTeX.
@@ -1548,94 +1712,93 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.200 		Parametros importantes são μ
+l.237 		Parametros importantes são μ
                                       i e mi dos outputs pdfs
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Double subscript.
-l.202 		\[ \mu_i = H_b_
+l.239 		\[ \mu_i = H_b_
                        i \xi \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.203 		\[	m_i   = H_p_
+l.240 		\[	m_i   = H_p_
                        i \xi  \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-<exemploHMM.png, id=307, 295.85532pt x 116.68594pt>
+<exemploHMM.png, id=327, 295.85532pt x 116.68594pt>
 File: exemploHMM.png Graphic file (type png)
  <use exemploHMM.png>
-Package pdftex.def Info: exemploHMM.png used on input line 211.
+Package pdftex.def Info: exemploHMM.png used on input line 248.
 (pdftex.def)             Requested size: 295.85458pt x 116.68564pt.
 
-<esquemaHMM.png, id=308, 300.3722pt x 249.93375pt>
+<esquemaHMM.png, id=328, 300.3722pt x 249.93375pt>
 File: esquemaHMM.png Graphic file (type png)
  <use esquemaHMM.png>
-Package pdftex.def Info: esquemaHMM.png used on input line 215.
+Package pdftex.def Info: esquemaHMM.png used on input line 252.
 (pdftex.def)             Requested size: 300.37144pt x 249.93314pt.
 
-[8 <./exemploHMM.png> <./esquemaHMM.png>]
-<frameWork.png, id=315, 489.32813pt x 189.70876pt>
+[9 <./exemploHMM.png>] <frameWork.png, id=337, 489.32813pt x 189.70876pt>
 File: frameWork.png Graphic file (type png)
- <use frameWork.png>
-Package pdftex.def Info: frameWork.png used on input line 229.
+
+<use frameWork.png>
+Package pdftex.def Info: frameWork.png used on input line 266.
 (pdftex.def)             Requested size: 489.32692pt x 189.70828pt.
 
-Overfull \hbox (51.70763pt too wide) in paragraph at lines 229--230
+Overfull \hbox (51.70763pt too wide) in paragraph at lines 266--267
 [][] 
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 232--234
+Underfull \hbox (badness 3919) in paragraph at lines 269--271
 \T1/cmr/m/n/12 ��o fo-n�-tica, ali-nha-mento com a per-for-mance alvo ou da-dos
  contextuais.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+[10 <./esquemaHMM.png> <./frameWork.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 \T1/cmr/m/n/12 torno do tim-bre, vi-brato, tre-molo, ti-ming fon�tico.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 \T1/cmr/m/n/12 linguistica.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
 \T1/cmr/m/n/12 uma voz fa-lada a uma voz cantada.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
 
  []
 
-[9 <./frameWork.png>]
-<tabelaConsoantes.png, id=334, 255.95625pt x 125.71968pt>
+[11] <tabelaConsoantes.png, id=362, 255.95625pt x 125.71968pt>
 File: tabelaConsoantes.png Graphic file (type png)
 
 <use tabelaConsoantes.png>
-Package pdftex.def Info: tabelaConsoantes.png used on input line 276.
+Package pdftex.def Info: tabelaConsoantes.png used on input line 313.
 (pdftex.def)             Requested size: 255.95561pt x 125.71936pt.
- [10 <./tabelaConsoantes.png>]) [11] (monografia.bbl
+) [12 <./tabelaConsoantes.png>] (monografia.bbl
 (monografia.brf)
 \tf@brf=\write7
 \openout7 = `monografia.brf'.
@@ -1644,7 +1807,7 @@ Package pdftex.def Info: tabelaConsoantes.png used on input line 276.
 ! Misplaced alignment tab character &.
 <argument> ...ng. \newblock {\em Computer Speech &
                                                    Language}, 34(1):308 -- 3...
-l.67 
+l.72 
      
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1653,7 +1816,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[12
+[13
 
 
 ])
@@ -1661,52 +1824,48 @@ might try typing `S' now just to see what is salvageable.
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-[13]
+[14]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: EC8D3E6E8403B54AAD9B541F2C5834EA;2300.
+(rerunfilecheck)             Checksum: B3EB991E4182EA8991C3F4FA6EBA1CE2;2368.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: A25EAE0D1C1ED8E324866303C72B7E1B;1219.
+(rerunfilecheck)             Checksum: B1B50B906B322339FEEAF072131D059A;1274.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 8740 strings out of 493634
- 124097 string characters out of 3135239
- 230617 words of memory out of 3000000
- 11873 multiletter control sequences out of 15000+200000
+ 8772 strings out of 493634
+ 124730 string characters out of 3135239
+ 231804 words of memory out of 3000000
+ 11895 multiletter control sequences out of 15000+200000
  28615 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 43i,15n,69p,1109b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,69p,1109b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\cajju\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\ca
-jju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0500.pk> <C
-:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0
-800.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecbx1440.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecbx2488.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\cajju\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\cajju\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk>{C:/Users/ca
-jju/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users
-/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/cajju/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cajju/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/cajju/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy8.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/aria
-l/ua1b8a.pfb>
-Output written on monografia.pdf (23 pages, 644806 bytes).
+jju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C
+:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2
+488.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1200.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecrm1200.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\cajju\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk>{C:/Users/cajju/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/cajju/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/cajju/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
+Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cajju/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/cajju/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb>
+Output written on monografia.pdf (24 pages, 873777 bytes).
 PDF statistics:
- 822 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
