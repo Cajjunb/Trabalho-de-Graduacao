@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  2 JUN 2016 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  10 JUN 2016 16:00
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -548,6 +548,9 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2423 (decimal 9251)
 )) (monografia.aux
 
+LaTeX Warning: Label `fig:aparelhoFonador' multiply defined.
+
+
 ! Package natbib Error: Bibliography not compatible with author-year citations.
 
 (natbib)                Press <return> to continue in numerical citation style.
@@ -557,7 +560,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.146 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.224 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -666,7 +669,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 34.
- <positivo_cor.pdf, id=135, 119.44624pt x 60.225pt>
+ <positivo_cor.pdf, id=175, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 34.
@@ -737,23 +740,23 @@ Package babel Warning: You haven't loaded the language english yet
 [4
 
 
-] (monografia.toc)
+] (monografia.toc [5
+
+])
 \tf@toc=\write4
 \openout4 = `monografia.toc'.
 
- [5
-
-] (monografia.lof)
+ [6] (monografia.lof)
 \tf@lof=\write5
 \openout5 = `monografia.lof'.
 
- [6
+ [7
 
 ] (monografia.lot)
 \tf@lot=\write6
 \openout6 = `monografia.lot'.
 
- [7
+ [8
 
 ]
 (chapters/capitulo1.tex
@@ -763,47 +766,134 @@ Cap\'{\i }tulo 1.
 
 ]
 Cap\'{\i }tulo 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
-("C:\Users\cajju\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ... e como o som é produzido, moldado e inﬂ
+                                                  uenciado por este sistema.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...s normais, a voz é produzida quando um ﬂ
+                                                  uxo de ar vindo dos pulmõ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<aparelhoFonador.png, id=299, 247.67531pt x 353.06906pt>
+File: aparelhoFonador.png Graphic file (type png)
+
+<use aparelhoFonador.png>
+Package pdftex.def Info: aparelhoFonador.png used on input line 10.
+(pdftex.def)             Requested size: 123.83734pt x 176.53409pt.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...erística, atua também no controle do ﬂ
+                                                  uxo de ar que por elas pas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<cartilagensLaringe.png, id=300, 438.13687pt x 237.13594pt>
+File: cartilagensLaringe.png Graphic file (type png)
+
+<use cartilagensLaringe.png>
+Package pdftex.def Info: cartilagensLaringe.png used on input line 24.
+(pdftex.def)             Requested size: 219.06789pt x 118.56767pt.
+ [2
+
+]
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...aringe. Alguns desses músculos têm inﬂ
+                                                  uência direta em algumas ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<musculosLaringe.png, id=309, 424.58624pt x 253.69781pt>
+File: musculosLaringe.png Graphic file (type png)
+
+<use musculosLaringe.png>
+Package pdftex.def Info: musculosLaringe.png used on input line 35.
+(pdftex.def)             Requested size: 212.2926pt x 126.84859pt.
+
+<musculosPescoco.png, id=312, 456.95718pt x 193.47281pt>
+File: musculosPescoco.png Graphic file (type png)
+
+<use musculosPescoco.png>
+Package pdftex.def Info: musculosPescoco.png used on input line 44.
+(pdftex.def)             Requested size: 228.47803pt x 96.73616pt.
+ [3 <./aparelhoFonador.png> <./cartilagensLaringe.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+ ("C:\Users\cajju\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+[4 <./musculosLaringe.png> <./musculosPescoco.png>]
+
+LaTeX Warning: Command \~ invalid in math mode on input line 79.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 34.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 34.
+LaTeX Warning: Command \' invalid in math mode on input line 79.
 
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
 
-Overfull \hbox (178.36774pt too wide) detected at line 36
+Overfull \hbox (178.36774pt too wide) detected at line 81
 \OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + [] = \OML/cmm/m/it/12 Constante[] Sendo \O
 T1/cmr/m/n/12 : [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Densid
 adedofluido[] P \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Pressonodutoondeofludoseenco
 ntra[] v \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 velocidadedaparticula
  []
 
-[2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 \T1/cmr/m/n/12 Sendo: f : for�a apli-cada.
  []
 
-<figura1.png, id=243, 253.69781pt x 235.63031pt>
+<figura1.png, id=328, 253.69781pt x 235.63031pt> [5]
 File: figura1.png Graphic file (type png)
  <use figura1.png>
-Package pdftex.def Info: figura1.png used on input line 68.
+Package pdftex.def Info: figura1.png used on input line 113.
 (pdftex.def)             Requested size: 253.69719pt x 235.62973pt.
- [3]
 
-Package natbib Warning: Citation `Ingo' on page 4 undefined on input line 73.
 
-[4 <./figura1.png>]
-Overfull \hbox (27.82397pt too wide) in paragraph at lines 122--123
+Package natbib Warning: Citation `Ingo' on page 6 undefined on input line 118.
+
+[6 <./figura1.png>]
+Overfull \hbox (27.82397pt too wide) in paragraph at lines 167--168
 \T1/cmr/m/n/12 bels"dependentes de con-texto e estima-se quais "la-bels"preproc
 essadas s�o correspondentes.([]) 
  []
@@ -816,94 +906,452 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 		Parametros importantes são μ
+l.171 		Parametros importantes são μ
                                       i e mi dos outputs pdfs
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Double subscript.
-l.128 		\[ \mu_i = H_b_
+l.173 		\[ \mu_i = H_b_
                        i \xi \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.129 		\[	m_i   = H_p_
+l.174 		\[	m_i   = H_p_
                        i \xi  \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-<exemploHMM.png, id=265, 295.85532pt x 116.68594pt>
+<exemploHMM.png, id=353, 295.85532pt x 116.68594pt>
 File: exemploHMM.png Graphic file (type png)
  <use exemploHMM.png>
-Package pdftex.def Info: exemploHMM.png used on input line 137.
+Package pdftex.def Info: exemploHMM.png used on input line 182.
 (pdftex.def)             Requested size: 295.85458pt x 116.68564pt.
 
-[5] <esquemaHMM.png, id=274, 300.3722pt x 249.93375pt>
+[7] <esquemaHMM.png, id=362, 300.3722pt x 249.93375pt>
 File: esquemaHMM.png Graphic file (type png)
  <use esquemaHMM.png>
-Package pdftex.def Info: esquemaHMM.png used on input line 141.
+Package pdftex.def Info: esquemaHMM.png used on input line 186.
 (pdftex.def)             Requested size: 300.37144pt x 249.93314pt.
 
-<frameWork.png, id=275, 489.32813pt x 189.70876pt>
+<frameWork.png, id=363, 489.32813pt x 189.70876pt>
 File: frameWork.png Graphic file (type png)
  <use frameWork.png>
-Package pdftex.def Info: frameWork.png used on input line 157.
+Package pdftex.def Info: frameWork.png used on input line 200.
 (pdftex.def)             Requested size: 489.32692pt x 189.70828pt.
 
-Overfull \hbox (51.70763pt too wide) in paragraph at lines 157--158
+Overfull \hbox (51.70763pt too wide) in paragraph at lines 200--201
 [][] 
  []
 
-[6 <./exemploHMM.png> <./esquemaHMM.png>]
-Underfull \hbox (badness 3919) in paragraph at lines 160--162
+[8 <./exemploHMM.png> <./esquemaHMM.png>]
+Underfull \hbox (badness 3919) in paragraph at lines 203--205
 \T1/cmr/m/n/12 ��o fo-n�-tica, ali-nha-mento com a per-for-mance alvo ou da-dos
  contextuais.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 \T1/cmr/m/n/12 torno do tim-bre, vi-brato, tre-molo, ti-ming fon�tico.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 \T1/cmr/m/n/12 linguistica.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 \T1/cmr/m/n/12 uma voz fa-lada a uma voz cantada.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-[7 <./frameWork.png>]
-<tabelaConsoantes.png, id=300, 255.95625pt x 125.71968pt>
+[9 <./frameWork.png>]
+<tabelaConsoantes.png, id=389, 255.95625pt x 125.71968pt>
 File: tabelaConsoantes.png Graphic file (type png)
 
 <use tabelaConsoantes.png>
-Package pdftex.def Info: tabelaConsoantes.png used on input line 204.
+Package pdftex.def Info: tabelaConsoantes.png used on input line 247.
 (pdftex.def)             Requested size: 255.95561pt x 125.71936pt.
- [8 <./tabelaConsoantes.png>]) [9] (monografia.bbl
-(monografia.brf)
+ [10 <./tabelaConsoantes.png>])
+(chapters/capitulo3.tex [11]
+Cap\'{\i }tulo 3.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+
+Package natbib Warning: Citation `LuceroZueiro1' on page 12 undefined on input 
+line 24.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...vocais. O seu propósito é aumentar a ﬁ
+                                                  delidade ﬁsiológica do ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...u propósito é aumentar a ﬁdelidade ﬁ
+                                                  siológica do sintetizador...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...is deve garantir variações suaves no ﬂ
+                                                  uxo gerado na glote. A fal...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...naturais e consequentemente a perda da ﬁ
+                                                  delidade ﬁsiológica bus...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...onsequentemente a perda da ﬁdelidade ﬁ
+                                                  siológica buscada. Sendo ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...porando a transferência de energia do ﬂ
+                                                  uxo de ar para as pregas v...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...ão foi solucionada tendo em vista a diﬁ
+                                                  culdade de se realizar o s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...�ão não solucionada não tem forte inﬂ
+                                                  uência no produto ﬁnal.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...não tem forte inﬂuência no produto ﬁ
+                                                  nal.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[12
+
+]
+
+Package natbib Warning: Citation `SWEBOK' on page 13 undefined on input line 31
+.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 			\item 2 - Plotar um gráﬁ
+                                   co inicial do trato vocal de acordo com o...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 			\item 3 - Plotar três gráﬁ
+                                      cos referentes as propriedades da voz ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...idos pelo usuário. – O primeiro gráﬁ
+                                                  co refere-se às posiçõe...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ... cordas vocais, a área da glótis, ao ﬂ
+                                                  uxo de ar nessa área e à...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...ssa área e às características desse ﬂ
+                                                  uxo. – O segundo gráﬁ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...sticas desse ﬂuxo. – O segundo gráﬁ
+                                                  co refere-se às caracter�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...ador pelo programa. – O terceiro gráﬁ
+                                                  co refere-se ao espectro d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...ctro de frequência do som gerado e do ﬂ
+                                                  uxo da glótis.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (15.83798pt too wide) in paragraph at lines 37--38
+[]\T1/cmr/m/n/12 4 - Ge-rar um ar-quivo de texo com as ca-rac-te-r�s-ti-cas de 
+voz ge-rada, fre-quen-cia,amplitude,
+ []
+
+
+Package natbib Warning: Citation `SWEBOK' on page 13 undefined on input line 43
+.
+
+[13]
+Overfull \hbox (27.82397pt too wide) in paragraph at lines 58--59
+\T1/cmr/m/n/12 bels"dependentes de con-texto e estima-se quais "la-bels"preproc
+essadas s�o correspondentes.([]) 
+ []
+
+
+! Package inputenc Error: Unicode char μ (U+3BC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 		Parametros importantes são μ
+                                     i e mi dos outputs pdfs
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: exemploHMM.png Graphic file (type png)
+<use exemploHMM.png>
+Package pdftex.def Info: exemploHMM.png used on input line 73.
+(pdftex.def)             Requested size: 295.85458pt x 116.68564pt.
+File: esquemaHMM.png Graphic file (type png)
+ <use esquemaHMM.png>
+Package pdftex.def Info: esquemaHMM.png used on input line 77.
+(pdftex.def)             Requested size: 300.37144pt x 249.93314pt.
+ [14]
+File: frameWork.png Graphic file (type png)
+ <use frameWork.png>
+Package pdftex.def Info: frameWork.png used on input line 91.
+(pdftex.def)             Requested size: 489.32692pt x 189.70828pt.
+
+Overfull \hbox (51.70763pt too wide) in paragraph at lines 91--92
+[][] 
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 94--96
+\T1/cmr/m/n/12 ��o fo-n�-tica, ali-nha-mento com a per-for-mance alvo ou da-dos
+ contextuais.([])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+\T1/cmr/m/n/12 torno do tim-bre, vi-brato, tre-molo, ti-ming fon�tico.([])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+\T1/cmr/m/n/12 linguistica.([])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+\T1/cmr/m/n/12 uma voz fa-lada a uma voz cantada.([])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+) [16] (monografia.bbl (monografia.brf)
 \tf@brf=\write7
 \openout7 = `monografia.brf'.
 
@@ -911,7 +1359,7 @@ Package pdftex.def Info: tabelaConsoantes.png used on input line 204.
 ! Misplaced alignment tab character &.
 <argument> ...ng. \newblock {\em Computer Speech &
                                                    Language}, 34(1):308 -- 3...
-l.57 
+l.62 
      
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -920,49 +1368,43 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[10
+[17
 
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+[18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package rerunfilecheck Info: File `monografia.out' has not changed.
+(rerunfilecheck)             Checksum: E606128E9FDEC4E0AAB9111794000250;2947.
 
-
-Package rerunfilecheck Warning: File `monografia.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `monografia.out':
-(rerunfilecheck)             Before: B66B41F934088CF87D1643B16C0C5F32;2209
-(rerunfilecheck)             After:  FBBDE4DC5A36E29D0ED4FCD531F52396;2209.
 
 Package rerunfilecheck Warning: File `monografia.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `monografia.brf':
-(rerunfilecheck)             Before: B9937BEEB59DF6F754F27F74B3189C76;1009
-(rerunfilecheck)             After:  CFE8459B4B375F4981069D9AD2CB7863;1010.
+(rerunfilecheck)             Before: AAB20D7C061C6604A8D02FA303EF52FC;1649
+(rerunfilecheck)             After:  EE1DC428446A5F5991649644F91D337B;1825.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 8115 strings out of 493634
- 116583 string characters out of 3135239
- 220109 words of memory out of 3000000
- 11281 multiletter control sequences out of 15000+200000
+ 8190 strings out of 493634
+ 117764 string characters out of 3135239
+ 221412 words of memory out of 3000000
+ 11320 multiletter control sequences out of 15000+200000
  25418 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 43i,7n,69p,650b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,7n,69p,2715b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\cajju\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\ca
 jju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C
@@ -981,9 +1423,9 @@ sfonts/cm/cmr8.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/cajju/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (21 pages, 394490 bytes).
+Output written on monografia.pdf (29 pages, 823141 bytes).
 PDF statistics:
- 727 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 873 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 395 words of extra memory for PDF output out of 10000 (max. 10000000)
 

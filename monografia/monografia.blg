@@ -13,7 +13,11 @@ I was expecting a `,' or a `}'---line 44 of file bibliografia.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "Foundation1" isn't style-file defined
 --line 47 of file bibliografia.bib
+Warning--entry type for "Bell" isn't style-file defined
+--line 215 of file bibliografia.bib
 Warning--I didn't find a database entry for "Ingo"
+Warning--I didn't find a database entry for "LuceroZueiro1"
+Warning--I didn't find a database entry for "SWEBOK"
 Warning--empty year in HenryGray
 Warning--empty publisher in JFlanagan
 Warning--empty year in MTAGENTE
