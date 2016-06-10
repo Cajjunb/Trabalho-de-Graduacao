@@ -78,7 +78,7 @@ O espaço entre as pregas vocais é chamado de glote, sendo que o que está acim
 	
 	Dito isto, analisaremos a seguir alguns conceitos físicos que tem forte ligação com os processos que ocorrem na região da laringe durante a produção do som: 
 
-	\subsection{Tensao}
+	\subsubsection{Tensao}
 	Tensão é quantidade de força por unidade de área~\cite{IngoTitze} , podemos escrever na forma da equação
 
 	\[
@@ -88,12 +88,18 @@ O espaço entre as pregas vocais é chamado de glote, sendo que o que está acim
 	f : força aplicada. \linebreak
 	A: área de aplicação desta força.
 	
-	\subsection{Curva Força e Alongamento}
-	Utiliza-se para não ser dependente da geometria do material. Utilizamos nas cordas vocais(?) por serem materias biológicos. Cria uma figura ilustrando comportamento da deformação das pregas vocais
+	\subsubsection{Deformação}
+	é a medida de deformação de um meio após a aplicação de uma tensão\citenum{IngoTitze} e pode ser escrito na forma da equação abaixo:
 	
-	\includegraphics{figura1.png}
+	\[
+		\epsilon = (L - \frac{L_0}{L_0})
+	\]
 	
-	\subsection{Viscosidade}
+	Onde $\epsilon$ é a medida de deformação, L é o comprimento após a tensão e L0 é o comprimento antes da tensão. Normalmente uma dada deformação em uma dimensão resulta em uma deformação oposta em outra dimensão em um dado meio.
+	
+	Se uma deformação é uniforme por todo o corpo de um objeto, então chamamos de compressão, se o volume diminui por conta desta deformação, e expansão, se o volume aumenta. 
+	
+	\subsubsection{Viscosidade}
 	É a velocidade de deformação(consequentemente, de restauração) de
 	um determinado fluido quando atuam forças de tensão no mesmo. Matematicamente
 	pode ser expresso conforme a equação seguinte: \citenum{Ingo}
@@ -102,8 +108,24 @@ O espaço entre as pregas vocais é chamado de glote, sendo que o que está acim
 	\sigma = \eta * \frac{d*\epsilon}{dt}
 	$
 	
+	Para $\eta$ viscosidade e t tempo. Quanto maior a viscosidade, mais devagar será a deformação de um meio.
 	
-	\subsection{Reflexao de Som}
+	\subsubsection{Elasticidade}
+	É uma propriedade do meio que determina quão completa será a restauração do meio após uma dada deformação.
+	Os conceitos e propriedades descritos acima são extremamente importantes para se entender a manutenção da produção do som. Como dito anteriormente no capitulo 1, as pregas vocais são músculos e músculos são compostos por ﬁbras, logo, as pregas vocais consistem de uma grande concentração de ﬁbras. Além disso, entre as fíbras que compõe as pregas vocais existem também ﬂuidos atuantes, o que caracteriza as pregas vocais como um material viscoelástico. Para se entender a capacidade de absorção e regeneração das pregas vocais, em detrimento das vibrações de alta frequência e as pressões do ar, deve-se primeiramente estudar as propriedades absorcivas do material que as compõe. Ou seja, em outras palavras, deve-se estudar as propriedades mecânicas do tecido viscoelástico, e
+	uma ferramenta que facilita o entendimento é o estudo da curva força-alongamento de um material.
+	Entretanto, construir uma curva de força-alongamento depende essencialmente da geometria da amostra do material~\cite{IngoTitze} e, por se tratar de uma material biológico, é difícil obter uma geometria precisa pois as ﬁbras estão constantemente se reorientando em detrimento de lesões e cortes ﬁbrosos. Para viabilizar este estudo, Titze~\cite{IngoTitze} sugere normalizar as forças atuantes e as deformações resultantes para que não haja a dependência direta da geometria. Essa normalização se dá através da substituição da curva força-alongamento por um curva tensão-deformação.
+	A Figura\ref{fig:curvaTensaoDeformacao} retirada do estudo feito por Titze~\cite{IngoTitze} demonstra uma curva hipotética de tensão-deformação para os tecidos que compõe as pregas vocais humanas. Esta Figura ilustra o comportamento das ﬁbras das pregas vocais através da relação entre uma força atuante e a deformação gerada por esta. A importância desta analises e deve ao fato de que é possível estabelecer uma relação direta entre nódulos vocais e uma fonação prolongada, alta(em termos de frequência) e intensa.
+	A partir da análise desta curva é então possível estabelecer um precedente para a formação de nódulos vocais: a frequência e amplitude da vibração estão diretamente ligadas ao surgimento de um nódulo vocal e consequentemente o de uma fenda pois a força de impacto entre as pregas vocais é proporcional à altura tonal quando acima do tom natural e à intensidade durante a fonação.
+	\begin{figure}
+		\centering
+		\includegraphics{figura1.png}
+		\caption{ Curva Hipotética Tensão-Deformação das Cordas vocais Humanas~\cite{IngoTitze} }
+		\label{fig:curvaTensaoDeformacao}
+	\end{figure}
+
+	
+	\subsection{Reflexão de Som}
 	
 	Um fenômeno ligado a rigidez e amortecimento entre um meio e outro.\cite{MTAGENTE}
 	Ondas quando tentam penetrar em um segundo meio, sendo o segundo meio rígido, as partículas primeiro meio se aglomeram tentando passar porém
@@ -111,9 +133,39 @@ O espaço entre as pregas vocais é chamado de glote, sendo que o que está acim
 	
 	O mesmo ocorre com o meio 2 sendo totalmente não rígido e o primeiro meio sendo bem rígido, Exaurindo excesso de particulas  do meio 1 no meio 2 criando rarefação no meio 1, o que cria uma outra onda de pressão negativa~\cite{FlanaganLandgraf}. A propagação é sempre em direção oposta à fonte, no caso é na direção contrária à coluna de ar(meio 1). 
 	
+	Para conﬁrmar o precedente supracitado, tomemos a segunda lei de Newton:
+	
+	\begin{equation}
+		\label{eq:1}
+		\[ f = \frac{impeto}{periodo}\]
+	\end{equation}	
+	
+	Isto pode ser traduzido em termos de proporção:
+	
+	\begin{equation}
+		\label{eq:2}
+		\[ f \propto \frac{impeto}{periodo}\]
+	\end{equation}	
+	
+	Onde m é a massa do tecido das pregas vocais, T é o período de vibração. A velocidade máxima($ V_m $)é proporcional à máxima amplitude e inversamente proporcional ao tempo de fechamento das pregas vocais. Ou seja:
+	
+	\begin{equation}
+		\label{eq:3}
+		\[ V_m \propto \frac{A}{T}\]
+	\end{equation}	
+	
 	
 	\subsection{Fluxo de Ar na Glote}
 	
+	Em seções posteriores serão apresentados modelos para representar a vibração das pregas vocais, entretanto para entender por completo esses modelos, devemos antes entender o papel do ﬂuxo de ar nesse processo e para isso devemos analisar primeiro como a pressão de ar é gerada e exercida. À primeira vista, imagine-se que o ﬂuxo de ar é gerado somente pelos pulmões, entretanto, se formos analisar como inspiramos e expiramos percebemos que existem outros fatores contribuintes para a criação e manutenção de um ﬂuxo de ar nas vias respiratórias. O pulmão, como é de se imaginar, é responsável pelo armazenamento do ar e pela troca de oxigênio entre os tecidos que o compõe. Aqui, porém, somente nos interessa esse papel de armazenamento que o pulmão exerce. Ao inspirar o ar, o pulmão aumenta a pressão interna gerando uma tensão aplicada ao tecido elástico que o compõe, a expansão desse tecido gera uma mudança de pressão devido ao aumento do volume pulmonar e à deformação do tecido pulmonar. Em conjunto com essa mudança de pressão, o diafragma, músculo localizado abaixo dos pulmões, é comprimido levando a uma outra mudança de pressão. O diafragma, por sua vez, é um músculo que pode ser controlado, e em virtude disso, é possível controlar a pressão exercida nos pulmões, algo que cantores utilizam para sustentar a técnica vocal. Assim como o diafragma, a caixa torácica também sofre mudanças, expandindo devido ao aumento de volume do pulmão o que gera uma pressão torácica sobre os pulmões. Devido ao fato de ser uma estrutura óssea e portanto ter uma maior rigidez e menor controle se comparado à parede abdominal, a pressão exercida nos pulmões pela caixa torácica é signiﬁcantemente menor do que a pressão exercida pela aplicação de uma força à parede abdominal. A Figura 2.2 ilustra essa transmissão de pressão por todo o torso citada acima:
+	
+	\begin{figure}
+		\centering
+		\includegraphics{fluxoDeAr.png}
+		\caption{ Pressões Atuantes no Torso~\cite{IngoTitze} }
+		\label{fig:fluxoDeAr}
+	\end{figure}
+		
 	Fluxo de ar na Glote:
 	
 	Como descrito no artigo de Elias temos informações como descobrimos a pressão via fluxo de ar\cite{eliasamadeudesouza}
@@ -151,12 +203,85 @@ O espaço entre as pregas vocais é chamado de glote, sendo que o que está acim
 	Quando ocorre o fechamento da glote então alguns parametros assumem valores conhecidos. a(t) = 0 , 
 	$P_g = \frac{P_s-P_i}{2}$ e $U_g = 0$	
 	
+	\subsection{O Sistema Pulmonar}
+	
+	O sistema pulmonar consiste dos pulmões e vias respiratórias, compostas pela traqueia, glótis e trato vocal. Conforme descrito anteriormente, o tórax e o abdômen em conjunto com o pulmão atuam na geração do ﬂuxo de ar. A glótis, por sua vez, atua como reguladora do ﬂuxo de ar através de variações em seu fechamento que permitem mudanças na pressão envolvida com o movimento do ﬂuxo do ar pelas vias respiratórias. Isso signiﬁca que é possível dar constância ao ﬂuxo de ar(Figura 2.3)
 	
 	
+	\begin{figure}
+		\centering
+		\includegraphics{pulmaoSimplificado.png}
+		\caption{ Sistema Pulmonar~\cite{IngoTitze} }
+		\label{fig:curvaTensaoDeformacao}
+	\end{figure}
+		
+	\subsubsection{O Processo Físico da Respiração}
+	Uma importante lei que nos auxilia no entendimento da relação entre o volume pulmonar e a pressão pulmonar é a Lei de Boyle. A lei nos diz que em um ambiente cujas paredes não são rígidas e em uma temperatura constante, pressão e volume são inversamente proporcionais. Se aplicarmos a lógica dessa lei à respiração humana, ﬁca fácil visualizar o processo físico que envolve a respiração. Quando inspiramos, o diafragma é contraído o que aumenta o volume do pulmão e diminui a pressão interna. Consequentemente, o pulmão se enche de ar. Relacionada à pressão atmosférica, a pressão pulmonar se torna menor, o que gera uma busca pelo equilíbrio das pressões no meio. Esse equilíbrio é alcançado ao se expelir o ar, diminuindo o volume pulmonar e então aumentando a pressão interna novamente. Na verdade é um pouco mais complexo do que isso, entretanto, esse conceito de equilíbrio de pressões é fundamental para o entendimento da abdução e adução das pregas vocais, o que permite a transformação da energia aerodinâmica em energia acústica.
+	
 
+	\subsection{Leis de Conservação para Fluxo de Dutos }
 
+	Porém, antes de abordar a transformação de energia aerodinâmica em acústica, é importante se familiarizar com alguns conceitos que regem o comportamento de ﬂuidos em dutos. Isso porque trataremos o ﬂuxo de ar na síntese de voz como um ﬂuído e a modelagem da glote e do trato vocal como a concatenação de pequenos dutos.
+	
+	\subsubsection{Lei da Continuidade para um Fluxo Incompressível}
+	
+	
+	Quando dizemos que um ﬂuido é incompressível signiﬁca dizer que sua densidade não se altera quando este é forçado a passar por uma constrição. Imagine agora um ﬂuido conﬁnado a um duto que possui uma mudança, ao longo de seu comprimento, em sua área transversal formando uma constrição(Figura 2.4). Se não for permitido ao ﬂuido vazar pelas paredes do duto, então todas as partículas do ﬂuido devem ser mantidas mesmo durante a mudança de área transversal ao longo do duto. Para que isso seja possível, as partículas devem acelerar durante a constrição, mantendo-se constante o número de partículas em movimento por unidade de área. Essa relação pode ser expressa pela equação~\ref{eq:4}.
+	
+	\begin{equation}
+		\centering
+		\label{eq:4}
+		\[
+			v_1*A_1 = v_2 * A_2 = constant = U
+		\]
+	\end{equation}
+	
+	Onde v e A são respectivamente a velocidade da partícula e a área em que se encontra. U é o ﬂuxo. Matematicamente então, a Lei da Continuidade expressa que um ﬂuxo incompressível em um duto é constante, independente do que acontece com a área transversal ao longo do mesmo~\cite{IngoTitze}
+	
+	\begin{figure}
+		\centering
+		\includegraphics{leiBernoulli.png}
+		\caption{ Dinâmica do Fluído em um Duto com Mudança de Área Transversal }
+		\label{fig:leiBernoulli}
+	\end{figure}
+		
+	\subsubsection{Lei de Bernoulli área conservação de Energia}
+	Outra importante lei de aplicação para o entendimento da síntese de voz é a Lei de Bernoulli para Conservação de Energia. Essa lei foi desenvolvida a partir do reconhecimento de que a energia total atuante no ﬂuido em qualquer ponto durante o trajeto no duto tem duas componentes, a saber, uma energia potencial e uma energia cinética. A energia potencial está relacionada diretamente com a pressão no duto e a energia cinética.
+	
+	é proporcional ao quadrado da velocidade da partícula. Portanto, podemos expressá-la conforme a equação~\ref{eq:5}.
+	
+	\begin{equation}
+		\centering
+		\label{eq:5}
+		\[
+		P + \frac{1}{2}*\rho* v^2 = constant 
+		\]
+	\end{equation}
+	
+	Onde $\rho$ é a densidade do ﬂuido, v a velocidade da partícula e P a pressão no duto. Segue disso o Princípio de Bernoulli: Se a energia em uma corrente de ﬂuido é constante, um aumento na velocidade da partícula deve ser acompanhado de uma queda na pressão~\cite{IngoTitze}.
+	
+	Analisando a Figura ~\ref*{fig:leiBernoulli}, a pressão na área de constrição deve ser menor que a pressão na área maior do duto, considerando que não hajam perdas de energia no processo. Esse conceito é importante para se compreender o caráter oscilatório das pregas vocais.
+	
+	\subsubsection{Resistência Glotal}
+	
+	A resistência a um ﬂuxo é uma característica do sistema de transporte, ou seja, do meio, e pode ser descrita como a razão entre pressão e ﬂuxo(equação\ref{eq:6} )
+	
+	\begin{equation}
+		\centering
+		\label{eq:6}
+		\[
+		R = \frac{P}{U}
+		\]
+	\end{equation}	
+	
+	Em sistemas de transporte, as constrições atuam como ponto de resistência a um ﬂuxo. No caso das vias respiratórias humanas, isso normalmente ocorre na glote ou em alguma parte do trato vocal com pouco espaço. Podemos então deﬁnir que a resistência glotal será a pressão na glote dividida pelo ﬂuxo que a atravessa. A resistência glotal está diretamente ligada a qualidade vocal pois é responsável por auxiliar no controle do ﬂuxo de ar.
 
-\section{Propriedades Físicas}
+	\section{Oscilação das Pregas Vocais}
+	Nesta seção analisaremos os processos e princípios físicos que ocorrem na laringe para que as pregas vocais oscilem, tendo como objetivo destrinchar tais processos a ﬁm de entendermos a reprodução dos mesmos por modelos computacionais utilizados para simulação da voz humana. Os primeiros estudos sobre vibração das pregas vocais especulavam que as pregas vocais se ajuntavam por um efeito de pressão negativa(Princípio de Bernoulli) na glote. A esta descrição de vibração nas pregas vocais se deu o nome de Teoria Mioelástica Aerodinâmica da Vibração das Pregas Vocais, conhecida também pelo nome de seu criador como Teoria de van der Berg . A teoria de van der Berg serviu como marco para o desenvolvimento teórico do campo de estudos da voz e consequentemente o aparecimento dos primeiros modelos matemáticos de representação do funcionamento das pregas vocais. Entretanto, apesar disso, sua teoria é inadequada para explicar a vibração auto sustentável das pregas vocais~\cite{FlanaganZueiro}. Isso porque as forças de Bernoulli por si só não são capazes de distinguir entre os movimentos interiores e posteriores das pregas vocais. Assim sendo, são necessários mecanismos para prover um aumento ou decréscimo às forças de Bernoulli durante a abertura e o fechamento das pregas vocais respectivamente, caso contrário, as oscilações serão amortecidas.
+	
+	
+	
+	
 
 	\subsection{Lei Bernouli}
 		Energia potencial e energica cinética em fluídos se mantém a mesma

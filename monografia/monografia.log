@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  7 JUN 2016 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  10 JUN 2016 01:16
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -612,6 +612,9 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2423 (decimal 9251)
 )) (monografia.aux
 
+LaTeX Warning: Label `fig:curvaTensaoDeformacao' multiply defined.
+
+
 ! Package natbib Error: Bibliography not compatible with author-year citations.
 
 (natbib)                Press <return> to continue in numerical citation style.
@@ -621,7 +624,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.253 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -730,7 +733,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 35.
- <positivo_cor.pdf, id=151, 119.44624pt x 60.225pt>
+ <positivo_cor.pdf, id=147, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 35.
@@ -835,7 +838,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<aparelhoFonador.png, id=260, 300.3722pt x 441.14813pt>
+<aparelhoFonador.png, id=267, 300.3722pt x 441.14813pt>
 File: aparelhoFonador.png Graphic file (type png)
 
 <use aparelhoFonador.png>
@@ -874,7 +877,7 @@ or  <return>  to continue without it.
 
 [2
 
-] <musculosCartilagens.png, id=269, 406.51875pt x 217.5628pt>
+] <musculosCartilagens.png, id=276, 406.51875pt x 217.5628pt>
 File: musculosCartilagens.png Graphic file (type png)
 
 <use musculosCartilagens.png>
@@ -897,14 +900,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [3 <./aparelhoFonador.png> <./musculosCartilagens.png>]
-<musculosLaringe.png, id=280, 399.74344pt x 235.63031pt>
+<musculosLaringe.png, id=287, 399.74344pt x 235.63031pt>
 File: musculosLaringe.png Graphic file (type png)
 
 <use musculosLaringe.png>
 Package pdftex.def Info: musculosLaringe.png used on input line 39.
 (pdftex.def)             Requested size: 199.87122pt x 117.81487pt.
 
-<musculosExternosLaringe.png, id=283, 416.30531pt x 183.68625pt>
+<musculosExternosLaringe.png, id=290, 416.30531pt x 183.68625pt>
 File: musculosExternosLaringe.png Graphic file (type png)
 
 <use musculosExternosLaringe.png>
@@ -941,7 +944,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<cordasVocais.png, id=284, 257.46187pt x 183.68625pt>
+<cordasVocais.png, id=291, 257.46187pt x 183.68625pt>
 File: cordasVocais.png Graphic file (type png)
  <use cordasVocais.png>
 Package pdftex.def Info: cordasVocais.png used on input line 64.
@@ -993,64 +996,479 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 92.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 92.
-
-Missing character: There is no � in font cmr12!
-Missing character: There is no � in font cmr12!
-
-Overfull \hbox (178.36774pt too wide) detected at line 94
-\OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + [] = \OML/cmm/m/it/12 Constante[] Sendo \O
-T1/cmr/m/n/12 : [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Densid
-adedofluido[] P \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Pressonodutoondeofludoseenco
-ntra[] v \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 velocidadedaparticula
- []
-
-[5 <./cordasVocais.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
-
-
-("C:\Users\cajju\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
+Underfull \hbox (badness 10000) in paragraph at lines 86--90
 \T1/cmr/m/n/12 Sendo: f : for�a apli-cada.
  []
 
-<figura1.png, id=302, 253.69781pt x 235.63031pt>
+[5 <./cordasVocais.png>]
+
+Package natbib Warning: Citation `Ingo' on page 6 undefined on input line 105.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...sculos e músculos são compostos por ﬁ
+                                                  bras, logo, as pregas voca...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...istem de uma grande concentração de ﬁ
+                                                  bras. Além disso, entre a...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...põe as pregas vocais existem também ﬂ
+                                                  uidos atuantes, o que cara...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ...l obter uma geometria precisa pois as ﬁ
+                                                  bras estão constantemente...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ...ndo em detrimento de lesões e cortes ﬁ
+                                                  brosos. Para viabilizar es...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...ta Figura ilustra o comportamento das ﬁ
+                                                  bras das pregas vocais atr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<figura1.png, id=314, 253.69781pt x 235.63031pt>
 File: figura1.png Graphic file (type png)
  <use figura1.png>
-Package pdftex.def Info: figura1.png used on input line 126.
+Package pdftex.def Info: figura1.png used on input line 122.
 (pdftex.def)             Requested size: 253.69719pt x 235.62973pt.
  [6]
 
-Package natbib Warning: Citation `Ingo' on page 7 undefined on input line 131.
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 	Para conﬁ
+                  rmar o precedente supracitado, tomemos a segunda lei de Ne...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 		\[
+           f = \frac{impeto}{periodo}\]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.140 		\[ f = \frac{impeto}{periodo}\]
+                                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{equation} on input line 138 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 		\[ f = \frac{impeto}{periodo}\]
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.141 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.141 	\end{equation}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.141 	\end{equation}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 		\[
+           f \propto \frac{impeto}{periodo}\]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.147 		\[ f \propto \frac{impeto}{periodo}\]
+                                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[7 <./figura1.png>]
+
+! LaTeX Error: \begin{equation} on input line 145 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 		\[ f \propto \frac{impeto}{periodo}\]
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.148 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.148 	\end{equation}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.148 	\end{equation}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 		\[
+           V_m \propto \frac{A}{T}\]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.154 		\[ V_m \propto \frac{A}{T}\]
+                                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{equation} on input line 152 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 		\[ V_m \propto \frac{A}{T}\]
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.155 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.155 	\end{equation}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.155 	\end{equation}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...os, devemos antes entender o papel do ﬂ
+                                                  uxo de ar nesse processo e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 .... À primeira vista, imagine-se que o ﬂ
+                                                  uxo de ar é gerado soment...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...para a criação e manutenção de um ﬂ
+                                                  uxo de ar nas vias respira...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...pulmões pela caixa torácica é signiﬁ
+                                                  cantemente menor do que a ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<fluxoDeAr.png, id=338, 366.61969pt x 294.34969pt>
+File: fluxoDeAr.png Graphic file (type png)
+ <use fluxoDeAr.png>
+Package pdftex.def Info: fluxoDeAr.png used on input line 164.
+(pdftex.def)             Requested size: 366.61879pt x 294.34895pt.
 
 ! Display math should end with $$.
 <to be read again> 
                     
-l.158 $	
-        	A^*  = \text{Área efetiva computada pelas areas A_i e A_s}$
+l.178 	$	
+         	A^*  = \text{Área efetiva computada pelas areas A_i e A_s}$
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158 $		A^
-           *  = \text{Área efetiva computada pelas areas A_i e A_s}$
+l.178 	$		A^
+            *  = \text{Área efetiva computada pelas areas A_i e A_s}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1058,7 +1476,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1069,7 +1487,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1080,7 +1498,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...e {\textdef@ \displaystyle \f@size {#1}}
                                                   {\textdef@ \textstyle \f@s...
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1091,7 +1509,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1099,7 +1517,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1110,7 +1528,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1121,7 +1539,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...xtstyle \f@size {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \sf@...
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1132,7 +1550,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1140,7 +1558,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1151,7 +1569,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1162,7 +1580,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...tstyle \sf@size {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \ssf...
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1173,7 +1591,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1181,7 +1599,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1192,7 +1610,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1203,7 +1621,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...style \ssf@size {\firstchoice@false #1}}
                                                   \check@mathfonts }
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1214,7 +1632,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...firstchoice@false #1}}\check@mathfonts }
                                                   
-l.158 ... efetiva computada pelas areas A_i e A_s}
+l.178 ... efetiva computada pelas areas A_i e A_s}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1225,8 +1643,8 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1236,8 +1654,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1247,8 +1665,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1258,8 +1676,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1269,8 +1687,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1280,8 +1698,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1291,8 +1709,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1302,8 +1720,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1313,8 +1731,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1324,8 +1742,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1335,8 +1753,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1346,8 +1764,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1357,8 +1775,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1368,8 +1786,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1379,8 +1797,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1390,8 +1808,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.159 		\]
-          
+l.179 	\]
+         
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -1400,8 +1818,8 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1411,8 +1829,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.159 		\]
-          
+l.179 	\]
+         
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -1421,8 +1839,8 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1432,8 +1850,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.159 		\]
-          
+l.179 	\]
+         
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -1442,8 +1860,8 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1453,8 +1871,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1464,28 +1882,28 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.159 		\]
-          
+l.179 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[7 <./figura1.png>]
 ! Display math should end with $$.
 <to be read again> 
                     
-l.162 $	
-        	\rho = \text{Densidade do Ar}$
+l.182 	$	
+         	\rho = \text{Densidade do Ar}$
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
+[8]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.162 $		\rho
-              = \text{Densidade do Ar}$
+l.182 	$		\rho
+               = \text{Densidade do Ar}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -1496,8 +1914,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 		\]
-          
+l.183 	\]
+         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1505,8 +1923,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.163 		\]
-          
+l.183 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1516,24 +1934,24 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.163 		\]
-          
+l.183 	\]
+         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 ! Display math should end with $$.
 <to be read again> 
                     
-l.165 $	
-        	c = \text{Velocidade do som}$
+l.185 	$	
+         	c = \text{Velocidade do som}$
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.166 		\]
-          
+l.186 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1543,16 +1961,16 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                     
-l.169 $	
-        	P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
+l.189 	$	
+         	P_s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.169 $		P_
-           s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
+l.189 	$		P_
+            s e P_i = \text{Pressão de incidencia na entra e saída da glote}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -1563,8 +1981,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.170 		\]
-          
+l.190 	\]
+         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1572,8 +1990,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.170 		\]
-          
+l.190 	\]
+         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1583,29 +2001,29 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.170 		\]
-          
+l.190 	\]
+         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.172 ...rto o fluxo, as pressões de reflexão P^
+l.192 ...rto o fluxo, as pressões de reflexão P^
                                                   s_ e P^+_i podem ser encon...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 172.
+LaTeX Warning: Command \c invalid in math mode on input line 192.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 172.
+LaTeX Warning: Command \~ invalid in math mode on input line 192.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.173 
+l.193 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1613,22 +2031,55 @@ you left one out. Proceed, with fingers crossed.
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
 
-Overfull \hbox (69.63895pt too wide) in paragraph at lines 172--173
+Overfull \hbox (69.63895pt too wide) in paragraph at lines 192--193
 []\T1/cmr/m/n/12 Uma vez des-co-berto o fluxo, as pres-s�es de re-fle-x�o P$[]\
 OML/cmm/m/it/12 P[]podemserencontradascomaseguinteequao \OT1/cmr/m/n/12 :$ 
  []
 
-<tabelaConsoantes.png, id=329, 255.95625pt x 125.71968pt>
-File: tabelaConsoantes.png Graphic file (type png)
 
-<use tabelaConsoantes.png>
-Package pdftex.def Info: tabelaConsoantes.png used on input line 209.
-(pdftex.def)             Requested size: 255.95561pt x 125.71936pt.
- [8]) (chapters/capitulo3.tex [9 <./tabelaConsoantes.png>]
-Cap\'{\i }tulo 3.
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 ...o com o pulmão atuam na geração do ﬂ
+                                                  uxo de ar. A glótis, por ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 ... por sua vez, atua como reguladora do ﬂ
+                                                  uxo de ar através de vari...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 ...pressão envolvida com o movimento do ﬂ
+                                                  uxo do ar pelas vias respi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ! Package inputenc Error: Unicode char ﬁ (U+FB01)
@@ -1638,7 +2089,828 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 			\item 2 - Plotar um gráﬁ
+l.208 ... pelas vias respiratórias. Isso signiﬁ
+                                                  ca que é possível dar co...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 ...a que é possível dar constância ao ﬂ
+                                                  uxo de ar(Figura 2.3)
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[9 <./fluxoDeAr.png>]
+<pulmaoSimplificado.png, id=354, 396.7322pt x 246.9225pt>
+File: pulmaoSimplificado.png Graphic file (type png)
+
+<use pulmaoSimplificado.png>
+Package pdftex.def Info: pulmaoSimplificado.png used on input line 213.
+(pdftex.def)             Requested size: 396.73122pt x 246.92188pt.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 ...ica dessa lei à respiração humana, ﬁ
+                                                  ca fácil visualizar o pro...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...onceitos que regem o comportamento de ﬂ
+                                                  uidos em dutos. Isso porqu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...os em dutos. Isso porque trataremos o ﬂ
+                                                  uxo de ar na síntese de v...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...�uxo de ar na síntese de voz como um ﬂ
+                                                  uído e a modelagem da glo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[10 <./pulmaoSimplificado.png>]
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 	Quando dizemos que um ﬂ
+                                uido é incompressível signiﬁca dizer que...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ...ue um ﬂuido é incompressível signiﬁ
+                                                  ca dizer que sua densidade...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ...or uma constrição. Imagine agora um ﬂ
+                                                  uido conﬁnado a um duto ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ...trição. Imagine agora um ﬂuido conﬁ
+                                                  nado a um duto que possui ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ...Figura 2.4). Se não for permitido ao ﬂ
+                                                  uido vazar pelas paredes d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ... duto, então todas as partículas do ﬂ
+                                                  uido devem ser mantidas me...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 		\[
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.236 		\]
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{equation} on input line 231 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 		\]
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.237 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.237 	\end{equation}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.237 	\end{equation}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 ... e a área em que se encontra. U é o ﬂ
+                                                  uxo. Matematicamente entã...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 ...a Lei da Continuidade expressa que um ﬂ
+                                                  uxo incompressível em um ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<leiBernoulli.png, id=363, 428.35031pt x 120.45pt>
+File: leiBernoulli.png Graphic file (type png)
+ <use leiBernoulli.png>
+Package pdftex.def Info: leiBernoulli.png used on input line 243.
+(pdftex.def)             Requested size: 428.34926pt x 120.44969pt.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 ...nto de que a energia total atuante no ﬂ
+                                                  uido em qualquer ponto dur...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 		\[
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.258 		\]
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[11 <./leiBernoulli.png>]
+
+! LaTeX Error: \begin{equation} on input line 253 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258 		\]
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.259 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.259 	\end{equation}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.259 	\end{equation}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261 	Onde $\rho$ é a densidade do ﬂ
+                                        uido, v a velocidade da partícula e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261 ...ulli: Se a energia em uma corrente de ﬂ
+                                                  uido é constante, um aume...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 	A resistência a um ﬂ
+                              uxo é uma característica do sistema de trans...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 ...scrita como a razão entre pressão e ﬂ
+                                                  uxo(equação\ref{eq:6} )
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 		\[
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.274 		\]
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{equation} on input line 269 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 		\]
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.275 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.275 	\end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.275 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.275 	\end{equation}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.275 	\end{equation}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 ...atuam como ponto de resistência a um ﬂ
+                                                  uxo. No caso das vias resp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 ...l com pouco espaço. Podemos então deﬁ
+                                                  nir que a resistência glo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 ...rá a pressão na glote dividida pelo ﬂ
+                                                  uxo que a atravessa. A res...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 ...ponsável por auxiliar no controle do ﬂ
+                                                  uxo de ar.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 ...objetivo destrinchar tais processos a ﬁ
+                                                  m de entendermos a reprodu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `FlanaganZueiro' on page 12 undefined on input
+ line 280.
+
+[12]
+
+LaTeX Warning: Command \~ invalid in math mode on input line 294.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 294.
+
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+
+Overfull \hbox (178.36774pt too wide) detected at line 296
+\OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + [] = \OML/cmm/m/it/12 Constante[] Sendo \O
+T1/cmr/m/n/12 : [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Densid
+adedofluido[] P \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Pressonodutoondeofludoseenco
+ntra[] v \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 velocidadedaparticula
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 308.
+
+("C:\Users\cajju\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 308.
+
+[13] <tabelaConsoantes.png, id=392, 255.95625pt x 125.71968pt>
+File: tabelaConsoantes.png Graphic file (type png)
+
+<use tabelaConsoantes.png>
+Package pdftex.def Info: tabelaConsoantes.png used on input line 336.
+(pdftex.def)             Requested size: 255.95561pt x 125.71936pt.
+) (chapters/capitulo3.tex [14 <./tabelaConsoantes.png>]
+Cap\'{\i }tulo 3.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+
+Package natbib Warning: Citation `LuceroZueiro1' on page 15 undefined on input 
+line 24.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...vocais. O seu propósito é aumentar a ﬁ
+                                                  delidade ﬁsiológica do ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...u propósito é aumentar a ﬁdelidade ﬁ
+                                                  siológica do sintetizador...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...is deve garantir variações suaves no ﬂ
+                                                  uxo gerado na glote. A fal...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...naturais e consequentemente a perda da ﬁ
+                                                  delidade ﬁsiológica bus...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...onsequentemente a perda da ﬁdelidade ﬁ
+                                                  siológica buscada. Sendo ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...porando a transferência de energia do ﬂ
+                                                  uxo de ar para as pregas v...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...ão foi solucionada tendo em vista a diﬁ
+                                                  culdade de se realizar o s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...�ão não solucionada não tem forte inﬂ
+                                                  uência no produto ﬁnal.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...não tem forte inﬂuência no produto ﬁ
+                                                  nal.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[15
+
+]
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 			\item 2 - Plotar um gráﬁ
                                    co inicial do trato vocal de acordo com o...
 
 Your command was ignored.
@@ -1653,7 +2925,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 			\item 3 - Plotar três gráﬁ
+l.36 			\item 3 - Plotar três gráﬁ
                                       cos referentes as propriedades da voz ...
 
 Your command was ignored.
@@ -1668,7 +2940,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...idos pelo usuário. – O primeiro gráﬁ
+l.36 ...idos pelo usuário. – O primeiro gráﬁ
                                                   co refere-se às posiçõe...
 
 Your command was ignored.
@@ -1683,7 +2955,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ... cordas vocais, a área da glótis, ao ﬂ
+l.36 ... cordas vocais, a área da glótis, ao ﬂ
                                                   uxo de ar nessa área e à...
 
 Your command was ignored.
@@ -1698,7 +2970,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...ssa área e às características desse ﬂ
+l.36 ...ssa área e às características desse ﬂ
                                                   uxo. – O segundo gráﬁ...
 
 Your command was ignored.
@@ -1713,7 +2985,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...sticas desse ﬂuxo. – O segundo gráﬁ
+l.36 ...sticas desse ﬂuxo. – O segundo gráﬁ
                                                   co refere-se às caracter�...
 
 Your command was ignored.
@@ -1728,7 +3000,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...ador pelo programa. – O terceiro gráﬁ
+l.36 ...ador pelo programa. – O terceiro gráﬁ
                                                   co refere-se ao espectro d...
 
 Your command was ignored.
@@ -1743,22 +3015,20 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...ctro de frequência do som gerado e do ﬂ
+l.36 ...ctro de frequência do som gerado e do ﬂ
                                                   uxo da glótis.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10
 
-]
-Overfull \hbox (15.83798pt too wide) in paragraph at lines 36--37
+Overfull \hbox (15.83798pt too wide) in paragraph at lines 37--38
 []\T1/cmr/m/n/12 4 - Ge-rar um ar-quivo de texo com as ca-rac-te-r�s-ti-cas de 
 voz ge-rada, fre-quen-cia,amplitude,
  []
 
-
-Overfull \hbox (27.82397pt too wide) in paragraph at lines 55--56
+[16]
+Overfull \hbox (27.82397pt too wide) in paragraph at lines 58--59
 \T1/cmr/m/n/12 bels"dependentes de con-texto e estima-se quais "la-bels"preproc
 essadas s�o correspondentes.([]) 
  []
@@ -1771,86 +3041,77 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 		Parametros importantes são μ
+l.62 		Parametros importantes são μ
                                      i e mi dos outputs pdfs
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Double subscript.
-l.61 		\[ \mu_i = H_b_
-                      i \xi \]
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.62 		\[	m_i   = H_p_
-                      i \xi  \]
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-[11] <exemploHMM.png, id=364, 295.85532pt x 116.68594pt>
+<exemploHMM.png, id=417, 295.85532pt x 116.68594pt>
 File: exemploHMM.png Graphic file (type png)
  <use exemploHMM.png>
-Package pdftex.def Info: exemploHMM.png used on input line 70.
+Package pdftex.def Info: exemploHMM.png used on input line 73.
 (pdftex.def)             Requested size: 295.85458pt x 116.68564pt.
 
-<esquemaHMM.png, id=365, 300.3722pt x 249.93375pt>
+<esquemaHMM.png, id=418, 300.3722pt x 249.93375pt>
 File: esquemaHMM.png Graphic file (type png)
  <use esquemaHMM.png>
-Package pdftex.def Info: esquemaHMM.png used on input line 74.
+Package pdftex.def Info: esquemaHMM.png used on input line 77.
 (pdftex.def)             Requested size: 300.37144pt x 249.93314pt.
 
-<frameWork.png, id=366, 489.32813pt x 189.70876pt>
+[17 <./exemploHMM.png>] <frameWork.png, id=426, 489.32813pt x 189.70876pt>
 File: frameWork.png Graphic file (type png)
- <use frameWork.png>
-Package pdftex.def Info: frameWork.png used on input line 88.
+
+<use frameWork.png>
+Package pdftex.def Info: frameWork.png used on input line 91.
 (pdftex.def)             Requested size: 489.32692pt x 189.70828pt.
 
-Overfull \hbox (51.70763pt too wide) in paragraph at lines 88--89
+Overfull \hbox (51.70763pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
-[12 <./exemploHMM.png> <./esquemaHMM.png>]
-Underfull \hbox (badness 3919) in paragraph at lines 91--93
+
+Underfull \hbox (badness 3919) in paragraph at lines 94--96
 \T1/cmr/m/n/12 ��o fo-n�-tica, ali-nha-mento com a per-for-mance alvo ou da-dos
  contextuais.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+[18 <./esquemaHMM.png> <./frameWork.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 \T1/cmr/m/n/12 torno do tim-bre, vi-brato, tre-molo, ti-ming fon�tico.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 \T1/cmr/m/n/12 linguistica.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 \T1/cmr/m/n/12 uma voz fa-lada a uma voz cantada.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
-) [13 <./frameWork.png>] (monografia.bbl (monografia.brf)
+) [19] (monografia.bbl (monografia.brf)
 \tf@brf=\write7
 \openout7 = `monografia.brf'.
 
@@ -1867,7 +3128,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[14
+[20
 
 
 ])
@@ -1875,26 +3136,30 @@ might try typing `S' now just to see what is salvageable.
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-[15]
+[21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 3FD6039D020464479CC7A5990D9CF84E;2541.
+(rerunfilecheck)             Checksum: E7170C7BB12A342F7B667B69132AC3B4;2518.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: CA50A383A7C97096C63E83CD58440455;1382.
+(rerunfilecheck)             Checksum: 62D54C98F05E7BA9E9CF0CAF12E9E233;1962.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 8781 strings out of 493634
- 124855 string characters out of 3135239
- 231810 words of memory out of 3000000
- 11897 multiletter control sequences out of 15000+200000
+ 8829 strings out of 493634
+ 125514 string characters out of 3135239
+ 234409 words of memory out of 3000000
+ 11919 multiletter control sequences out of 15000+200000
  28615 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 43i,16n,69p,1109b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,69p,2715b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\cajju\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\ca
 jju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C
@@ -1914,9 +3179,9 @@ e1/public/amsfonts/cm/cmr8.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cajju/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/cajju/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (25 pages, 881670 bytes).
+Output written on monografia.pdf (31 pages, 1077466 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 918 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 

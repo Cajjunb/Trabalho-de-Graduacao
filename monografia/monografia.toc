@@ -13,34 +13,41 @@
 \contentsline {section}{\numberline {2.2}Fundamentos Biof\IeC {\'\i }sicos para a Produ\IeC {\c c}\IeC {\~a}o da Voz}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1} A Biomecanica da Laringe}{5}{subsection.2.2.1}
 \contentsline {subsubsection}{ Fatores Biol\IeC {\'o}gicos que Afetam a Produ\IeC {\c c}\IeC {\~a}o de Som na Laringe }{5}{section*.10}
-\contentsline {section}{\numberline {2.3}Propriedades F\IeC {\'\i }sicas}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Lei Bernouli}{5}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Crit\IeC {\'e}rios para Oscila\IeC {\c c}\IeC {\~a}o}{6}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Tipos de Oscila\IeC {\c c}\IeC {\~a}o}{6}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Tensao}{6}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Curva For\IeC {\c c}a e Alongamento}{6}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Viscosidade}{7}{subsection.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Reflexao de Som}{7}{subsection.2.3.7}
-\contentsline {subsection}{\numberline {2.3.8}Fluxo de Ar na Glote}{7}{subsection.2.3.8}
-\contentsline {section}{\numberline {2.4}Sistema Auditivo}{8}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{8}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Intensidade}{8}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Voz e Propriedades Lingu\IeC {\'\i }sticas}{8}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Vogais}{9}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Consoantes}{9}{subsection.2.5.2}
-\contentsline {subsubsection}{Sonorant}{9}{section*.11}
-\contentsline {subsubsection}{Continuant}{9}{section*.12}
-\contentsline {chapter}{\numberline {3}S\IeC {\'\i }ntese de Voz}{10}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}Modelo Massa-Mola Auto Sustent\IeC {\'a}vel}{10}{subsection.3.0.1}
-\contentsline {subsection}{\numberline {3.0.2}Synpath}{10}{subsection.3.0.2}
-\contentsline {subsubsection}{Requisitos Funcionais}{10}{section*.13}
-\contentsline {subsubsection}{Requisito N\IeC {\~a}o-Funcionais}{11}{section*.14}
-\contentsline {subsection}{\numberline {3.0.3}HMMs}{11}{subsection.3.0.3}
-\contentsline {subsection}{\numberline {3.0.4}MHRSMM}{11}{subsection.3.0.4}
-\contentsline {subsubsection}{Controle do Sintentisador de voz cantada baseado em MRHSMM}{12}{section*.15}
-\contentsline {subsection}{\numberline {3.0.5}FrameWorks Sintetisador de Voz}{12}{subsection.3.0.5}
-\contentsline {subsubsection}{Input}{13}{section*.16}
-\contentsline {subsubsection}{Express\IeC {\~a}o}{13}{section*.17}
-\contentsline {subsection}{\numberline {3.0.6}Envoltoria F0}{13}{subsection.3.0.6}
-\contentsline {subsection}{\numberline {3.0.7}Sintese de Voz em Mandar\IeC {\'\i }m}{13}{subsection.3.0.7}
-\contentsline {chapter}{Refer\^encias}{14}{section*.18}
+\contentsline {subsubsection}{Tensao}{5}{section*.11}
+\contentsline {subsubsection}{Deforma\IeC {\c c}\IeC {\~a}o}{6}{section*.12}
+\contentsline {subsubsection}{Viscosidade}{6}{section*.13}
+\contentsline {subsubsection}{Elasticidade}{6}{section*.14}
+\contentsline {subsection}{\numberline {2.2.2}Reflex\IeC {\~a}o de Som}{7}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Fluxo de Ar na Glote}{8}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}O Sistema Pulmonar}{10}{subsection.2.2.4}
+\contentsline {subsubsection}{O Processo F\IeC {\'\i }sico da Respira\IeC {\c c}\IeC {\~a}o}{10}{section*.15}
+\contentsline {subsection}{\numberline {2.2.5}Leis de Conserva\IeC {\c c}\IeC {\~a}o para Fluxo de Dutos }{11}{subsection.2.2.5}
+\contentsline {subsubsection}{Lei da Continuidade para um Fluxo Incompress\IeC {\'\i }vel}{11}{section*.16}
+\contentsline {subsubsection}{Lei de Bernoulli \IeC {\'a}rea conserva\IeC {\c c}\IeC {\~a}o de Energia}{11}{section*.17}
+\contentsline {subsubsection}{Resist\IeC {\^e}ncia Glotal}{12}{section*.18}
+\contentsline {section}{\numberline {2.3}Oscila\IeC {\c c}\IeC {\~a}o das Pregas Vocais}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Lei Bernouli}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Crit\IeC {\'e}rios para Oscila\IeC {\c c}\IeC {\~a}o}{13}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Tipos de Oscila\IeC {\c c}\IeC {\~a}o}{13}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Sistema Auditivo}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Intensidade}{14}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Voz e Propriedades Lingu\IeC {\'\i }sticas}{14}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Vogais}{14}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Consoantes}{14}{subsection.2.5.2}
+\contentsline {subsubsection}{Sonorant}{14}{section*.19}
+\contentsline {subsubsection}{Continuant}{14}{section*.20}
+\contentsline {chapter}{\numberline {3}S\IeC {\'\i }ntese de Voz}{15}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}Modelo Massa-Mola Auto Sustent\IeC {\'a}vel}{15}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Synpath}{15}{subsection.3.0.2}
+\contentsline {subsubsection}{Requisitos Funcionais}{16}{section*.21}
+\contentsline {subsubsection}{Requisito N\IeC {\~a}o-Funcionais}{16}{section*.22}
+\contentsline {subsection}{\numberline {3.0.3}HMMs}{17}{subsection.3.0.3}
+\contentsline {subsection}{\numberline {3.0.4}MHRSMM}{17}{subsection.3.0.4}
+\contentsline {subsubsection}{Controle do Sintentisador de voz cantada baseado em MRHSMM}{18}{section*.23}
+\contentsline {subsection}{\numberline {3.0.5}FrameWorks Sintetisador de Voz}{18}{subsection.3.0.5}
+\contentsline {subsubsection}{Input}{19}{section*.24}
+\contentsline {subsubsection}{Express\IeC {\~a}o}{19}{section*.25}
+\contentsline {subsection}{\numberline {3.0.6}Envoltoria F0}{19}{subsection.3.0.6}
+\contentsline {subsection}{\numberline {3.0.7}Sintese de Voz em Mandar\IeC {\'\i }m}{19}{subsection.3.0.7}
+\contentsline {chapter}{Refer\^encias}{20}{section*.26}

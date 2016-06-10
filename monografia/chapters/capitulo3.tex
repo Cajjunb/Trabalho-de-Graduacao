@@ -21,9 +21,10 @@
 	
 	
 	\subsection{Synpath}
-		Sintetizador computacional, criado por Lucero.Sintetizador concebido por Fraj \cite{JeanFrancis}
-		Foi escolhido não usar o modelo multi-massa por variações não suaves  e é tematicamente muito complexo apesar instabilidades numéricas.
-		Synpath utiliza como base de representação das pregas vocais o modelo mono massa. O trato vocal é representado por uma concatenação de tubos cilindricos os quais se propagam uma onda acustica.Superglótica não leva em conta o trato vocal.Perdas e viscosidade são considerada.
+		O SynPath é um sintetizador computacional, desenvolvido em linguagem Python [13, 20, 28], criado por Lucero~\cite{LuceroZueiro1}. Este software é uma extensão do sintetizador concebido por Fraj[19], incorporando um modelo de vibração para as pregas vocais. O seu propósito é aumentar a ﬁdelidade ﬁsiológica do sintetizador de Fraj e permitir o controle direto dos sons sintetizados em termos de parametrização da laringe. Para se obter um simples controle sobre o sintetizador e facilitar o seu uso para aplicações práticas, é necessário que a representação das pregas vocais seja simples. Além disso, o modelo das pregas vocais deve garantir variações suaves no ﬂuxo gerado na glote. A falta de suavidade gera timbres não naturais e consequentemente a perda da ﬁdelidade ﬁsiológica buscada. Sendo assim, o modelo multi-massa para representação das pregas vocais não pode ser utilizado visto que produz variações não suaves e é um modelo matematicamente muito complexo levando a instabilidades numéricas, afetando o uso para aplicações práticas. O SynPath tomou como base para a representação das pregas vocais o modelo de onda mucosa desenvolvido por Titze [26]. Basicamente, o modelo é um oscilador mono-massa, conforme descrito no Capitulo 3, incorporando a transferência de energia do ﬂuxo de ar para as pregas vocais. Entretanto, o modelo de Titze possui duas restrições, uma que foi solucionada e aplicada no desenvolvimento do SynPath e a outra que ainda não foi solucionada e portanto é também uma restrição do modelo computacional do SynPath. A primeira restrição é que o modelo de Titze foi concebido para o estudo em pequenas oscilações, sendo que para oscilações de maior amplitude, este não é apropriado. Entretanto, esse modelo foi extendido por Lucero [11] para abranger maiores oscilações utilizando um mecanismo limitador de amplitude durante as oscilações [14]. Mesmo com essa extensão para maiores amplitudes, o modelo ainda apresentava uma outra restrição, um atraso pequeno para o deslocamento da onda no canal glotal. A consequência desse atraso é que a pressão limite para que ocorra a vibração se torna independente da frequência de vibração [15]. Porém, sabe-se que um esforço maior é necessário para que tons mais agudos sejam vocalizados, ou seja, a pressão para que se ocorra vibração em frequências maiores(tons maiores) é maior. Essa restrição ainda não foi solucionada tendo em vista a diﬁculdade de se realizar o supracitado computacionalmente. Mesmo com essa restrição, o modelo de Lucero [11] é o modelo utilizado para
+		26
+		a representação do caráter oscilatório das pregas vocais no software SynPath, sendo que esta restrição não solucionada não tem forte inﬂuência no produto ﬁnal.
+		
 	
 		\subsubsection{Requisitos Funcionais}
 		
@@ -51,6 +52,8 @@
 		
 	
 	
+	
+	
 	\subsection{HMMs}
 		Minera-se de várias partituras musicais para treino. Os dados minerados dessas músicas são fonemas, altura, intensidade e os intervalos, isto é relação com outras notas.Esses dados são convertidos e mapeados em "labels" dependentes de contexto~\cite{DegottexNada}.Após isso as HMM's são treinados através dos dados de treinamento usando o algoritmo EM.\cite{GudnasonNada}. Após isso ocorre a fase de sintesis, usa-se outra partitura para ser convertida em "labels" dependentes de contexto e estima-se quais "labels" preprocessadas são correspondentes.\cite{TakashiNose}
 	
@@ -58,8 +61,8 @@
 		Uma variação HSMM. Modelo de multipla regressão HSMM.
 		Parametros importantes são μi e mi dos outputs pdfs
 		
-		\[ \mu_i = H_b_i \xi \] 
-		\[	m_i   = H_p_i \xi  \]
+		\[ \mu_i = H_bi \xi \] 
+		\[	m_i   = H_pi \xi  \]
 		\[ \xi   = [1,v_1,v_2,...,v_L]^T \]	
 		\[ \xi   = [1,v^T]^T	\]	
 		
