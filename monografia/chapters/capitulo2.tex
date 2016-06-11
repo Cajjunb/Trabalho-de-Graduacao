@@ -60,6 +60,48 @@
 	
 	\subsection{Overview: Geração de Som e Ressonadores}
 	
+	A produção do som da voz é composta de duas etapas importantes que ocorrem na região subglotal/glotal e supraglotal. A primeira é a transformação da energia aerodinâmica em energia sonora, pelo movimento e vibração das pregas vocais.
+	
+	O segundo é a transformação do som primitivo gerado em voz, através da atuação dos ressonadores e formantes na região supraglotal.
+	
+	A vibração das pregas vocais é extremamente complexa e, diversos músculos em união com a pressão exercida pelo ar atuam para tornar esse movimento possível. De maneira sintetizada, as pregas vocais vibram do topo ao fundo de maneira que não vibram como se fosse um bloco, mas sim de forma ondulatória, conforme mostrada na Figura~\ref{fig:movimentoCordas}. Essa vibração é responsável por mudanças depressão entre a região subglotal e a região glotal, causando uma diferença de pressão(condensação e rarefação) nessa área durante o movimento das pregas vocais, o que ocasiona a geração de som.
+
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.5]{movimentoCordas}
+		\caption{:Movimento das Cordas Vocais ~\cite{Foundation1}}
+		\label{fig:movimentoCordas}
+	\end{figure}		
+	
+	Entretanto, o som produzido é um som primitivo, conforme dito anteriormente, e para se transformar na voz característica humana, ele deve ser ﬁltrado e moldado pelos ressonadores(formantes) no trato vocal(Figura ~\ref{fig:tratoVocal}).
+	Todas as cavidades mostradas no trato vocal atuam como ressonadores para a onda sonora produzida pelas pregas vocais. Um ressonador pode entrar em estado de vibração através de uma força aplicada ao mesmo em inércia ou por interação com algo que já esteja em estado de vibração.
+	
+	Neste segundo caso, as vibrações produzidas pelo ressonador serão ampliﬁcações ou atenuações dependendo de quão próximas ou distantes, em termos de frequência, são as vibrações da onda sonora em contato com o ressonador. Caso a onda sonora possua vibrações cujas frequências se assemelhem às frequências do ressonador,estas então serão ampliﬁcadas pelo ressonador.
+	
+	Entretanto,caso as frequências do som gerado vibrem em uma frequência distante da frequência natural do ressonador, então estas serão abafadas. A voz passa por esse processo ao ser formada. Um som primitivo advindo das pregas vocais entra em contato com os ressonadores no trato vocal, estes por sua vez em conjunto
+
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.5]{tratoVocal}
+		\caption{:Trato Vocal~\cite{Foundation1}}
+		\label{fig:tratoVocal}
+	\end{figure}		
+	
+
+	Os conceitos e propriedades descritos acima são extremamente importantes para se entender a manutenção da produção do som. As pregas vocais são músculos e músculos são compostos por ﬁbras, logo, as pregas vocais consistem de uma grande concentração de ﬁbras. Além disso, entre as ﬁbras que compõe as pregas vocais existem também ﬂuidos atuantes, o que caracteriza as pregas vocais como um material viscoelástico.
+	
+	Para se entender a capacidade de absorção e regeneração das pregas vocais, em detrimento das vibrações de alta frequência e as pressões do ar, deve-se primeiramente estudar as propriedades absorcivas do material que as compõe. Ou seja, em outras palavras, deve-se estudar as propriedades mecânicas do tecido viscoelástico, e uma ferramenta que facilita o entendimento é o estudo da curva força-alongamento de um material. Entretanto, construir uma curva de força-alongamento depende essencialmente da geometria da amostra do material~\cite{IngoTitze} e, por se tratar de uma material biológico, é difícil obter uma geometria precisa pois as ﬁbras estão constantemente se reorientando em detrimento de lesões e cortes ﬁbrosos. Para viabilizar este estudo, Titze~\cite{IngoTitze} sugere normalizar as forças atuantes e as deformações resultantes para que não haja a dependência direta da geometria. Essa normalização se dá através da substituição da curva força-alongamento por um curva tensão-deformação. A Figura ~\ref{fig:curvaTensao} retirada do estudo feito por Titze ~\cite{IngoTitze} demonstra uma curva hipotética de tensão-deformação para os tecidos que compõe as pregas vocais humanas. 
+	
+	Esta Figura ilustra o comportamento das ﬁbras das pregas vocais através da relação entre uma força atuante e a deformação gerada por esta.
+	 A importância desta analises e deve ao fato de que é possível estabelecer uma relação direta entre nódulos vocais e uma fonação prolongada, alta(em termos de frequência) e intensa. A partir da análise desta curva é então possível estabelecer um precedente para a formação de nódulos vocais: a frequência e amplitude da vibração estão diretamente ligadas ao surgimento de um nódulo vocal e consequentemente o de uma fenda pois a força de impacto entre as pregas vocais é proporcional à altura tonal quando acima do tom natural e à intensidade durante a fonação.
+	
+	\begin{figure}
+		\centering		
+		\includegraphics{figura1.png}
+		\caption{:Curva Hipotética Tensão-Deformação das Cordas vocais Humanas~\cite{IngoTitze}}
+		\label{fig:curvaTensao}
+	\end{figure}
+	
 	
 \section{Propriedades Físicas}
 
@@ -104,8 +146,7 @@
 		
 	\subsection{Curva Força e Alongamento}
 		Utiliza-se para não ser dependente da geometria do material. Utilizamos nas cordas vocais(?) por serem materias biológicos. Cria uma figura ilustrando comportamento da deformação das pregas vocais
-		
-		\includegraphics{figura1.png}
+
 		
 	\subsection{Viscosidade}
 		É a velocidade de deformação(consequentemente, de restauração) de
@@ -126,133 +167,3 @@
 		
 	
 	
-		
-
-
-
-
-
-\section{Sintetizadores de Voz}
-	\subsection{Modelo Massa-Mola Auto Sustentável}:
-	A fechadura e abertura da glote num sistema massa mola de apenas um lado
-
-	\[
-		P = (1 - \frac{a2}{a1})*(Ps- Pi) + Pi
-	\]
-		
-	
-	Versão simplificada da pressão massa mola
-	\begin{itemize}
-		\item P: Pressão resultante NA GLOTE
-		\item a1: Areas de entrada da glote
-		\item a2: Areas de saída  da glote
-		\item Ps: Pressão subglotica
-		\item Pi: Pressão sobre o trato vocal(Pressão input)
-	\end{itemize}
-	
-		No modelo mono massa a1 = a2.No caso em que Pressão na GLOTE,P, seja  igual a pressão  supraglotal, indica que a inércia da coluna de ar acima da glote altera a pressão.
-	
-	
-	\subsection{Synpath}
-		Sintetizador computacional, criado por Lucero.Sintetizador concebido por Fraj \cite{JeanFrancis}
-		Foi escolhido não usar o modelo multi-massa por variações não suaves  e é tematicamente muito complexo apesar instabilidades numéricas.
-		Synpath utiliza como base de representação das pregas vocais o modelo mono massa. O trato vocal é representado por uma concatenação de tubos cilindricos os quais se propagam uma onda acustica.Superglótica não leva em conta o trato vocal.Perdas e viscosidade são considerada.
-	
-	\subsection{HMMs}
-		Minera-se de várias partituras musicais para treino. Os dados minerados dessas músicas são fonemas, altura, intensidade e os intervalos, isto é relação com outras notas.Esses dados são convertidos e mapeados em "labels" dependentes de contexto~\cite{DegottexNada}.Após isso as HMM's são treinados através dos dados de treinamento usando o algoritmo EM.\cite{GudnasonNada}. Após isso ocorre a fase de sintesis, usa-se outra partitura para ser convertida em "labels" dependentes de contexto e estima-se quais "labels" preprocessadas são correspondentes.\cite{TakashiNose}
-	
-		\subsection{MHRSMM}
-		Uma variação HSMM. Modelo de multipla regressão HSMM.
-		Parametros importantes são μi e mi dos outputs pdfs
-		
-		\[ \mu_i = H_b_i \xi \] 
-		\[	m_i   = H_p_i \xi  \]
-		\[ \xi   = [1,v_1,v_2,...,v_L]^T \]	
-		\[ \xi   = [1,v^T]^T	\]	
-		
-		Onde L é a dimensão do vetor de estilo e vi  é  a intensidade do  enésimo estilo de canto.
-		
-		Um exemplo de um vetor de estilos de canto de tamanho L =  2 e L = 3.
-		
-		\includegraphics{exemploHMM.png}
-		
-		\subsubsection{Controle do Sintentisador de voz cantada baseado em MRHSMM}
-		
-		\includegraphics{esquemaHMM.png}
-		
-		Durante a fase de síntese o usuário do programa adiciona vetores de estilos de acorodo com a intenção e a expressividade pretendida.
-		Parametros de output como duração são gerados pelos vetores de estilos dados e matrizes de regressões treinadas usando MRHSMMs
-		
-		Resultado de todo esse processo é um sequência HSMM usando parametros de geração de fala
-		
-		MRHSMM possui uma dificuldade de gerar contorno F0 que acompanhe o contexto de mudança de altura das notas o author TAKASHI NOSE, propõe um treinamento de HSMM e HMM nos parametros 
-		
-	
-	\subsection{FrameWorks Sintetisador de Voz}
-	
-		Frame Work de um Sistema Sintetisador de Voz:
-		
-		\includegraphics{frameWork.png}
-		
-		\subsubsection{Input}
-		Consiste da partitura, letra e emoção.
-		o input é analisado e derivado em uma transcrição fonética, alinhamento com a performance alvo ou dados contextuais.\cite{FrameWork}\linebreak
-		
-		\subsubsection{Expressão}
-		Expressão músical é um conceito intuitivo porém dificil de se definir. A expressão é chave na percepção da qualidade e naturalidade musical.
-		No caso da voz cantada implica-se usar vários outros parametro além de frequencia e amplitude. Psicológicamente contorno do timbre, vibrato, tremolo, timing fonético.\cite{FrameWork}\linebreak
-	
-	
-	\subsection{Envoltoria F0}
-	
-	Envoltórias F0 são usadas para expressar informação linguistica, para-linguística e não-linguistica.\cite{SaitouF0}
-	\linebreak
-	
-	As Envoltória F0 apresentam três (3) características importantes que fazem diferenciar uma voz falada a uma voz cantada.\cite{SaitouNada}
-	\linebreak
-	\begin{itemize}
-		\item 1 - O alcance dinâmico de uma envoltória F0 é mais largo que o de uma voz falada
-		\item 2 - A envoltória F0 corresponde e tende a se manter estável em uma nota. A mudança de nota de uma envoltória F0 corresponde a melodia da música
-		\item 3 - Existem muita flutuações f0 que são apenas observadas em apenas vozes cantadas
-	\end{itemize}
-	
-	
-	\subsection{Sintese de Voz em Mandarím}
-		Utiliza-se a técnica HNM para a sintese da voz cantada em mandarím. HNM significa , "harmonic plus noise model".
-		O modelo HNM divide o espectro de um sinal em dois(2) com larguras não iguais para modelagem melhor do espectro.\cite{LinRobos}
-	
-
- 
-
-\section{Sistema Auditivo}
-	\subsection{Introdução}
-	O Sistema auditivo consiste em componentes periféricos e centrais.Atualmente a maior parte do conhecimento do funcionamento dos sistemas auditivos deriva de estudos de animais não humanos.\cite{Foundation1} 
-	
-	Sistema auditivo diferencia-se entre espécies em jeitos interessantes.
-	Por exemplo algumas espécies tem caracteristicas diferentes relacionadas aos sinais vocais mais utilizados por ela mesma.\cite{Foundation1}
-	
-	\subsection{Intensidade}
-	Como a frequência de um estímulo a intensidade dele é processado e codificado sub-cortical nos dois lados do cérebro em todos os níveis no cerébro.\cite{Foundation1}
-		
-
-
-\section{Voz e Propriedades Linguísticas}
-	Uma divisão importante de acordo com Flanagen, são as letras separados em classificações Vogais e Consoantes que se associam a um movimento do trato vocal correspondente~\cite{JFlanagan}.
-	
-	\includegraphics{tabelaConsoantes.png}
-	
-	\subsection{Vogais}
-	
-	O trato vocal ao produzir uma vocal, em um articação normal, mantém-se relativamente estável.Há uma opção de contribuição das cavidades nasais, uma cobertura porém é negligenciável.Baseado nessas caracteristicas é divididos todas as consonantes. A tabela abaixo explica:
-	
-	
-	\subsection{Consoantes}
-	Sons produzidos com constrições em algum ponto no trato vocal. Dividido em quatro (4) classes, baseados em duas funcionalidades binárias, sonorant e continuant.
-	
-	
-		\subsubsection{Sonorant}	 
-			Sonorant pode ser traduzido como "cantado". Consoantes Sonorant são sons que não aumentam a pressão do ar dentro do trato vocal pois a constrição não é muito justa ou o palato continua aberto, deixando ar escapar por ele.
-			
-		\subsubsection{Continuant}
-			Uma consoante discontinuant é produzida por um fechamento completo em algum ponto no trato vocal.
-

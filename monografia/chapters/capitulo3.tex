@@ -1,23 +1,78 @@
-\chapter{Síntese de Voz}
+\chapter{Fundamentos Básicos para a Produção da Voz}
+	Neste capitulo serão introduzidos princípios físicos e biológicos da produção da voz. Além dos conceitos introduzidos aqui, serão analisados os processos mecânicos da geração da voz por parte da laringe em conjunto com o trato vocal pois são de extrema importância para a concepção dos modelos computacionais e matemáticos utilizados para se desenvolver o sintetizador.
 
+	\subsection{A Biomecanica da Laringe}
+	
+	Primeiramente, devemos ter em mente que o principal papel da laringe não é a produção de voz e sim a proteção das vias respiratórias. Dito isto, podemos fazer uma simples analise, visto que apesar de seu papel principal, a laringe também atua como um instrumento da fala humana. Se analisarmos os instrumentos criados pelo homem podemos notar que estes dependem basicamente de sua geometria, do material que o compõe e da interação de suas partes acústicas. Do mesmo modo, a laringe possui uma determinada geometria, é composta por tecido humano e em conjunto como trato vocal compõe a parte acústica do nosso corpo. Entretanto, nada é tão simples, a sua geometria e as propriedades do material humano envolvidos na produção do som são bastante irregulares~\cite{IngoTitze}. Outra analogia interessante é sobre o instrumento e quem o utiliza. Um bom pianista por exemplo, sua musica é boa porque ele é habilidoso como instrumento? Ou sua musica é boa por que o instrumento é bem feito e o som gerado por este é agradável? Ou os dois? Essas perguntas também podem ser feitas com respeito a voz. Para entendermos o que inﬂuencia na qualidade da síntese da voz é necessário analisar a biomecânica da voz, que nada mais é analisar o movimento do material vivo e as forças atuantes sobre ele~\cite{IngoTitze}.
+	
+	\subsection{Fatores Biológicos que Afetam a Produção de Som na Laringe}
+	A parte da (bio)mecânica que se relaciona diretamente com a atuação da laringe na produção do som é a mecânica dos meios contínuos, que é a parte da mecânica que lida com a matéria distribuída sobre uma determinada região no espaço, e consequentemente, se contrapõe à mecânica de partículas. 
+	
+	Dentro da mecânica de meios contínuos, mais especiﬁcamente, a parte que irá nos auxiliar no estudo do comportamento da laringe se chama mecânica de sólidos e ﬂuidos. Dito isto, analisaremos a seguir alguns conceitos físicos que tem forte ligação com os processos que ocorrem na região da laringe durante a produção do som: 
+	
+	\subsubsection{Tensão e Deformação}
+	 São características de forças atuantes em superfícies, como por exemplo a resistência do ar. 
+
+	\subsubsection{Tensão }
+	 é quantidade de força por unidade de área~\cite{IngoTitze}, podemos escrever na forma da equação~\ref{eq:1} :
+	 
+	 \begin{equation}
+	 	\centering
+	 	\[
+		 	\sigma = \frac{f}{A}
+	 	\]
+	 	\label{eq:1}
+	 \end{equation}
+	Onde σ é a tensão, f é a força aplicada e A a área de aplicação desta força. 
+	
+	\subsubsection{Deformação  }
+	é a medida de deformação de um meio após a aplicação de uma tensão~\cite{IngoTitze} e pode ser escrito na forma da equação  :
+	
+	\begin{equation}
+	\centering
+		\[
+		\epsilon = L - \frac{L_0}{L_0}
+		\]
+		\label{eq:2}
+	\end{equation}
+	
+	Onde  é a medida de deformação, L é o comprimento após a tensão e L0 é o comprimento antes da tensão.
+	
+	Normalmente uma dada deformação em uma dimensão resulta em uma deformação oposta em outra dimensão em um dado meio. Se uma deformação é uniforme por todo o corpo de um objeto, então chamamos de compressão, se o volume diminui por conta desta deformação, e expansão, se o volume aumenta. 
+
+	\subsubsection{Viscosidade}
+	É a velocidade de deformação(consequentemente, de restauração) de um determinado ﬂuido quando atuam forças de tensão no mesmo. Matematicamente pode ser expresso conforme a equação~\ref{eq:3}:
+	
+	\begin{equation}
+		\centering
+		\[
+		\epsilon = \eta \frac{d_e}{d_t}
+		\]
+		\label{eq:3}
+	\end{equation}
+
+	Para η viscosidade e t tempo. Quanto maior a viscosidade, mais devagar será a deformação de um meio. 
+	
 	\subsection{Modelo Massa-Mola Auto Sustentável}:
 	A fechadura e abertura da glote num sistema massa mola de apenas um lado
 
 	\[
 		P = (1 - \frac{a2}{a1})*(Ps- Pi) + Pi
 	\]
-		
 	
-	Versão simplificada da pressão massa mola
-	\begin{itemize}
-		\item P: Pressão resultante NA GLOTE
-		\item a1: Areas de entrada da glote
-		\item a2: Areas de saída  da glote
-		\item Ps: Pressão subglotica
-		\item Pi: Pressão sobre o trato vocal(Pressão input)
-	\end{itemize}
+	\subsection{Elasticidade}
+	 É uma propriedade do meio que determina quão completa será a restauração do meio após uma dada deformação.
+	 
+	Os conceitos e propriedades descritos acima são extremamente importantes para se entender a manutenção da produção do som. As pregas vocais são músculos e músculos são compostos por ﬁbras, logo, as pregas vocais consistem de uma grande concentração de ﬁbras. Além disso, entre as ﬁbras que compõe as pregas vocais existem também ﬂuidos atuantes, o que caracteriza as pregas vocais como um material viscoelástico. Para se entender a capacidade de absorção e regeneração das pregas vocais, em detrimento das vibrações de alta frequência e as pressões do ar, deve-se primeiramente estudar as propriedades absorcivas do material que as compõe.
 	
-		No modelo mono massa a1 = a2.No caso em que Pressão na GLOTE,P, seja  igual a pressão  supraglotal, indica que a inércia da coluna de ar acima da glote altera a pressão.
+	Ou seja, em outras palavras, deve-se estudar as propriedades mecânicas do tecido viscoelástico, e uma ferramenta que facilita o entendimento é o estudo da curva força-alongamento de um material. Entretanto, construir uma curva de força-alongamento depende essencialmente da geometria da amostra do material~\cite{IngoTitze} e, por se tratar de uma material biológico, é difícil obter uma geometria precisa pois as ﬁbras estão constantemente se reorientando em detrimento de lesões e cortes ﬁbrosos. Para viabilizar este estudo, Titze~\cite{IngoTitze} sugere normalizar as forças atuantes e as deformações resultantes para que não haja a dependência direta da geometria. Essa normalização se dá através da substituição da curva força-alongamento por um curva tensão-deformação. A Figura ~\ref{fig:curvaTensao} retirada do estudo feito por Titze~\cite{IngoTitze} demonstra uma curva hipotética de tensão-deformação para os tecidos que compõe as pregas vocais humanas. Esta Figura ilustra o comportamento das ﬁbras das pregas vocais através da relação entre uma força atuante e a deformação gerada por esta. A importância desta analise se deve ao fato de que é possível estabelecer uma relação direta entre nódulos vocais e uma fonação prolongada, alta(em termos de frequência) e intensa. A partir da análise desta curva é então possível estabelecer um precedente para a formação de nódulos vocais: a frequência e amplitude da vibração estão diretamente ligadas ao surgimento de um nódulo vocal e consequentemente o de uma fenda pois a força de impacto entre as pregas vocais é proporcional à altura tonal quando acima do tom natural e à intensidade durante a fonação.
+	
+	
+	\begin{figure}
+		\includegraphics{figura1}
+		\caption{ Curva Hipotética Tensão-Deformação das Cordas vocais Humanas~\cite{IngoTitze}}
+		\label{fig:curvaTensao}
+	\end{figure}
 	
 	
 	\subsection{Synpath}
