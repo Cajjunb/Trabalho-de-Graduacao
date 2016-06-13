@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  10 JUN 2016 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  12 JUN 2016 22:48
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -551,6 +551,9 @@ Now handling font encoding PD1 ...
 LaTeX Warning: Label `fig:aparelhoFonador' multiply defined.
 
 
+LaTeX Warning: Label `fig:curvaTensao' multiply defined.
+
+
 ! Package natbib Error: Bibliography not compatible with author-year citations.
 
 (natbib)                Press <return> to continue in numerical citation style.
@@ -560,7 +563,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.342 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -669,7 +672,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 34.
- <positivo_cor.pdf, id=131, 119.44624pt x 60.225pt>
+ <positivo_cor.pdf, id=171, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 34.
@@ -740,23 +743,23 @@ Package babel Warning: You haven't loaded the language english yet
 [4
 
 
-] (monografia.toc)
+] (monografia.toc [5
+
+])
 \tf@toc=\write4
 \openout4 = `monografia.toc'.
 
- [5
-
-] (monografia.lof)
+ [6] (monografia.lof)
 \tf@lof=\write5
 \openout5 = `monografia.lof'.
 
- [6
+ [7
 
 ] (monografia.lot)
 \tf@lot=\write6
 \openout6 = `monografia.lot'.
 
- [7
+ [8
 
 ]
 (chapters/capitulo1.tex
@@ -795,7 +798,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<aparelhoFonador.png, id=249, 247.67531pt x 353.06906pt>
+<aparelhoFonador.png, id=320, 247.67531pt x 353.06906pt>
 File: aparelhoFonador.png Graphic file (type png)
 
 <use aparelhoFonador.png>
@@ -817,7 +820,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<cartilagensLaringe.png, id=250, 438.13687pt x 237.13594pt>
+<cartilagensLaringe.png, id=321, 438.13687pt x 237.13594pt>
 File: cartilagensLaringe.png Graphic file (type png)
 
 <use cartilagensLaringe.png>
@@ -841,14 +844,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<musculosLaringe.png, id=258, 424.58624pt x 253.69781pt>
+<musculosLaringe.png, id=330, 424.58624pt x 253.69781pt>
 File: musculosLaringe.png Graphic file (type png)
 
 <use musculosLaringe.png>
 Package pdftex.def Info: musculosLaringe.png used on input line 35.
 (pdftex.def)             Requested size: 212.2926pt x 126.84859pt.
 
-<musculosPescoco.png, id=261, 456.95718pt x 193.47281pt>
+<musculosPescoco.png, id=333, 456.95718pt x 193.47281pt>
 File: musculosPescoco.png Graphic file (type png)
 
 <use musculosPescoco.png>
@@ -886,14 +889,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<cordasVocais.png, id=270, 334.24875pt x 192.72pt>
+<cordasVocais.png, id=341, 334.24875pt x 192.72pt>
 File: cordasVocais.png Graphic file (type png)
  <use cordasVocais.png>
 Package pdftex.def Info: cordasVocais.png used on input line 56.
 (pdftex.def)             Requested size: 167.12396pt x 96.35976pt.
 
 [4 <./musculosLaringe.png> <./musculosPescoco.png> <./cordasVocais.png>]
-<movimentoCordas.png, id=277, 264.99pt x 389.20406pt>
+<movimentoCordas.png, id=348, 264.99pt x 389.20406pt>
 File: movimentoCordas.png Graphic file (type png)
 
 <use movimentoCordas.png>
@@ -944,7 +947,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<tratoVocal.png, id=280, 321.45094pt x 266.49562pt>
+<tratoVocal.png, id=351, 321.45094pt x 266.49562pt>
 File: tratoVocal.png Graphic file (type png)
  <use tratoVocal.png>
 Package pdftex.def Info: tratoVocal.png used on input line 85.
@@ -1042,10 +1045,6 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:curvaTensao' on page 6 undefined on input line 93
-.
-
-
 ! Package inputenc Error: Unicode char ﬁ (U+FB01)
 (inputenc)                not set up for use with LaTeX.
 
@@ -1060,45 +1059,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<figura1.png, id=289, 253.69781pt x 235.63031pt>
+<figura1.png, id=361, 253.69781pt x 235.63031pt>
 File: figura1.png Graphic file (type png)
  <use figura1.png>
 Package pdftex.def Info: figura1.png used on input line 100.
 (pdftex.def)             Requested size: 253.69719pt x 235.62973pt.
- [6 <./tratoVocal.png>]
-
-LaTeX Warning: Command \~ invalid in math mode on input line 116.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 116.
-
-Missing character: There is no � in font cmr12!
-Missing character: There is no � in font cmr12!
-
-Overfull \hbox (178.36774pt too wide) detected at line 118
-\OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + [] = \OML/cmm/m/it/12 Constante[] Sendo \O
-T1/cmr/m/n/12 : [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Densid
-adedofluido[] P \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Pressonodutoondeofludoseenco
-ntra[] v \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 velocidadedaparticula
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 130.
-
-("C:\Users\cajju\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
-
-[7 <./figura1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 142--146
-\T1/cmr/m/n/12 Sendo: f : for�a apli-cada.
- []
-
-
-Package natbib Warning: Citation `Ingo' on page 8 undefined on input line 154.
-
-) (chapters/capitulo3.tex [8]
+(chapters/capitulo3.tex [6 <./tratoVocal.png>] [7 <./figura1.png>]
 Cap\'{\i }tulo 3.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -1149,7 +1116,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[9
+[8
 
 ]
 
@@ -1337,10 +1304,21 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10]
+[9]
 
-Package natbib Warning: Citation `LuceroZueiro1' on page 11 undefined on input 
-line 79.
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...�sculos e músculos são compostos por ﬁ
+                                                  bras, logo, as pregas voca...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ! Package inputenc Error: Unicode char ﬁ (U+FB01)
@@ -1350,7 +1328,1337 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...vocais. O seu propósito é aumentar a ﬁ
+l.66 ...sistem de uma grande concentração de ﬁ
+                                                  bras. Além disso, entre a...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...�ão de ﬁbras. Além disso, entre as ﬁ
+                                                  bras que compõe as pregas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...mpõe as pregas vocais existem também ﬂ
+                                                  uidos atuantes, o que cara...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...il obter uma geometria precisa pois as ﬁ
+                                                  bras estão constantemente...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...ando em detrimento de lesões e cortes ﬁ
+                                                  brosos. Para viabilizar es...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...sta Figura ilustra o comportamento das ﬁ
+                                                  bras das pregas vocais atr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: figura1.png Graphic file (type png)
+<use figura1.png>
+Package pdftex.def Info: figura1.png used on input line 72.
+(pdftex.def)             Requested size: 253.69719pt x 235.62973pt.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...los, devemos antes entender o papel do ﬂ
+                                                  uxo de ar nesse processo e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 	À primeira vista, imagine-se que o ﬂ
+                                             uxo de ar é gerado somente pel...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ... para a criação e manutenção de um ﬂ
+                                                  uxo de ar nas vias respira...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ... pulmões pela caixa torácica é signiﬁ
+                                                  cantemente menor do que a ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[10] <esquemaRespiracao.png, id=407, 397.485pt x 313.9228pt>
+File: esquemaRespiracao.png Graphic file (type png)
+
+<use esquemaRespiracao.png>
+Package pdftex.def Info: esquemaRespiracao.png used on input line 86.
+(pdftex.def)             Requested size: 397.48402pt x 313.92203pt.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...to com o pulmão atuam na geração do ﬂ
+                                                  uxo de ar. A glótis, por ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ..., por sua vez, atua como reguladora do ﬂ
+                                                  uxo de ar através de vari...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ... pressão envolvida com o movimento do ﬂ
+                                                  uxo do ar pelas vias respi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...r pelas vias respiratórias. Isso signiﬁ
+                                                  ca que é possível dar co...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...ca que é possível dar constância ao ﬂ
+                                                  uxo de ar(Figura ).
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<esquemaPulmao.png, id=409, 382.42876pt x 230.36063pt>
+File: esquemaPulmao.png Graphic file (type png)
+ <use esquemaPulmao.png>
+Package pdftex.def Info: esquemaPulmao.png used on input line 96.
+(pdftex.def)             Requested size: 382.42781pt x 230.36005pt.
+
+[11] [12 <./esquemaRespiracao.png> <./esquemaPulmao.png>]
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 ...ica dessa lei à respiração humana, ﬁ
+                                                  ca fácil visualizar o pro...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...onceitos que regem o comportamento de ﬂ
+                                                  uidos em dutos. Isso porqu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...os em dutos. Isso porque trataremos o ﬂ
+                                                  uxo de ar na síntese de v...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...�uxo de ar na síntese de voz como um ﬂ
+                                                  uído e a modelagem da glo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 	Quando dizemos que um ﬂ
+                                uido é incompressível signiﬁca dizer que...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...ue um ﬂuido é incompressível signiﬁ
+                                                  ca dizer que sua densidade...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...or uma constrição. Imagine agora um ﬂ
+                                                  uido conﬁnado a um duto ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...trição. Imagine agora um ﬂuido conﬁ
+                                                  nado a um duto que possui ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...Figura 2.4). Se não for permitido ao ﬂ
+                                                  uido vazar pelas paredes d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ... duto, então todas as partículas do ﬂ
+                                                  uido devem ser mantidas me...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 		\[
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.122 	\end{equation}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\H@endequation ->\eqno 
+                       \hbox {\@eqnnum }$$\@ignoretrue 
+l.122 	\end{equation}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.122 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ... e a área em que se encontra. U é o ﬂ
+                                                  uxo. Matematicamente entã...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ...a Lei da Continuidade expressa que um ﬂ
+                                                  uxo incompressível em um ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<dinamicaFluido.png, id=421, 408.02437pt x 121.20282pt>
+File: dinamicaFluido.png Graphic file (type png)
+
+<use dinamicaFluido.png>
+Package pdftex.def Info: dinamicaFluido.png used on input line 127.
+(pdftex.def)             Requested size: 408.02338pt x 121.20251pt.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 ...nto de que a energia total atuante no ﬂ
+                                                  uido em qualquer ponto dur...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13]
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 		\[
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.143 	\end{equation}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\H@endequation ->\eqno 
+                       \hbox {\@eqnnum }$$\@ignoretrue 
+l.143 	\end{equation}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.143 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 	Onde $\rho$ é a densidade do ﬂ
+                                        uido, v a velocidade da partícula e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 ...ulli: Se a energia em uma corrente de ﬂ
+                                                  uido é constante, um aume...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:dinamicaFluido' on page 14 undefined on input lin
+e 147.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 	A resistência a um ﬂ
+                              uxo é uma característica do sistema de trans...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 ...scrita como a razão entre pressão e ﬂ
+                                                  uxo(equação~\ref{eq:6} )
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 		\[
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.159 	\end{equation}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\H@endequation ->\eqno 
+                       \hbox {\@eqnnum }$$\@ignoretrue 
+l.159 	\end{equation}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.159 	\end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...atuam como ponto de resistência a um ﬂ
+                                                  uxo. No caso das vias resp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...l com pouco espaço. Podemos então deﬁ
+                                                  nir que a resistência glo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...rá a pressão na glote dividida pelo ﬂ
+                                                  uxo que a atravessa. A res...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...ponsável por auxiliar no controle do ﬂ
+                                                  uxo de ar.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...objetivo destrinchar tais processos a ﬁ
+                                                  m de entendermos a reprodu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[14 <./dinamicaFluido.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 184.
+
+
+("C:\Users\cajju\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 184.
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--200
+\T1/cmr/m/n/12 Sendo: f : for�a apli-cada.
+ []
+
+[15]
+
+Package natbib Warning: Citation `Ingo' on page 16 undefined on input line 208.
+
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ... glote é como se fosse uma sirene, o ﬂ
+                                                  uxo de ar que passa por el...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16]
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ... é possível deduzir o conceito de reﬂ
+                                                  exão sonora, que está li...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (chapters/capitulo4.tex [17]
+Cap\'{\i }tulo 4.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 	A modiﬁ
+              cação na pressão aerodinâmica devido às mudanças de orie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...rimário pelo qual o supracitado ocorre ﬁ
+                                                  siologicamente. Por deﬁn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...acitado ocorre ﬁsiologicamente. Por deﬁ
+                                                  nição, os sistemas mono-...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<monoMassa.png, id=468, 409.53pt x 255.20343pt>
+File: monoMassa.png Graphic file (type png)
+ <use monoMassa.png>
+Package pdftex.def Info: monoMassa.png used on input line 13.
+(pdftex.def)             Requested size: 409.52899pt x 255.2028pt.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...ergia será transmitida ao tecido pelo ﬂ
+                                                  uido, e esta pode superar ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...rada e consequentemente acompanhar e inﬂ
+                                                  uenciar a abertura e o fec...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ocais[26] e forneceu uma versão simpliﬁ
+                                                  cada dessa expressão para...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 		\[
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 	\end{equation}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\H@endequation ->\eqno 
+                       \hbox {\@eqnnum }$$\@ignoretrue 
+l.29 	\end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 	\end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[18
+
+]
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...orque quando a glote está abrindo e o ﬂ
+                                                  uxo de ar aumentando, a co...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...oluna de ar está sendo acelerada pelo ﬂ
+                                                  uxo glotal. Isto cria uma ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...o ímpeto da coluna de ar continua e o ﬂ
+                                                  uxo na glote não se suste...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...ﬂuxo na glote não se sustenta com o ﬂ
+                                                  uxo da coluna de ar, geran...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 	Dessa maneira, ﬁ
+                        ca claro que em decorrência do grau de liberdade do...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[19 <./monoMassa.png>]
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ... pressão acústica e da velocidade do ﬂ
+                                                  uido em cada junção de t...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...te trabalho, é chamado de modelo de reﬂ
+                                                  exão de onda ~\cite{Bradh...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 	Este modelo tem seus fundamentos na reﬂ
+                                               exão das ondas sonoras no tr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...uitas frequências, o trato vocal ampliﬁ
+                                                  ca um subconjunto dessas f...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ... frequências para radiar pela boca. O ﬁ
+                                                  ltro desses subconjuntos e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...s características de ressonância e reﬂ
+                                                  exão do trato vocal, e é...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...ada pela área transversal do tubo, um ﬂ
+                                                  uxo médio pode ser obtido...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...um ﬂuxo médio pode ser obtido. Esse ﬂ
+                                                  uxo médio é conservado q...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...e ou contrai. Dessa maneira, podemos deﬁ
+                                                  nir a impedância acústic...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...azão entre a pressão acústica p e o ﬂ
+                                                  uxo acústico u. Logo temo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 		\[
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.61 	\end{equation}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\H@endequation ->\eqno 
+                       \hbox {\@eqnnum }$$\@ignoretrue 
+l.61 	\end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.61 	\end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	Se não há reﬂ
+                       exões no tubo, a razão entre pressão e ﬂuxo adot...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...�es no tubo, a razão entre pressão e ﬂ
+                                                  uxo adota a seguinte forma:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 		\[
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.72 	\end{equation}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\H@endequation ->\eqno 
+                       \hbox {\@eqnnum }$$\@ignoretrue 
+l.72 	\end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.72 	\end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package inputenc Error: Unicode char ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...área transversal do tubo.Seção de reﬂ
+                                                  exão do som, foi deﬁnid...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...bo.Seção de reﬂexão do som, foi deﬁ
+                                                  nido uma fórmula para a i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ρ (U+3C1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...para a impedância acústica livre como ρ
+                                                  c. A partir disso, é fác...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...partir disso, é fácil notar que o coeﬁ
+                                                  ciente de impedância acú...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...stica no tubo nada mais é do que o coeﬁ
+                                                  ciente de impedância acú...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (chapters/capitulo5.tex [20] [21]
+Cap\'{\i }tulo 5.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 2.
+
+
+Package natbib Warning: Citation `LuceroZueiro1' on page 22 undefined on input 
+line 3.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ... vocais. O seu propósito é aumentar a ﬁ
                                                   delidade ﬁsiológica do ...
 
 Your command was ignored.
@@ -1365,7 +2673,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...u propósito é aumentar a ﬁdelidade ﬁ
+l.3 ...eu propósito é aumentar a ﬁdelidade ﬁ
                                                   siológica do sintetizador...
 
 Your command was ignored.
@@ -1380,7 +2688,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...is deve garantir variações suaves no ﬂ
+l.3 ...ais deve garantir variações suaves no ﬂ
                                                   uxo gerado na glote. A fal...
 
 Your command was ignored.
@@ -1395,7 +2703,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...naturais e consequentemente a perda da ﬁ
+l.3 ... naturais e consequentemente a perda da ﬁ
                                                   delidade ﬁsiológica bus...
 
 Your command was ignored.
@@ -1410,7 +2718,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...onsequentemente a perda da ﬁdelidade ﬁ
+l.3 ...consequentemente a perda da ﬁdelidade ﬁ
                                                   siológica buscada. Sendo ...
 
 Your command was ignored.
@@ -1425,12 +2733,24 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...porando a transferência de energia do ﬂ
+l.3 ...rporando a transferência de energia do ﬂ
                                                   uxo de ar para as pregas v...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `Lucero1' on page 22 undefined on input line 3
+.
+
+
+Package natbib Warning: Citation `Lucero1' on page 22 undefined on input line 3
+.
+
+
+Package natbib Warning: Citation `Lucero1' on page 22 undefined on input line 3
+.
 
 
 ! Package inputenc Error: Unicode char ﬁ (U+FB01)
@@ -1440,12 +2760,16 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...ão foi solucionada tendo em vista a diﬁ
+l.3 ...não foi solucionada tendo em vista a diﬁ
                                                   culdade de se realizar o s...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `Lucero1' on page 22 undefined on input line 3
+.
 
 
 ! Package inputenc Error: Unicode char ﬂ (U+FB02)
@@ -1455,7 +2779,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...�ão não solucionada não tem forte inﬂ
+l.3 ...ção não solucionada não tem forte inﬂ
                                                   uência no produto ﬁnal.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1469,15 +2793,80 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...não tem forte inﬂuência no produto ﬁ
+l.3 ... não tem forte inﬂuência no produto ﬁ
                                                   nal.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[11]
 
-Package natbib Warning: Citation `SWEBOK' on page 12 undefined on input line 86
+Package natbib Warning: Citation `Lucero1' on page 22 undefined on input line 7
+.
+
+[22
+
+]
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ... um valor de amostra de 88.2 kHz, o que ﬁ
+                                                  xa o comprimento dos tubos...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ndricos cujas áreas transversais foram ﬁ
+                                                  xadas em 2,5 cm2.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char η (U+3B7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...área da superfície das pregas vocais, η
+                                                   é o coeﬁciente de amor...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...erfície das pregas vocais, η é o coeﬁ
+                                                  ciente de amortecimento n�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `SWEBOK' on page 23 undefined on input line 21
 .
 
 
@@ -1488,7 +2877,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 			\item 2 - Plotar um gráﬁ
+l.25 			\item 2 - Plotar um gráﬁ
                                    co inicial do trato vocal de acordo com o...
 
 Your command was ignored.
@@ -1503,7 +2892,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 			\item 3 - Plotar três gráﬁ
+l.26 			\item 3 - Plotar três gráﬁ
                                       cos referentes as propriedades da voz ...
 
 Your command was ignored.
@@ -1518,7 +2907,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 ...idos pelo usuário. – O primeiro gráﬁ
+l.26 ...idos pelo usuário. – O primeiro gráﬁ
                                                   co refere-se às posiçõe...
 
 Your command was ignored.
@@ -1533,7 +2922,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 ... cordas vocais, a área da glótis, ao ﬂ
+l.26 ... cordas vocais, a área da glótis, ao ﬂ
                                                   uxo de ar nessa área e à...
 
 Your command was ignored.
@@ -1548,7 +2937,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 ...ssa área e às características desse ﬂ
+l.26 ...ssa área e às características desse ﬂ
                                                   uxo. – O segundo gráﬁ...
 
 Your command was ignored.
@@ -1563,7 +2952,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 ...sticas desse ﬂuxo. – O segundo gráﬁ
+l.26 ...sticas desse ﬂuxo. – O segundo gráﬁ
                                                   co refere-se às caracter�...
 
 Your command was ignored.
@@ -1578,7 +2967,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 ...ador pelo programa. – O terceiro gráﬁ
+l.26 ...ador pelo programa. – O terceiro gráﬁ
                                                   co refere-se ao espectro d...
 
 Your command was ignored.
@@ -1593,29 +2982,28 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 ...ctro de frequência do som gerado e do ﬂ
+l.26 ...ctro de frequência do som gerado e do ﬂ
                                                   uxo da glótis.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (15.83798pt too wide) in paragraph at lines 92--93
+Overfull \hbox (15.83798pt too wide) in paragraph at lines 27--28
 []\T1/cmr/m/n/12 4 - Ge-rar um ar-quivo de texo com as ca-rac-te-r�s-ti-cas de 
 voz ge-rada, fre-quen-cia,amplitude,
  []
 
 
-Package natbib Warning: Citation `SWEBOK' on page 12 undefined on input line 98
+Package natbib Warning: Citation `SWEBOK' on page 23 undefined on input line 33
 .
 
-
-Overfull \hbox (21.95041pt too wide) in paragraph at lines 113--114
+[23]
+Overfull \hbox (27.82397pt too wide) in paragraph at lines 48--49
 \T1/cmr/m/n/12 bels"dependentes de con-texto e estima-se quais "la-bels"preproc
 essadas s�o correspondentes.([]) 
  []
 
-[12]
 
 ! Package inputenc Error: Unicode char μ (U+3BC)
 (inputenc)                not set up for use with LaTeX.
@@ -1624,77 +3012,77 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 		Parametros importantes são μ
-                                      i e mi dos outputs pdfs
+l.52 		Parametros importantes são μ
+                                     i e mi dos outputs pdfs
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<exemploHMM.png, id=355, 295.85532pt x 116.68594pt>
+<exemploHMM.png, id=516, 295.85532pt x 116.68594pt>
 File: exemploHMM.png Graphic file (type png)
  <use exemploHMM.png>
-Package pdftex.def Info: exemploHMM.png used on input line 128.
+Package pdftex.def Info: exemploHMM.png used on input line 63.
 (pdftex.def)             Requested size: 295.85458pt x 116.68564pt.
 
-<esquemaHMM.png, id=356, 300.3722pt x 249.93375pt>
+<esquemaHMM.png, id=517, 300.3722pt x 249.93375pt>
 File: esquemaHMM.png Graphic file (type png)
  <use esquemaHMM.png>
-Package pdftex.def Info: esquemaHMM.png used on input line 132.
+Package pdftex.def Info: esquemaHMM.png used on input line 67.
 (pdftex.def)             Requested size: 300.37144pt x 249.93314pt.
 
-[13 <./exemploHMM.png>] <frameWork.png, id=364, 489.32813pt x 189.70876pt>
+[24 <./exemploHMM.png>] <frameWork.png, id=526, 489.32813pt x 189.70876pt>
 File: frameWork.png Graphic file (type png)
 
 <use frameWork.png>
-Package pdftex.def Info: frameWork.png used on input line 146.
+Package pdftex.def Info: frameWork.png used on input line 81.
 (pdftex.def)             Requested size: 489.32692pt x 189.70828pt.
 
-Overfull \hbox (51.70763pt too wide) in paragraph at lines 146--147
+Overfull \hbox (51.70763pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 149--151
+Underfull \hbox (badness 3919) in paragraph at lines 84--86
 \T1/cmr/m/n/12 ��o fo-n�-tica, ali-nha-mento com a per-for-mance alvo ou da-dos
  contextuais.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-[14 <./esquemaHMM.png> <./frameWork.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+[25 <./esquemaHMM.png> <./frameWork.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 \T1/cmr/m/n/12 torno do tim-bre, vi-brato, tre-molo, ti-ming fon�tico.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 \T1/cmr/m/n/12 linguistica.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 \T1/cmr/m/n/12 uma voz fa-lada a uma voz cantada.([])
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
-) [15] (monografia.bbl (monografia.brf)
+) [26] (monografia.bbl (monografia.brf)
 \tf@brf=\write7
 \openout7 = `monografia.brf'.
 
@@ -1702,7 +3090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--164
 ! Misplaced alignment tab character &.
 <argument> ...ng. \newblock {\em Computer Speech &
                                                    Language}, 34(1):308 -- 3...
-l.51 
+l.68 
      
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1711,46 +3099,46 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[16
+[27
 
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-[17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+[28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 2E9B48D203EB9EE69C68E8D3FB6B8E17;2309.
+(rerunfilecheck)             Checksum: 8EDD90F61176A250D80AE4BABACD3206;3260.
 
 
 Package rerunfilecheck Warning: File `monografia.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `monografia.brf':
-(rerunfilecheck)             Before: 4EAC8EFAB7F3DE38FC4F3D45E4851B28;1574
-(rerunfilecheck)             After:  7E2D319C18AFE91393CD90668BDA736F;1760.
+(rerunfilecheck)             Before: 59637015FC7F96B1E68891135345F4E0;2765
+(rerunfilecheck)             After:  27B247993B3C1C115F1DE65847632860;3053.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 8176 strings out of 493634
- 117522 string characters out of 3135239
- 220684 words of memory out of 3000000
- 11313 multiletter control sequences out of 15000+200000
+ 8292 strings out of 493634
+ 119343 string characters out of 3135239
+ 223511 words of memory out of 3000000
+ 11376 multiletter control sequences out of 15000+200000
  25418 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 43i,7n,69p,2715b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,7n,69p,2946b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\cajju\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\ca
 jju\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C
@@ -1769,9 +3157,9 @@ sfonts/cm/cmr8.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cajju/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/cajju/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (27 pages, 941373 bytes).
+Output written on monografia.pdf (39 pages, 1195286 bytes).
 PDF statistics:
- 820 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1019 PDF objects out of 1200 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 417 words of extra memory for PDF output out of 10000 (max. 10000000)
 

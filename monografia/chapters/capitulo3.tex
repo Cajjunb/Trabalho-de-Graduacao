@@ -74,101 +74,157 @@
 		\label{fig:curvaTensao}
 	\end{figure}
 	
+	\subsection{Fluxo de Ar nas Vias Respiratórias}
 	
-	\subsection{Synpath}
-		O SynPath é um sintetizador computacional, desenvolvido em linguagem Python [13, 20, 28], criado por Lucero~\cite{LuceroZueiro1}. Este software é uma extensão do sintetizador concebido por Fraj[19], incorporando um modelo de vibração para as pregas vocais. O seu propósito é aumentar a ﬁdelidade ﬁsiológica do sintetizador de Fraj e permitir o controle direto dos sons sintetizados em termos de parametrização da laringe. Para se obter um simples controle sobre o sintetizador e facilitar o seu uso para aplicações práticas, é necessário que a representação das pregas vocais seja simples. Além disso, o modelo das pregas vocais deve garantir variações suaves no ﬂuxo gerado na glote. A falta de suavidade gera timbres não naturais e consequentemente a perda da ﬁdelidade ﬁsiológica buscada. Sendo assim, o modelo multi-massa para representação das pregas vocais não pode ser utilizado visto que produz variações não suaves e é um modelo matematicamente muito complexo levando a instabilidades numéricas, afetando o uso para aplicações práticas. O SynPath tomou como base para a representação das pregas vocais o modelo de onda mucosa desenvolvido por Titze [26]. Basicamente, o modelo é um oscilador mono-massa, conforme descrito no Capitulo 3, incorporando a transferência de energia do ﬂuxo de ar para as pregas vocais. Entretanto, o modelo de Titze possui duas restrições, uma que foi solucionada e aplicada no desenvolvimento do SynPath e a outra que ainda não foi solucionada e portanto é também uma restrição do modelo computacional do SynPath. A primeira restrição é que o modelo de Titze foi concebido para o estudo em pequenas oscilações, sendo que para oscilações de maior amplitude, este não é apropriado. Entretanto, esse modelo foi extendido por Lucero [11] para abranger maiores oscilações utilizando um mecanismo limitador de amplitude durante as oscilações [14]. Mesmo com essa extensão para maiores amplitudes, o modelo ainda apresentava uma outra restrição, um atraso pequeno para o deslocamento da onda no canal glotal. A consequência desse atraso é que a pressão limite para que ocorra a vibração se torna independente da frequência de vibração [15]. Porém, sabe-se que um esforço maior é necessário para que tons mais agudos sejam vocalizados, ou seja, a pressão para que se ocorra vibração em frequências maiores(tons maiores) é maior. Essa restrição ainda não foi solucionada tendo em vista a diﬁculdade de se realizar o supracitado computacionalmente. Mesmo com essa restrição, o modelo de Lucero [11] é o modelo utilizado para
-		26
-		a representação do caráter oscilatório das pregas vocais no software SynPath, sendo que esta restrição não solucionada não tem forte inﬂuência no produto ﬁnal.
-		
+	Em seções posteriores serão apresentados modelos para representar a vibração das pregas vocais, entretanto para entender por completo esses modelos, devemos antes entender o papel do ﬂuxo de ar nesse processo e para isso devemos analisar primeiro como a pressão de ar é gerada e exercida.
 	
-		\subsubsection{Requisitos Funcionais}
+	À primeira vista, imagine-se que o ﬂuxo de ar é gerado somente pelos pulmões, entretanto, se formos analisar como inspiramos e expiramos percebemos que existem outros fatores contribuintes para a criação e manutenção de um ﬂuxo de ar nas vias respiratórias. O pulmão, como é de se imaginar, é responsável pelo armazenamento do ar e pela troca de oxigênio entre os tecidos que o compõe. Aqui, porém, somente nos interessa esse papel de armazenamento que o pulmão exerce. Ao inspirar o ar, o pulmão aumenta a pressão interna gerando uma tensão aplicada ao tecido elástico que o compõe, a expansão desse tecido gera uma mudança de pressão devido ao aumento do volume pulmonar e à deformação do tecido pulmonar. Em conjunto com essa mudança de pressão, o diafragma, músculo localizado abaixo dos pulmões, é comprimido levando a uma outra mudança de pressão. O diafragma, por sua vez, é um músculo que pode ser controlado, e em virtude disso, é possível controlar a pressão exercida nos pulmões, algo que cantores utilizam para sustentar a técnica vocal. Assim como o diafragma, a caixa torácica também sofre mudanças, expandindo devido ao aumento de volume do pulmão o que gera uma pressão torácica sobre os pulmões. Devido ao fato de ser uma estrutura óssea e portanto ter uma maior rigidez e menor controle se comparado à parede abdominal, a pressão exercida nos pulmões pela caixa torácica é signiﬁcantemente menor do que a pressão exercida pela aplicação de uma força à parede abdominal.
+	
+	A Figura~\ref*{fig:esquemaRespiracao} ilustra essa transmissão de pressão por todo o torso citada acima:
+	
+		\begin{figure}
+			\includegraphics{esquemaRespiracao}
+			\caption{ Pressões Atuantes no Torso~\cite{IngoTitze}}
+			\label{fig:esquemaRespiracao}
+		\end{figure}
+	
+	\subsubsection{O Sistema Pulmonar}
+	
+	O sistema pulmonar consiste dos pulmões e vias respiratórias, compostas pela traqueia, glótis e trato vocal. Conforme descrito anteriormente, o tórax e o abdômen em conjunto com o pulmão atuam na geração do ﬂuxo de ar. A glótis, por sua vez, atua como reguladora do ﬂuxo de ar através de variações em seu fechamento que permitem mudanças na pressão envolvida com o movimento do ﬂuxo do ar pelas vias respiratórias. Isso signiﬁca que é possível dar constância ao ﬂuxo de ar(Figura ).
+	
+	\begin{figure}
+		\includegraphics{esquemaPulmao}
+		\caption{ Sistema Pulmonar}
+		\label{fig:esquemaPulmao}
+	\end{figure}
+	
+	\subsubsection{O Proceso Físico da Respiração}
+	
+	Uma importante lei que nos auxilia no entendimento da relação entre o volume pulmonar e a pressão pulmonar é a Lei de Boyle. A lei nos diz que em um ambiente cujas paredes não são rígidas e em uma temperatura constante, pressão e volume são inversamente proporcionais.
+	
+	Se aplicarmos a lógica dessa lei à respiração humana, ﬁca fácil visualizar o processo físico que envolve a respiração. Quando inspiramos, o diafragma é contraído o que aumenta o volume do pulmão e diminui a pressão interna. Consequentemente, o pulmão se enche de ar. Relacionada à pressão atmosférica, a pressão pulmonar se torna menor, o que gera uma busca pelo equilíbrio das pressões no meio. Esse equilíbrio é alcançado ao se expelir o ar, diminuindo o volume pulmonar e então aumentando a pressão interna novamente. Na verdade é um pouco mais complexo do que isso, entretanto, esse conceito de equilíbrio de pressões é fundamental para o entendimento da abdução e adução das pregas vocais, o que permite a transformação da energia aerodinâmica em energia acústica.
+	
+	\subsection{Leis de Conservação para Fluxos em Dutos}
+	
+	Porém, antes de abordar a transformação de energia aerodinâmica em acústica, é importante se familiarizar com alguns conceitos que regem o comportamento de ﬂuidos em dutos. Isso porque trataremos o ﬂuxo de ar na síntese de voz como um ﬂuído e a modelagem da glote e do trato vocal como a concatenação de pequenos dutos.
+	
+	\subsubsection{Lei da Continuidade para um Fluxo Incompressível}
+	
+	Quando dizemos que um ﬂuido é incompressível signiﬁca dizer que sua densidade não se altera quando este é forçado a passar por uma constrição. Imagine agora um ﬂuido conﬁnado a um duto que possui uma mudança, ao longo de seu comprimento, em sua área transversal formando uma constrição(Figura 2.4). Se não for permitido ao ﬂuido vazar pelas paredes do duto, então todas as partículas do ﬂuido devem ser mantidas mesmo durante a mudança de área transversal ao longo do duto. Para que isso seja possível, as partículas devem acelerar durante a constrição, mantendo-se constante o número de partículas em movimento por unidade de área. Essa relação pode ser expressa pela equação~\ref{eq:4}.
+	
 		
-		O Synpath é consistido também dos seguintes requisitos funcionais, os requistos funcionais são as funcionalidades que o sistema executará\cite{SWEBOK}
+	\begin{equation}
+		\centering
+		\[
+			v_1 * A_1 = v_2 * A_2 = constante = U
+		\]
+		\label{eq:4}
+	\end{equation}
+	
+	Onde v e A são respectivamente a velocidade da partícula e a área em que se encontra. U é o ﬂuxo. Matematicamente então, a Lei da Continuidade expressa que um ﬂuxo incompressível em um duto é constante, independente do que acontece com a área transversal ao longo do mesmo ~\cite{IngoTitze}.
+	
+	\begin{figure}
+		\includegraphics{dinamicaFluido}
+		\caption{Dinâmica do Fluido em um Duto com Mudança de Área Transversal}
+		\label{fig:dinamicaFluido;}
+	\end{figure}
+	
+	
+	\subsubsection{Lei de Bernoulli para Conservação de Energia}
+	
+	Outra importante lei de aplicação para o entendimento da síntese de voz é a Lei de Bernoulli para Conservação de Energia. Essa lei foi desenvolvida a partir do reconhecimento de que a energia total atuante no ﬂuido em qualquer ponto durante o trajeto no duto tem duas componentes, a saber, uma energia potencial e uma energia cinética. A energia potencial está relacionada diretamente com a pressão no duto e a energia cinética é proporcional ao quadrado da velocidade da partícula. Portanto, podemos expressá-la conforme a equação 
+	
+	\begin{equation}
+		\centering
+		\[
+		P + \frac{1}{2} \rho*v^2 =constante 
+		\]
+		\label{eq:5}
+	\end{equation}
+	
+	Onde $\rho$ é a densidade do ﬂuido, v a velocidade da partícula e P a pressão no duto. Segue disso o Princípio de Bernoulli: Se a energia em uma corrente de ﬂuido é constante, um aumento na velocidade da partícula deve ser acompanhado de uma queda na pressão ~\cite{IngoTitze}.
+	
+	Analisando a Figura~\ref{fig:dinamicaFluido}, a pressão na área de constrição deve ser menor que a pressão na área maior do duto, considerando que não hajam perdas de energia no processo. Esse conceito é importante para se compreender o caráter oscilatório das pregas vocais.
+	
+	\subsubsection{Resistência Glotal}
+	
+	A resistência a um ﬂuxo é uma característica do sistema de transporte, ou seja, do meio, e pode ser descrita como a razão entre pressão e ﬂuxo(equação~\ref{eq:6} )
+
+	\begin{equation}
+		\centering
+		\[
+			R = \frac{P}{U}2 
+		\]
+		\label{eq:6}
+	\end{equation}	
+	
+	Em sistemas de transporte, as constrições atuam como ponto de resistência a um ﬂuxo. No caso das vias respiratórias humanas, isso normalmente ocorre na glote ou em alguma parte do trato vocal com pouco espaço. Podemos então deﬁnir que a resistência glotal será a pressão na glote dividida pelo ﬂuxo que a atravessa. A resistência glotal está diretamente ligada a qualidade vocal pois é responsável por auxiliar no controle do ﬂuxo de ar.
+	
+	\subsection{Oscilação das Pregas Vocais}
+	
+	Nesta seção analisaremos os processos e princípios físicos que ocorrem na laringe para que as pregas vocais oscilem, tendo como objetivo destrinchar tais processos a ﬁm de entendermos a reprodução dos mesmos por modelos computacionais utilizados para simulação da voz humana. 
 		
+	Os primeiros estudos sobre vibração das pregas vocais especulavam que as pregas vocais se ajuntavam por um efeito de pressão negativa(Princípio de Bernoulli) na glote. A esta descrição de vibração nas pregas vocais se deu o nome de Teoria Mioelástica Aerodinâmica da Vibração das Pregas Vocais, conhecida também pelo nome de seu criador como Teoria de van der Berg~\cite{JournalSpeech1}. A teoria de van der Berg serviu como marco para o desenvolvimento teórico do campo de estudos da voz e consequentemente o aparecimento dos primeiros modelos matemáticos de representação do funcionamento das pregas vocais~\cite{JFlanagan}. 
+	
+	Entretanto, apesar disso, sua teoria é inadequada para explicar a vibração auto sustentável das pregas vocais. Isso porque as forças de Bernoulli por si só não são capazes de distinguir entre os movimentos interiores e posteriores das pregas vocais. Assim sendo, são necessários mecanismos para prover um aumento ou decréscimo às forças de Bernoulli durante a abertura e o fechamento das pregas vocais respectivamente, caso contrário, as oscilações serão amortecidas.
+	
+	\subsection{Critérios para Oscilação}
+	
+		\subsection{Critérios para Oscilação}
+		Alguns critérios devem ser atendidos para que um determinador padrão de movimento seja considerado como uma oscilação mecânica, a saber:
+		
+		
+		No sistema onde ocorre o movimento deve haver uma posição de equilíbrio estável, que é caracterizada por uma força restaurativa que sempre acelera o corpo em	movimento de volta para a sua posição de repouso.
+		Deve haver inércia(no caso do sistema mecânico, a massa atua como propriedade de inércia) no sistema para superar esta posição de equilíbrio.
+		A perda, em excesso, de energia por ciclo de oscilação deve ser zero.\ldots 
+		
+		\subsection{Tipos de Oscilação}
+		De acordo com Titze~\cite{IngoTitze}, os tipos de oscilação são:
 		\begin{itemize}
-			\item 1 - Validação do Parâmetros passados pelo Usuário, se condizem com restrições do programa.
-			\item 2 - Plotar um gráﬁco inicial do trato vocal de acordo com os parâmetros do usuário.
-			\item 3 - Plotar três gráﬁcos referentes as propriedades da voz simuladas com os parâmetros fornecidos pelo usuário. – O primeiro gráﬁco refere-se às posições adotadas pelas cordas vocais, a área da glótis, ao ﬂuxo de ar nessa área e às características desse ﬂuxo. – O segundo gráﬁco refere-se às características do som gerado pela simulação física do aparato fonador pelo programa. – O terceiro gráﬁco refere-se ao espectro de frequência do som gerado e do ﬂuxo da glótis.
-			\item 4 - Gerar um arquivo de texo com as características de voz gerada, frequencia,amplitude, ruído da voz, entre outros
-			\item 5 Gerar um arquivo de som de voz simulada.
+			\item  Oscilação Natural: Quando um sistema que se encaixa nos critérios anteriores se move sem interferência após um distúrbio inicial.
+			\item Oscilação Natural: Quando um sistema que se encaixa nos critérios anteriores se move sem interferência após um distúrbio inicial.
+			\item Oscilação Forçada: Requer uma fonte externa de condução que por si só é um
+			oscilador. Dita grande parte do padrão de vibração do sistema.
+			\item Oscilação Auto-Sustentável: Requer uma fonte de energia estável e uma interação não-linear entre os componentes internos ao sistema. As perdas de energia são compensadas, mantendo o padrão oscilatório.
 		\end{itemize}
 		
-		\subsubsection{Requisito Não-Funcionais}
+		\subsection{Tensao}
+		Conceito de Tensão For por unidade de ar
 		
-		O Synpath consiste também dos seguintes requisitos não funcionais, requisitos não funcionais são requisitos são parametros de qualidade, requisitos que limitam as funcionalidades do sistema\cite{SWEBOK}.
+		\[
+		\sigma = \frac{F}{A}
+		\]
+		Sendo:
+		f : força aplicada. \linebreak
+		A: área de aplicação desta força.
 		
-		\begin{itemize}
-			\item 1 - O Sistema deve produzir os gráficos que os requisitos funcionais delimitaram em um intervalo de 1(um) minuto. 
-			\item 2  - Após gerar os gráficos e os exibi-los o arquivo texto e o arquivo de audio deverão ser exibidos
-			\item 3 - Para que o sistema esteja funcional é necessário ter instalado os pacotes: MatPlotLib e NumPY
-			\item 4 - O sistema deve ser executado em plataformas de um sistema operacionais como Windows, Linux ou MacOs, Versões recentes de acordo com a data desse documento. 
-			
-		\end{itemize}
+		\subsection{Curva Força e Alongamento}
+		Utiliza-se para não ser dependente da geometria do material. Utilizamos nas cordas vocais(?) por serem materias biológicos. Cria uma figura ilustrando comportamento da deformação das pregas vocais
 		
+		
+		\subsection{Viscosidade}
+		É a velocidade de deformação(consequentemente, de restauração) de
+		um determinado fluido quando atuam forças de tensão no mesmo. Matematicamente
+		pode ser expresso conforme a equação seguinte: \citenum{Ingo}
+		
+		$
+		\sigma = \eta * \frac{d*\epsilon}{dt}
+		$
+		
+		\subsection{Reflexao de Som}
+		
+		Um fenômeno ligado a rigidez e amortecimento entre um meio e outro.\cite{MTAGENTE}
+		Ondas quando tentam penetrar em um segundo meio, sendo o segundo meio rígido, as partículas primeiro meio se aglomeram tentando passar porém
+		falham, seu acúmulo de particulas geram pressão que acabam criando uma outra onda no primeiro meio decorrente da primeira onda.\cite{HenryGray}
+		
+		O mesmo ocorre com o meio 2 sendo totalmente não rígido e o primeiro meio sendo bem rígido, Exaurindo excesso de particulas  do meio 1 no meio 2 criando rarefação no meio 1, o que cria uma outra onda de pressão negativa~\cite{FlanaganLandgraf}. A propagação é sempre em direção oposta à fonte, no caso é na direção contrária à coluna de ar(meio 1). 
+		
+		
+		\subsection{Geração e Propagação do Som}
+		
+		Fisicamente, o som é gerado quando há uma perturbação do equilíbrio da densidade(ou pressão) de um gás, liquido ou sólido~\cite{IngoTitze}. Se a perturbação na pressão é positiva, então haverá uma condensação no meio e portanto um aumento na densidade do ar. Se a perturbação for negativa, haverá uma rarefação no meio o que ocasionará um decréscimo na densidade do ar. Considere um pistão em um tubo cilíndrico preenchido de ar. Pelo movimento oscilatório do pistão, o ar tende a condensar ou rarefazer. Sendo assim, as partículas em contato com o pistão tendem a seguir o movimento oscilatório do mesmo, porém, por não estarem rigidamente conectadas nem à superfície do pistão nem entre si mesmas, elas estabelecem um padrão próprio de movimento em detrimento das colisões. Dessa forma, quantidade de movimento é transmitida às partículas adjacentes, criando uma nova pertubação em um ponto mais longe ao pistão. A este fenômeno se dá o nome de propagação. Da mesma maneira, acontece com a propagação do som na glote.
+		
+		Podemos pensar a respeito da geração do som na glote com a seguinte analogia: o movimento das pregas vocais pode ser comparado ao movimento de bater palmas, a cada choque das mãos, uma perturbação é gerada e consequentemente, som é gerado. Se pensarmos no papel da glote na geração do som, podemos pensar que a glote é como se fosse uma sirene, o ﬂuxo de ar que passa por ela é espremido no canal o que leva a uma perturbação e consequentemente a geração do som.
 	
-	
-	
-	
-	\subsection{HMMs}
-		Minera-se de várias partituras musicais para treino. Os dados minerados dessas músicas são fonemas, altura, intensidade e os intervalos, isto é relação com outras notas.Esses dados são convertidos e mapeados em "labels" dependentes de contexto~\cite{DegottexNada}.Após isso as HMM's são treinados através dos dados de treinamento usando o algoritmo EM.\cite{GudnasonNada}. Após isso ocorre a fase de sintesis, usa-se outra partitura para ser convertida em "labels" dependentes de contexto e estima-se quais "labels" preprocessadas são correspondentes.\cite{TakashiNose}
-	
-		\subsection{MHRSMM}
-		Uma variação HSMM. Modelo de multipla regressão HSMM.
-		Parametros importantes são μi e mi dos outputs pdfs
+		A partir do conceito de propagação de ondas sonoras é possível deduzir o conceito de reﬂexão sonora, que está ligado à propagação da onda em um meio com propriedades de impedância acústica. Devido a estas propriedades de impedância, a propagação da onda ao entrar em contato com a superfície do meio, é alterada.
 		
-		\[ \mu_i = H_bi \xi \] 
-		\[	m_i   = H_pi \xi  \]
-		\[ \xi   = [1,v_1,v_2,...,v_L]^T \]	
-		\[ \xi   = [1,v^T]^T	\]	
-		
-		Onde L é a dimensão do vetor de estilo e vi  é  a intensidade do  enésimo estilo de canto.
-		
-		Um exemplo de um vetor de estilos de canto de tamanho L =  2 e L = 3.
-		
-		\includegraphics{exemploHMM.png}
-		
-		\subsubsection{Controle do Sintentisador de voz cantada baseado em MRHSMM}
-		
-		\includegraphics{esquemaHMM.png}
-		
-		Durante a fase de síntese o usuário do programa adiciona vetores de estilos de acorodo com a intenção e a expressividade pretendida.
-		Parametros de output como duração são gerados pelos vetores de estilos dados e matrizes de regressões treinadas usando MRHSMMs
-		
-		Resultado de todo esse processo é um sequência HSMM usando parametros de geração de fala
-		
-		MRHSMM possui uma dificuldade de gerar contorno F0 que acompanhe o contexto de mudança de altura das notas o author TAKASHI NOSE, propõe um treinamento de HSMM e HMM nos parametros 
-		
-	
-	\subsection{FrameWorks Sintetisador de Voz}
-	
-		Frame Work de um Sistema Sintetisador de Voz:
-		
-		\includegraphics{frameWork.png}
-		
-		\subsubsection{Input}
-		Consiste da partitura, letra e emoção.
-		o input é analisado e derivado em uma transcrição fonética, alinhamento com a performance alvo ou dados contextuais.\cite{FrameWork}\linebreak
-		
-		\subsubsection{Expressão}
-		Expressão músical é um conceito intuitivo porém dificil de se definir. A expressão é chave na percepção da qualidade e naturalidade musical.
-		No caso da voz cantada implica-se usar vários outros parametro além de frequencia e amplitude. Psicológicamente contorno do timbre, vibrato, tremolo, timing fonético.\cite{FrameWork}\linebreak
-	
-	
-	\subsection{Envoltoria F0}
-	
-	Envoltórias F0 são usadas para expressar informação linguistica, para-linguística e não-linguistica.\cite{SaitouF0}
-	\linebreak
-	
-	As Envoltória F0 apresentam três (3) características importantes que fazem diferenciar uma voz falada a uma voz cantada.\cite{SaitouNada}
-	\linebreak
-	\begin{itemize}
-		\item 1 - O alcance dinâmico de uma envoltória F0 é mais largo que o de uma voz falada
-		\item 2 - A envoltória F0 corresponde e tende a se manter estável em uma nota. A mudança de nota de uma envoltória F0 corresponde a melodia da música
-		\item 3 - Existem muita flutuações f0 que são apenas observadas em apenas vozes cantadas
-	\end{itemize}
-	
-	
-	\subsection{Sintese de Voz em Mandarím}
-		Utiliza-se a técnica HNM para a sintese da voz cantada em mandarím. HNM significa , "harmonic plus noise model".
-		O modelo HNM divide o espectro de um sinal em dois(2) com larguras não iguais para modelagem melhor do espectro.\cite{LinRobos}
-	

@@ -10,23 +10,33 @@
 \BOOKMARK [2][-]{subsection.2.1.2}{M\372sculos e Cartilagens}{section.2.1}% 10
 \BOOKMARK [2][-]{subsection.2.1.3}{Pregas Vocais}{section.2.1}% 11
 \BOOKMARK [2][-]{subsection.2.1.4}{Overview: Gera\347\343o de Som e Ressonadores}{section.2.1}% 12
-\BOOKMARK [1][-]{section.2.2}{Propriedades F\355sicas}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.1}{Lei Bernouli}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.2}{Crit\351rios para Oscila\347\343o}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.3}{Tipos de Oscila\347\343o}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.4}{Tensao}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.5}{Curva For\347a e Alongamento}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.6}{Viscosidade}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.7}{Reflexao de Som}{section.2.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Fundamentos B\341sicos para a Produ\347\343o da Voz}{}% 21
-\BOOKMARK [1][-]{subsection.3.0.1}{A Biomecanica da Laringe}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.0.2}{Fatores Biol\363gicos que Afetam a Produ\347\343o de Som na Laringe}{subsection.3.0.1}% 23
-\BOOKMARK [2][-]{subsection.3.0.3}{Modelo Massa-Mola Auto Sustent\341vel}{subsection.3.0.1}% 24
-\BOOKMARK [2][-]{subsection.3.0.4}{Elasticidade}{subsection.3.0.1}% 25
-\BOOKMARK [2][-]{subsection.3.0.5}{Synpath}{subsection.3.0.1}% 26
-\BOOKMARK [2][-]{subsection.3.0.6}{HMMs}{subsection.3.0.1}% 27
-\BOOKMARK [2][-]{subsection.3.0.7}{MHRSMM}{subsection.3.0.1}% 28
-\BOOKMARK [2][-]{subsection.3.0.8}{FrameWorks Sintetisador de Voz}{subsection.3.0.1}% 29
-\BOOKMARK [2][-]{subsection.3.0.9}{Envoltoria F0}{subsection.3.0.1}% 30
-\BOOKMARK [2][-]{subsection.3.0.10}{Sintese de Voz em Mandar\355m}{subsection.3.0.1}% 31
-\BOOKMARK [0][-]{section*.18}{Refer\352ncias}{}% 32
+\BOOKMARK [0][-]{chapter.3}{Fundamentos B\341sicos para a Produ\347\343o da Voz}{}% 13
+\BOOKMARK [1][-]{subsection.3.0.1}{A Biomecanica da Laringe}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.0.2}{Fatores Biol\363gicos que Afetam a Produ\347\343o de Som na Laringe}{subsection.3.0.1}% 15
+\BOOKMARK [2][-]{subsection.3.0.3}{Modelo Massa-Mola Auto Sustent\341vel}{subsection.3.0.1}% 16
+\BOOKMARK [2][-]{subsection.3.0.4}{Elasticidade}{subsection.3.0.1}% 17
+\BOOKMARK [2][-]{subsection.3.0.5}{Fluxo de Ar nas Vias Respirat\363rias}{subsection.3.0.1}% 18
+\BOOKMARK [2][-]{subsection.3.0.6}{Leis de Conserva\347\343o para Fluxos em Dutos}{subsection.3.0.1}% 19
+\BOOKMARK [2][-]{subsection.3.0.7}{Oscila\347\343o das Pregas Vocais}{subsection.3.0.1}% 20
+\BOOKMARK [2][-]{subsection.3.0.8}{Crit\351rios para Oscila\347\343o}{subsection.3.0.1}% 21
+\BOOKMARK [2][-]{subsection.3.0.9}{Crit\351rios para Oscila\347\343o}{subsection.3.0.1}% 22
+\BOOKMARK [2][-]{subsection.3.0.10}{Tipos de Oscila\347\343o}{subsection.3.0.1}% 23
+\BOOKMARK [2][-]{subsection.3.0.11}{Tensao}{subsection.3.0.1}% 24
+\BOOKMARK [2][-]{subsection.3.0.12}{Curva For\347a e Alongamento}{subsection.3.0.1}% 25
+\BOOKMARK [2][-]{subsection.3.0.13}{Viscosidade}{subsection.3.0.1}% 26
+\BOOKMARK [2][-]{subsection.3.0.14}{Reflexao de Som}{subsection.3.0.1}% 27
+\BOOKMARK [2][-]{subsection.3.0.15}{Gera\347\343o e Propaga\347\343o do Som}{subsection.3.0.1}% 28
+\BOOKMARK [0][-]{chapter.4}{Computa\347\343o e S\355ntese de Voz}{}% 29
+\BOOKMARK [1][-]{subsection.4.0.1}{Modelo Mono-Massa}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.0.2}{Modelo Computacional para Representa\347\343o do Trato Vocal}{subsection.4.0.1}% 31
+\BOOKMARK [2][-]{subsection.4.0.3}{Modelo de Reflex\343o}{subsection.4.0.1}% 32
+\BOOKMARK [0][-]{chapter.5}{Synpath}{}% 33
+\BOOKMARK [1][-]{subsection.5.0.1}{Synpath}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.0.2}{Concep\347\343o Matem\341tica e Modelagem do Sistema}{subsection.5.0.1}% 35
+\BOOKMARK [2][-]{subsection.5.0.3}{Pregas Vocais}{subsection.5.0.1}% 36
+\BOOKMARK [2][-]{subsection.5.0.4}{HMMs}{subsection.5.0.1}% 37
+\BOOKMARK [2][-]{subsection.5.0.5}{MHRSMM}{subsection.5.0.1}% 38
+\BOOKMARK [2][-]{subsection.5.0.6}{FrameWorks Sintetisador de Voz}{subsection.5.0.1}% 39
+\BOOKMARK [2][-]{subsection.5.0.7}{Envoltoria F0}{subsection.5.0.1}% 40
+\BOOKMARK [2][-]{subsection.5.0.8}{Sintese de Voz em Mandar\355m}{subsection.5.0.1}% 41
+\BOOKMARK [0][-]{section*.24}{Refer\352ncias}{}% 42
